@@ -7,9 +7,29 @@
         margin-left: auto;
         width: 750px;
     }
+
+    figure {
+        width: 35%;
+        float: right;
+    }
+}
+
+@media (max-width:750px)
+{
+    /* Denne css-koden kjører hvis browservinduet er mindre enn 750 px; */
+    figure {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 20px;
+    }
 }
 
 /* Denne css-koden gjelder uansett hvor bredt browservinduet er */
+
+figure img {
+    width: 100%;
+}
 
 body
 {
