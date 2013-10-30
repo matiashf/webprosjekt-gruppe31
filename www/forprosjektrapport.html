@@ -13,9 +13,9 @@
 <p>Vi skal lage en nettside som kan inspirere studenter til å drive med
 idrett eller være aktive.</p>
 
-<p>Målgruppen vår er studenter som enten ikke får tid til å trene eller
-er late. Vi vil i utgangspunktet ikke henvende oss til folk som
-allerede trener mye.</p>
+<p>Målgruppen vår er studenter som er lite aktive eller som ikke har
+funnet en aktivitet de liker. Vi vil i utgangspunktet ikke henvende
+oss til folk som allerede trener mye.</p>
 
 <p>Vi vil inspirere til sunn og aktiv livsstil, og videreformidle råd fra
 sosial og helsedirektoratets anbefalinger på en måte som appellerer
@@ -45,11 +45,11 @@ til vanlige studenter.</p>
 
 <h2>Fordeling av arbeidsoppgaver</h2>
 <ul>
-<li>Matias er prosjektleder, han har også ansvaret for git/github og oppfølging av saker og organisering. Javascript og struktur.</li>
+<li>Matias er prosjektleder, han har også ansvaret for delegering av saker på git/github, oppfølging og organisering. Javascript, PHP og struktur.</li>
 
-<li>Maria: Javascript og HTML, CSS</li>
+<li>Maria: Javascript med Matias, HTML, CSS, innhold til inspirasjonssider</li>
 
-<li>Haakon: HTML, CSS, bildeansvarlig, oppfølging av arbeidsoppgaver, få skrevet ned hva som har skjedd siste uken.</li>
+<li>Haakon: HTML, CSS, bildeansvarlig, oppfølging av arbeidsoppgaver. Fører prosjektdagbok.</li>
 
 <li>Sebastian: HTML, CSS, PHP og tester av siden</li>
 </ul>
@@ -64,38 +64,80 @@ til vanlige studenter.</p>
 </ul>
 
 <h2>Teknologier</h2>
-	<ul>
-      <li>Skal det være mulig å søke lokalt på nettsiden? Vi fokuserer på god navigering istedenfor. </li>
-		<li>Vi har valgt å bruke følgende teknologier:</li>
-		<li><strong>HTML</strong>: HTML er enkelt og oversiktlig. Alle på gruppen føler seg komfertable med å bruke det.</li>
-		<li><strong>CSS</strong>: CSS er et kjempe fint program som vi kan bruke på å designe nettsiden med. Så da har vi mulighetene til å gjøre mye moro!</li>
-		<li><strong>Javascript og jQuery</strong>:Vi vil bruke Javascript og jQuery. Dette gjør vi fordi vi vil at siden skal bli finere og får å få mer flyt.</li>
-		<li><strong>PHP</strong>: Vi valgte å ha med PHP fordi det gjør at arbeidet lettere for oss. Feks å bytte mellom de forskjellige sidene på siden.</li>
-	</ul>
-	<ul>
-		<li>Vi har ikke valgt å bruke følgende teknologi:</li>
-		<li><strong>Bootstrap</strong>: Vi ville ikke bruke Bootstrap fordi det blir mindre læring på oss alle. Vi får mer utbytte av å lage CSSen fra bunnen av issteden for å ta snarveier</li>
-	</ul>
+<b>Vi har valgt å bruke følgende teknologier:</b>
+<ul>
+  <li><strong>HTML5</strong>: Vi vil bruke html5, spesielt for å dra
+  nytte av semantiske tag-er.</li>
+  <li><strong>CSS3</strong>: Når brukeren «snurrer»
+  kostholdskarusellen skal dette animeres med CSS</li>
+  <li><strong>Javascript og jQuery</strong>: Vi vil bruke javascript
+  til å implementere interaktive elementer på siden. Spesielt er
+  Matias opptatt av dette. Han foretrekker JQuery, så da bruker vi
+  det.</li>
+  <li><strong>PHP</strong>: Vi vil bruke php til å ha en felles mal
+  for alle sider. Slik unngår vi duplisering av kode.</li>
+  <li>Automatisk deployment med <strong>github</strong>
+  og <strong>ssh</strong>: Dette reduserer drastisk sjansen for
+  feil. Det siste som er sjekket ut i git ligger alltid på
+  nettsidene.</li>
+</ul>
+
+<b>Vi har valgt bort:</b>
+<ul>
+  <li><strong>Bootstrap</strong>: Vi ville ikke bruke Bootstrap fordi
+  det blir mindre læring på oss alle. Vi får mer utbytte av å lage
+  CSS-en fra bunnen av istedenfor å ta snarveier.</li>
+  <li><strong>AngularJS</strong> eller <strong>BackboneJS</strong>:
+  Nettsiden vi skal lage vil ha begrenset med interaktivitet, og vi
+  ønsker å bruke mer tid på å lære grunnleggende ferdigheter med
+  html/css/javascript enn å sette oss inn i et nytt rammeverk. Angular
+  eller Backbone vil legge for stort fokus på javascript i forhold til
+  det vi i gruppen vi ønsker.
+  </li>
+</ul>
 
 <h2>Arbeidsmetode</h2>
 
-<p>Det å bruke en uke på både å lære seg en arbeidsmetodikk (SCRUM eller
-lignende) og samtidig gjennomføre forprosjekt er for ambisiøst. Vi
-nøyer oss med å organisere oss med github og ukentlige møter, samt den
-organiseringen vi tror er nødvendig utover dette.</p>
+<p>Det er for ambisiøst å bruke en uke på både å lære seg en
+arbeidsmetodikk (SCRUM eller lignende) og samtidig gjennomføre
+forprosjekt. Vi nøyer oss med å organisere oss med github og ukentlige
+møter, samt den organiseringen vi tror er nødvendig utover dette.</p>
 
 <ul>
-<li>Vi vil møtes hver tirsdag og gjennomgå progresjonen fra uken som har vært, justere planen og dele ut nye oppgaver.</li>
-<li>Oversikten over oppgaver og milepeler blir lagret og oppdatert i github.</li>
-<li>Vi deler oss inn i par og hvert par er ansvarlig for å snakke sammen og hjelpe hverandre i løpet av uka.</li>
-<li>Hele gruppa sitter sammen på torsdager og jobber individuelt med ukens oppgaver.</li>
-<li>Hvert gruppemedlem er ansvarlig for å skrive om sin progresjon på github, i issues.</li>
+
+<li>Vi vil møtes hver tirsdag og gjennomgå progresjonen fra uken som
+har vært, justere planen og dele ut nye oppgaver.</li>
+
+<li>Oversikten over oppgaver og milepeler blir lagret og oppdatert i
+github. Dette tar også over for gant-diagram.</li>
+
+<li>Vi deler oss inn i par. Hvert par er ansvarlig for å snakke
+sammen og hjelpe hverandre i løpet av uka.</li>
+
+<li>Hele gruppa sitter sammen på torsdager og jobber individuelt med
+ukens oppgaver.</li>
+
+<li>Hvert gruppemedlem er ansvarlig for å skrive om sin progresjon på
+github, i issues.</li>
+
+<li>Alle endringer som synkroniseres til github havner automatisk i
+Matias' www-mappe, slik at alle gruppemedlemmer kan publisere på
+nett.</li>
 </ul>
 
 <h2>Hvorfor vi har valgt Git/Github</h2>
-<p>
-Vi har valgt å bruke git/github grunnet at ett av gruppemedlemmene har gode kunnskaper om dette fra før og har gitt de andre medlemmene på gruppen en enkel innføring i dette programmet. Dette programmet gjør at vi har stor oversikt over hva personene på gruppen holder på med til en hver tid. Samtidig kan man også  gå inn å endre på filene som er lagt ut. Git gir oss da stor oversikt over hvor langt vi har kommet med oppgavene samtidig som det er et program som gjør at vi lett for ut all data til alle medlemmene av gruppen fort og effektt og vi får opp en logg over hva som er gjort til en hver tid.
-</p>
+<p>Vi har valgt å bruke git/github grunnet at Matias har kunnskap om
+dette fra før. Han har gitt de andre medlemmene på gruppen en enkel
+innføring i bruk av github, og de har brukt dette aktivt..</p>
+
+<p>Ved aktiv bruk av github vil det gi oss en god oversikt over hva
+gruppemedlemene jobber med. I tillegg kan vi bruke
+issue-funksjonaliteten til planlegging og koordinering.</p>
+
+<p>Vi har implementert automatisk deployment fra github, slik at alle
+gruppemedlemmer skal kunne publisere innhold direkte. Da er det heller
+ingen tvil om hvilken versjon som er «innlevert». Koden for dette
+ligger i github-repositoriet.</p>
 
 </body>
 </html>
