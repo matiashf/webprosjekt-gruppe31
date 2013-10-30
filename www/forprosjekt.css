@@ -12,6 +12,13 @@
         width: 35%;
         float: right;
     }
+
+    h3 {
+        /* Sørg for at bilder ikke havner ved siden av underskrifter */
+        content: "";
+        clear: both;
+    }
+
 }
 
 @media (max-width:750px)
