@@ -1,18 +1,19 @@
-/*<style>
-@media (max-width:600px)
+@media (min-width:750px)
 {
-	.facet_sidebar
-	{
-		display:none;
-	}
+    /* Denne css-koden gjelder bare når browservinduet er bredere enn 750 px;*/
+    body
+    {
+        margin-right: auto;
+        margin-left: auto;
+        width: 750px;
+    }
 }
-</style>*/
+
+/* Denne css-koden gjelder uansett hvor bredt browservinduet er */
+
 body
 {
 	font-family:sans-serif;
-	margin-right:auto;
-	margin-left:auto;
-	width:750px;  
 }
 
 h1
