@@ -1,4 +1,4 @@
-@media (min-width:750px)
+@media screen and (min-width:750px)
 {
     /* Denne css-koden gjelder bare når browservinduet er bredere enn 750 px;*/
     body
@@ -21,7 +21,7 @@
 
 }
 
-@media (max-width:750px)
+@media screen and (max-width:750px)
 {
     /* Denne css-koden kjører hvis browservinduet er mindre enn 750 px; */
     figure {
@@ -29,6 +29,13 @@
         margin: 0px;
         padding: 0px;
         margin-bottom: 20px;
+    }
+}
+
+@media print {
+    /* Dette gjelder bare når siden skal skrives ut */
+    figure {
+        display: none;
     }
 }
 
