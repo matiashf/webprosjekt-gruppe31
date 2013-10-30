@@ -2,30 +2,30 @@
 <html>
   <head>
     <title>Kravspesifikasjon</title>
+    <link rel="stylesheet" type="text/css" href="forprosjekt.css">
+    <meta charset="utf-8">
   </head>
   <body>
   
   <h1>Kravspesifikasjon</h1>
   
-  <h2>Sjekkliste for alle sider</h2>
-  
-<b>Her er sjekklisten vi skal gå gjennom for alle sidene:</b>
-<ul>
-<li>Valider som html5</li>
-<li>Valider som css3</li>
+<b>Her er sjekklisten vi skal gå gjennom for hver av sidene:</b>
+<ol>
+<li><a href="http://validator.w3.org/">Valider som html5</a></li>
+<li><a href="http://jigsaw.w3.org/css-validator/">Valider som css3</a></li>
 <li>Åpne javascript-konsollen og se at det ikke er feilmeldinger</li>
-<li>Test nettsiden i mobil-browser</li>
-<li>Alle lenker skal fungere og være riktig beskrevet (ikke «trykk her»)</li>
-<li>Alle bilder skal ha alt-tag'er</li>
-<li>Siden skal se grei ut i lynx (tekstbrowser). Matias kan gi råd.</li>
-<li>Kontrasten skal være god:
-  http://snook.ca/technical/colour_contrast/colour.html</li>
-<li>Siden skal kunne navigeres med bare tastatur</li>
-<li>Struktur skal være forståelig kun utifra headere</li>
-<li>Tekstkolonner skal ikke være for brede</li>
-<li>Siden skal ha en tittel som gir mening (html -> head -> title)</li>
-<li>Tekst skal være på norsk og dette skal komme fram i html-tagger</li>
-</ul>
+<li>Test nettsiden i mobil-browser. Siden skal ha annerledes layout, teksten skal være leselig uten å zoome, og det skal ikke være nødvendig å scrolle horisontalt (men vertikalt er lov!).</li>
+<li>Alle lenker skal fungere og være riktig beskrevet (<code>ikke «klikk her», men «meld deg inn i SIO fotball»</code>)</li>
+<li>Alle bilder skal ha alt-tag'er (<code>&lt;img src="..." alt="Bilde av to fotballspillere som prøver å få ballen"&gt;</code>)</li>
+<li>Siden skal se grei ut i lynx (tekstbrowser). Spør Matias om hjelp med oppsett av lynx.</li>
+<li><a href="http://webaim.org/resources/contrastchecker/">Kontrastforholdet mellom tekst og bakgrunn skal være stort nok</a></li>
+<li>Siden skal kunne navigeres med bare tastatur (prøv å åpne en lenke med bare tab, enter og piltaster)</li>
+<li>Struktur skal være forståelig kun utifra headere (i <a href="http://validator.w3.org/">html-validatoren</a> kan man velge «More options» og «Show outline»)</li>
+<li><a href="http://ux.stackexchange.com/questions/3618/ideal-column-width-for-paragraphs-online">Tekstkolonner skal ikke være for brede</a>, og avsnitt skal ikke være for lange.</li>
+<li>Siden skal ha <a href="http://kastdegutitilgjengelighet.no/dag_8_a_lage_meningsfylte_titler">en tittel som gir mening</a> (Eks: &lt;title&gt;Fotball&lt;/title&gt;)</li>
+<li>Tekst skal være på norsk og <a href="http://kastdegutitilgjengelighet.no/dag_7_a_fastsette_spraket_ditt">dette skal komme fram i html-taggen</a> (&lt;html lang="no"&gt)</li>
+<li>Tegnsettet skal være utf-8, og head-taggen skal inneholde &lt;meta charset="utf-8"&gt;</li>
+</ol>
 
   <h3>Inspirasjonssidene</h3>
 
