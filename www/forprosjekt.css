@@ -31,10 +31,7 @@
         padding: 0px;
         margin-bottom: 20px;
     }
-    html,body
-    {
-        margin:0px;
-    }
+    
 }
 
 @media print {
