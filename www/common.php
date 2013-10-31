@@ -24,9 +24,9 @@ ob_start();
 <?php $header = ob_get_contents(); ob_end_clean(); ob_start() ?>
 
     <footer>
-    <a href="#">del på facebook</a>
-    <a href="#">del på twitter</a>
-    <footer>
+      <a href="#">del på facebook</a>
+      <a href="#">del på twitter</a>
+    </footer>
   </body>
 </html>
 <?php $footer = ob_get_contents(); ob_end_clean(); ?>
