@@ -2,7 +2,7 @@
 
 require_once "common.php";
 
-echo render_header(["title" => "Kostholdskarusellen"]);
+echo render_header(["title" => "Kostholdskarusellen", "header_link" => "<a href=\"./\">Ta inspirasjonstesten</a>"]);
 ?>
 
 <h1>Kostholdskarusellen</h1>

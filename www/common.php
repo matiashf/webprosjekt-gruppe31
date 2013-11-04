@@ -18,19 +18,34 @@ ob_start();
   <body>
     <header>
       <div id="logo">Sunne Studenter</div>
-      <div><a href="#">Kostholdskarusellen</a></div>
+      <div>{ header_link }</div>
     </header>
 <?php
 
 $header = ob_get_contents();
+ob_end_clean();
+ob_start();
+
+$default_header_link = "<a href=\"kostholdskarusellen.php\">Kostholdskarusellen</a>";
 
 function render_header($vars) {
-   global $header; // php «arver» ikke scope, til forskjell fra java
-   return str_replace("{ title }", $vars["title"], $header);
+   global $header, $default_header_link; // php «arver» ikke scope, til forskjell fra java
+
+   if ( !array_key_exists("header_link", $vars) ) {
+       $vars["header_link"] = $default_header_link;
+   }
+
+   $rendered = $header;
+   foreach($vars as $k=>$v) {
+       $rendered = str_replace("{ " . $k . " }", $v, $rendered);
+   }
+
+   return $rendered;
+
    /* Jeg prøvde i utgangspunktet dette, men fikk det ikke til å fungere:
      return preg_replace_callback(
        "/{\s*(\w+)\s*}/",
-       function ($matches) { return $vars["title"]; },
+       function ($matches) { return $vars[$matches[1]]; },
        $header); */
 }
 
