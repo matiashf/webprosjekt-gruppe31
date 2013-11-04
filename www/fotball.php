@@ -1,5 +1,9 @@
+<?php
+require_once "common.php";
+echo render_header(["title" => "Fotball"]);
+?>
 
-<img src="football-83222_1280" alt="fotballspillere" height="200" width="250">
+<img src="bilder/fotball.jpg" alt="Fotballspillere">
 
 <p> Fotball er en sport som kan egner seg for de som er glad i lagsport og sosialtsamvær med lagkamerater. 
 Sporten er en veldig enkel sport som ikke trenger mye læring for å kunne bedrive. Så og si alle kan drive med fotball og det finnes lag på alle nivåer.</p> 
@@ -10,4 +14,6 @@ Dette er noe som man blir bedre på jo mer man trener!</p>
 
 <p>Her kan du se hvor du som student kan starte på fotball i Oslo: <a href="http://www.osifotball.no/">Osi fotball!</a> </p>
 
-
+<?php
+echo $footer;
+?>
