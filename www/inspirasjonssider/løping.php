@@ -1,3 +1,12 @@
+<?php
+
+require_once "../common.php";
+echo $header;
+?>
+
+<h1>Inspirasjonsside: Løping</h1>
+
+<img src="../bilder/løping.jpg" alt="Løping i gjørme" >
 
 <p>Løping og jogging er det mange som gjør til daglig. Dette er veldig god trening for hele kroppen. Løping er noe som egner seg for de som har god pykisk styrke.
 De som ikke har psykisk styrke, pleier ikke å presse seg selv godt nok for å få gode og possitve resultater. Løping er noe som passer for de som liker å trene alene,
@@ -11,4 +20,8 @@ er at du kommer ut i trening og kommer inn i en god rytme. Så får du masse ene
 
 <p>Det er også viktig å sette seg et mål, i Oslo så er det mange forskjellige løp du kan melde deg på. <a href="http://www.sentrumslopet.no/">Sentrumsløpet</a></p>
 
-<img src="http://myrevolution.no/s/wp-content/uploads/2013/09/people-running-city-marathon-660x4001.jpg" alt="Mennesker som løper" height="" width="">
+
+<?php
+
+echo $footer;
+?>
