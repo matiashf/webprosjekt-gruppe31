@@ -13,15 +13,30 @@ ob_start();
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Sunne studenter</title>
+    <title>{ title } | Sunne Studenter</title>
   </head>
   <body>
     <header>
       <div id="logo">Sunne Studenter</div>
       <div><a href="#">Kostholdskarusellen</a></div>
     </header>
+<?php
 
-<?php $header = ob_get_contents(); ob_end_clean(); ob_start() ?>
+$header = ob_get_contents();
+
+function render_header($vars) {
+   global $header; // php «arver» ikke scope, til forskjell fra java
+   return str_replace("{ title }", $vars["title"], $header);
+   /* Jeg prøvde i utgangspunktet dette, men fikk det ikke til å fungere:
+     return preg_replace_callback(
+       "/{\s*(\w+)\s*}/",
+       function ($matches) { return $vars["title"]; },
+       $header); */
+}
+
+ob_end_clean();
+ob_start();
+?>
 
     <footer>
       <a href="#">del på facebook</a>
