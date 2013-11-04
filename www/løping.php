@@ -17,7 +17,7 @@ intense intervaller på feks 30sek(feks løping) og mindre intense intervaller p
 <p>Det finnes ingen fasiter på løping og jogging, det viktigste er at du løper i et tempo som er bra for deg og kroppen. Ta gjerne å push deg selv, men det viktigste
 er at du kommer ut i trening og kommer inn i en god rytme. Så får du masse energi til overs.</p>
 
-<p>Det er også viktig å sette seg et mål, i Oslo så er det mange forskjellige løp du kan melde deg på. <a href="http://www.sentrumslopet.no/">Sentrumsløpet</a></p>
+<p>Det er også viktig å sette seg et mål, og et godt mål kan være å delta i løp. I Oslo så er det mange forskjellige løp du kan melde deg på, for eksempel <a href="http://www.sentrumslopet.no/">Sentrumsløpet</a>.</p>
 
 <?php
 echo $footer;
