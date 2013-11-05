@@ -15,6 +15,7 @@ echo render_header(array("title" => "Forsiden"));
 <li><a href="klatring.php">Klatring</a></li>
 <li><a href="salsa.php">Salsa</a></li>
 <li><a href="sykling.php">Sykling</a></li>
+<li><a href="langrenn.php">Langrenn</a></li>
 </ul>
 
 <?php
