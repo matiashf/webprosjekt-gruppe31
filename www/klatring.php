@@ -1,6 +1,6 @@
 <?php
 require_once "common.php";
-echo render_header(array("title" => "klatring"));
+echo render_header(array("title" => "Klatring"));
 ?>
 
 <img src="bilder/klatring.jpg" alt="klatrevegg">
