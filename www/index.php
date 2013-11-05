@@ -2,7 +2,7 @@
 
 require_once "common.php";
 
-echo render_header(["title" => "Forsiden"]);
+echo render_header(array("title" => "Forsiden"));
 
 ?>
 
