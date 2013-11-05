@@ -13,6 +13,8 @@ ob_start();
 <html>
   <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <script type="text/javascript" src="js/common.js"></script>
     <title>{ title } | Sunne Studenter</title>
   </head>
   <body>
