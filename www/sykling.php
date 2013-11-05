@@ -5,7 +5,7 @@ echo render_header(array("title" => "Sykling"));
 
 <h1>Inspirasjonsside: Sykling</h1>
 
-<img src="bilder/sykkel.jpg" alt="Sykkler ute i naturen" >
+<img src="bilder/sykling.jpg" alt="Sykkler ute i naturen" >
 
 <p>Sykling egner seg for de fleste. Sykling egner seg også veldig bra for de som har kne-skader, eller lignende. Sykling er fin mosjon og er generelt
 	en veldig enkel måte å trene på. Hvis du har en sykkel, så er det bare å hoppe på den og ta seg en tur. Det er også mulig å bruke sykkelen til 
