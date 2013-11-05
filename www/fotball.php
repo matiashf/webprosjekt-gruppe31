@@ -1,6 +1,6 @@
 <?php
 require_once "common.php";
-echo render_header(["title" => "Fotball"]);
+echo render_header(array("title" => "Fotball"));
 ?>
 
 <img src="bilder/fotball.jpg" alt="Fotballspillere">

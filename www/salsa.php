@@ -1,6 +1,6 @@
 <?php
 require_once "common.php";
-echo render_header(["title" => "Salsa"]);
+echo render_header(array("title" => "Salsa"));
 ?>
 
 <h1>Inspirasjonsside: Salsa</h1>
