@@ -5,7 +5,7 @@ echo render_header(array("title" => "Løping"));
 
 <h1>Inspirasjonsside: Løping</h1>
 
-<img src="bilder/løping.jpg" alt="Løping i gjørme" >
+<img src="bilder/loping.jpg" alt="Løping i gjørme" >
 
 <p>Løping og jogging er det mange som gjør til daglig. Dette er veldig god trening for hele kroppen. Løping er noe som egner seg for de som har god pykisk styrke.
 De som ikke har psykisk styrke, pleier ikke å presse seg selv godt nok for å få gode og possitve resultater. Løping er noe som passer for de som liker å trene alene,
