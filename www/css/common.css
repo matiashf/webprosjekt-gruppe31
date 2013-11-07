@@ -31,12 +31,14 @@ h1
     margin-right:auto; 
 }
 
-img
+.inspirasjonsside img
 {
-
+    width:500px;
+    height:400px; 
 }
 
-p
+.insirasjonsside p
 {
-
+    float:right;
+    width:900px;
 }
