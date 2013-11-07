@@ -3,7 +3,7 @@ require_once "common.php";
 echo render_header(array("title" => "Tennis"));
 ?>
 <h1> inspirasjonsside: Tennis </h1>
-<!--http://pixabay.com/no/aktive-aktivitet-friidrett-ball-15637/ -->
+<!--http://farm8.staticflickr.com/7264/7107960055_3567cf6a33_o.jpg-->
 <img src="bilder/tennis.jpg" alt="tennis">
 
 <p>Tennis er en sport det er lett å lære seg. Har man ikke drevet med Tennis før er det ikke vanskelig å sette seg inn i denne idretten.
