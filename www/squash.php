@@ -5,7 +5,8 @@ echo render_header(array("title" => "Squash"));
 
 <h1>Inspirasjonsside: Squash</h1>
 
-<!-- -->
+<!--http://pixabay.com/no/squash-sport-racket-ball-spiller-148649/-->
+
 <img src="bilder/squash.jpg" alt="Squash" >
 
 <p>Squash er en fysisk krevende sport. Det handler om å skyte ballen mellom 2 streker. Den ene lang oppe på veggen og en langt nede. Ballen 

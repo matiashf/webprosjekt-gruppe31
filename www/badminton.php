@@ -3,6 +3,7 @@ require_once "common.php";
 echo render_header(array("title" => "Badminton"));
 ?>
 <!--http://pixabay.com/no/spill-badminton-shuttlecock-sport-166415/-->
+
 <h1>Inspirasjonsside: Badminton </h1>
 
 <img src="bilder/badminton.jpg" alt="Badminton" >
