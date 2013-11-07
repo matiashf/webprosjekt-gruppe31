@@ -5,7 +5,7 @@ echo render_header(array("title" => "Squash"));
 
 <h1>Inspirasjonsside: Squash</h1>
 
-<!--http://pixabay.com/no/squash-sport-racket-ball-spiller-148649/-->
+<!--http://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Squash_court.JPG/591px-Squash_court.JPG-->
 
 <img src="bilder/squash.jpg" alt="Squash" >
 
