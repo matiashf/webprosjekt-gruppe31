@@ -2,6 +2,8 @@
 require_once "common.php";
 echo render_header(array("title" => "Klatring"));
 ?>
+<h1>Inspirasjonsside: Klatring</h1>
+
 <!--http://pixabay.com/no/klatring-sperringer-fargerike-farge-101524/-->
 <img src="bilder/klatring.jpg" alt="klatrevegg">
 
