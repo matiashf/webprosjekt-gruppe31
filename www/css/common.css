@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-@media screen and (min-width:750px)
-=======
+
 @media screen and (min-width:960px)
->>>>>>> f675166
+
 {
     /* Denne css-koden gjelder bare når browservinduet er bredere enn 960 px;*/
     body
@@ -21,5 +19,23 @@
 
 body
 {
+    
     font-family:sans-serif;
+    margin-right:45%;
+    margin-left:45%;
+}
+
+h1
+{
+    font-size:;
+}
+
+img
+{
+
+}
+
+p
+{
+    
 }
