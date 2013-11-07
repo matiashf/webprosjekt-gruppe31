@@ -2,7 +2,7 @@
 require_once "common.php";
 echo render_header(array("title" => "Klatring"));
 ?>
-
+<!--http://pixabay.com/no/klatring-sperringer-fargerike-farge-101524/-->
 <img src="bilder/klatring.jpg" alt="klatrevegg">
 
 <p>Klatring er en idrett for deg som har lyst til å utfordre deg seg på flere plan. 
