@@ -46,6 +46,7 @@ bottom, used for guiding liquid or powder into a small opening.» -->
 <section>
 <b>Aktiviteter:</b>
 <ul>
+	<li><a href="squash.php">Squash</a></li>
 <li><a href="loping.php">Løping</a></li>
 <li><a href="fotball.php">Fotball</a></li>
 <li><a href="klatring.php">Klatring</a></li>
@@ -55,6 +56,7 @@ bottom, used for guiding liquid or powder into a small opening.» -->
 <li><a href="svomming.php">Svømming</a></li>
 <li><a href="badminton.php">Badminton</a></li>
 <li><a href="kubb.php">Kubb</a></li>
+<li><a href="tennis.php">Tennis</a></li>
 </ul>
 </section>
 
