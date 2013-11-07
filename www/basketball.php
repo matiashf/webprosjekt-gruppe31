@@ -17,7 +17,7 @@ gi 3 poeng.</p>
 
 <p>Det finnes forskjellige spilleregler for basketball rundt om i verden. Profesjonell basketball slik som i den amerikanske NBA-ligaen skiller seg f.eks noe fra internasjonal amatørbasketball.</p>
 
-<p>Studenter som har interesse for denne lagsporten kan f.eks melde seg inn i<a href="http://osiwp.bbhoop.net/">OSI Basket</a>.</p>
+<p>Studenter som har interesse for denne lagsporten kan f.eks melde seg inn i <a href="http://osiwp.bbhoop.net/">OSI Basket</a>.</p>
 
 <?php
 echo $footer;
