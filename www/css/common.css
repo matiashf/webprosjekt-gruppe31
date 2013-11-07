@@ -21,8 +21,8 @@ body
 {
     
     font-family:sans-serif;
-    margin-right:45%;
-    margin-left:45%;
+    margin-right:auto%;
+    margin-left:auto%;
 }
 
 h1
@@ -37,5 +37,5 @@ img
 
 p
 {
-    
+
 }
