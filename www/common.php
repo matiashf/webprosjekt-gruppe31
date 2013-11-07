@@ -20,7 +20,9 @@ ob_start();
   <body class="{ body_class }">
     <header>
       <div id="logo">Sunne Studenter</div>
-      <div>{ header_link }</div>
+      <nav> 
+        <div><a href="index.php"> Forsiden</a></div>
+        <div>{ header_link }</nav></div>
     </header>
 <?php
 
