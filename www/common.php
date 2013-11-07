@@ -17,7 +17,7 @@ ob_start();
     <script type="text/javascript" src="js/common.js"></script>
     <title>{ title } | Sunne Studenter</title>
   </head>
-  <body>
+  <body class="{ body_class }">
     <header>
       <div id="logo">Sunne Studenter</div>
       <div>{ header_link }</div>
@@ -29,12 +29,26 @@ ob_end_clean();
 ob_start();
 
 $default_header_link = "<a href=\"kostholdskarusellen.php\">Kostholdskarusellen</a>";
+$default_body_class = basename($_SERVER['PHP_SELF'], '.php');
+switch ( $default_body_class ) {
+    case "index":
+        $default_body_class = "forsiden";
+        break;
+    case "kostholdskarusellen":
+        break;
+    default:
+        $default_body_class = "inspirasjonsside";
+        break;
+}
 
 function render_header($vars) {
-   global $header, $default_header_link; // php «arver» ikke scope, til forskjell fra java
+   global $header, $default_header_link, $default_body_class; // php «arver» ikke scope, til forskjell fra java
 
    if ( !array_key_exists("header_link", $vars) ) {
        $vars["header_link"] = $default_header_link;
+   }
+   if ( !array_key_exists("body_class", $vars) ) {
+       $vars["body_class"] = $default_body_class;
    }
 
    $rendered = $header;
