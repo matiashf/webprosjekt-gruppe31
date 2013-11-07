@@ -1,0 +1,25 @@
+@media screen and (min-width:960px)
+{
+    /* Denne css-koden gjelder bare når browservinduet er bredere enn 960 px;*/
+    body
+    {
+        margin-right: auto;
+        margin-left: auto;
+        width: 960px;
+
+    }
+}
+
+@media screen and (max-width:960px)
+{
+    /* Denne css-koden kjører hvis browservinduet er mindre enn 960 px; */
+    
+    
+}
+
+
+
+body
+{
+    font-family:sans-serif;
+}
