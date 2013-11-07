@@ -10,6 +10,7 @@ echo render_header(array("title" => "Forsiden"));
 
 <b>Aktiviteter:</b>
 <ul>
+	<li><a href="squash.php">Squash</a></li>
 <li><a href="loping.php">Løping</a></li>
 <li><a href="fotball.php">Fotball</a></li>
 <li><a href="klatring.php">Klatring</a></li>
