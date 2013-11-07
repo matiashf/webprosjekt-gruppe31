@@ -2,7 +2,7 @@
 require_once "common.php";
 echo render_header(array("title" => "kubb"));
 ?>
-
+<!-- http://pixabay.com/no/park-skog-treet-natur-landskap-191603/-->
 <img src="bilder/kubb.jpg" alt="kubb">
 
 <p>Kubb er i utgangspunktet den parkaktiviteten som er størst voksende og det er fler og fler som begynner å spile dette spillet. 

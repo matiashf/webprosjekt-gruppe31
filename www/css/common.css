@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @media screen and (min-width:750px)
+=======
+@media screen and (min-width:960px)
+>>>>>>> f675166
 {
     /* Denne css-koden gjelder bare når browservinduet er bredere enn 960 px;*/
     body
@@ -8,59 +12,14 @@
         width: 960px;
 
     }
-
-    figure 
-    {
-        width: 35%;
-        float: right;
-    }
-
-    h3 
-    {
-        /* Sørg for at bilder ikke havner ved siden av underskrifter */
-        content: "";
-        clear: both;
-    }
-
 }
 
 @media screen and (max-width:960px)
 {
     /* Denne css-koden kjører hvis browservinduet er mindre enn 960 px; */
-    figure 
-    {
-        width: 100%;
-        margin: 0px;
-        padding: 0px;
-        margin-bottom: 20px;
-    }
-    
-}
-
-/* Denne css-koden gjelder uansett hvor bredt browservinduet er */
-
-figure img {
-    width: 100%;
 }
 
 body
 {
     font-family:sans-serif;
 }
-
-h1
-{
-    font-size:40px; 
-}
-
-h2
-{
-    font-size: 30px;
-}
-
-h3
-{
-    font-size:25px; 
-}
-
-
