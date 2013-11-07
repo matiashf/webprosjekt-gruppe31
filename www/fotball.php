@@ -2,7 +2,7 @@
 require_once "common.php";
 echo render_header(array("title" => "Fotball"));
 ?>
-
+<!--http://pixabay.com/no/fotball-spillere-konkurranse-lag-83222/-->
 <img src="bilder/fotball.jpg" alt="Fotballspillere">
 
 <p>Fotball er en sport som kan egner seg for de som er glad i
