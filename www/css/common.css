@@ -33,12 +33,11 @@ h1
 
 .inspirasjonsside img
 {
-    width:500px;
-    height:400px; 
+    width:100%;
+    margin-right:5px;
 }
 
 .insirasjonsside p
 {
-    float:right;
-    width:900px;
+
 }
