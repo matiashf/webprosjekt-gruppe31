@@ -2,7 +2,7 @@
 require_once "common.php";
 echo render_header(array("title" => "Sykling"));
 ?>
-
+<!--http://pixabay.com/no/treet-sykkel-sykkeltur-rhinen-172147/-->
 <h1>Inspirasjonsside: Sykling</h1>
 
 <img src="bilder/sykling.jpg" alt="Sykkler ute i naturen" >
