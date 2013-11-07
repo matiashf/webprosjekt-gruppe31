@@ -4,7 +4,7 @@ echo render_header(array("title" => "Langrenn"));
 ?>
 
 <h1>Inspirasjonsside: Langrenn</h1>
-
+<!--http://pixabay.com/no/langrenn-vinteren-stien-113018/-->
 <img src="bilder/langrenn.jpg" alt="Langrenns spor" >
 
 <p>Langrenn er en sport alle i Norge bør klare å forbinde seg med. Langrenn handler først og frems om å stå på ski,
