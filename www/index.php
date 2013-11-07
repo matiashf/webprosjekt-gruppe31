@@ -59,7 +59,7 @@ bottom, used for guiding liquid or powder into a small opening.» -->
 <li><a href="tennis.php">Tennis</a></li>
 <li><a href="ski-og-snowboard.php">Ski og snowboard</a></li>
 <li><a href="hiphop.php">Hiphop</a></li>
-<li><a href="basket.php">Basketball</a></li>
+<li><a href="basketball.php">Basketball</a></li>
 </ul>
 </section>
 
