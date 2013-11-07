@@ -4,7 +4,7 @@ echo render_header(array("title" => "Langrenn"));
 ?>
 
 <h1>Inspirasjonsside: Langrenn</h1>
-
+<!--http://pixabay.com/no/langrenn-vinteren-stien-113018/-->
 <img src="bilder/langrenn.jpg" alt="Langrenns spor" >
 
 <p>Langrenn er en sport alle i Norge bør klare å forbinde seg med. Langrenn handler først og frems om å stå på ski,
@@ -19,14 +19,8 @@ men da heter det rulleski.</p>
 For å starte med langrenn så må du ha langrennsski, langrenssko og staver. Smøring til skiene er også anbefalt. Så kommer den viktigste ingreddiensen
 og det er selvsagt snø. Så er det bare å dra rett opp i nordmarka, spenne på seg skiene og ta en tur.</p>
 
-<p>Studenter i Oslo som vil drive med klatring, kan melde seg inn i: <a href="http://osilangrenn.com/">OSI langrenn</a>.</p>
+<p>Studenter i Oslo som vil drive med langrenn, kan melde seg inn i: <a href="http://osilangrenn.com/">OSI langrenn</a>.</p>
 
 <?php
 echo $footer;
 ?>
-
-
-Bilde
-Hva er aktiviteten
-Hvem egner den seg for?
-Hvordan begynne med aktiviteten?
