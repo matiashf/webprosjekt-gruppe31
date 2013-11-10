@@ -25,6 +25,7 @@ ob_start();
         <div><a href="index.php"> Forsiden</a></div>
         <div>{ header_link }</nav></div>
     </header>
+    <main>
 <?php
 
 $header = ob_get_contents();
@@ -71,7 +72,7 @@ function render_header($vars) {
 ob_end_clean();
 ob_start();
 ?>
-
+    </main>
     <footer>
       <a href="#">del på facebook</a>
       <a href="#">del på twitter</a>
