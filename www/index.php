@@ -23,7 +23,7 @@ bottom, used for guiding liquid or powder into a small opening.» -->
       <legend>Sosialt</legend>
       <input id="input-sociable-social" type="radio" name="sociable" value="social">
       <label for="input-sociable-social">Med andre</label>
-      <input id="input-sociable-alone" type="radio" name="social" value="alone">
+      <input id="input-sociable-alone" type="radio" name="sociable" value="alone">
       <label for="input-sociable-alone">Alene</label>
     </fieldset>
     <fieldset>
