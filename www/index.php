@@ -8,6 +8,10 @@ echo render_header(array("title" => "Forsiden"));
 
 <h1>Forsiden</h1>
 
+<script type="text/template" class="no-results-template">
+  <p>Vi har ingen aktiviteter som passer dine preferanser. Prøv noe annet.</p>
+</script>
+
 <script type="text/template" class="funnel-template">
 <!-- Funnel: «A tube or pipe that is wide at the top and narrow at the
 bottom, used for guiding liquid or powder into a small opening.» -->
@@ -46,26 +50,97 @@ bottom, used for guiding liquid or powder into a small opening.» -->
   <div class="result">
   <p>Oppgi preferansene dine for å få et forslag til aktivitet.</p>
   </div>
+  <div class="next">Foreslå noe annet</div>
 </section>
 </script>
 
 <section class="activities">
 <b>Aktiviteter:</b>
 <ul>
-	<li><a href="squash.php">Squash</a></li>
-<li><a href="loping.php">Løping</a></li>
-<li><a href="fotball.php">Fotball</a></li>
-<li><a href="klatring.php">Klatring</a></li>
-<li><a href="salsa.php">Salsa</a></li>
-<li><a href="sykling.php">Sykling</a></li>
-<li><a href="langrenn.php">Langrenn</a></li>
-<li><a href="svomming.php">Svømming</a></li>
-<li><a href="badminton.php">Badminton</a></li>
-<li><a href="kubb.php">Kubb</a></li>
-<li><a href="tennis.php">Tennis</a></li>
-<li><a href="ski-og-snowboard.php">Ski og snowboard</a></li>
-<li><a href="hiphop.php">Hiphop</a></li>
-<li><a href="basketball.php">Basketball</a></li>
+  <li>
+    <section class="activity">
+      <a href="squash.php">Squash</a>
+      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+    </section>
+  </li>
+  <li>
+    <section class="activity">
+      <a href="loping.php">Løping</a>
+      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+    </section>
+  </li>
+  <li>
+    <section class="activity">
+      <a href="fotball.php">Fotball</a>
+      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+    </section>
+  </li>
+  <li>
+    <section class="activity">
+      <a href="klatring.php">Klatring</a>
+      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+    </section>
+  </li>
+  <li>
+    <section class="activity">
+      <a href="salsa.php">Salsa</a>
+      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+    </section>
+  </li>
+  <li>
+    <section class="activity">
+      <a href="sykling.php">Sykling</a>
+      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+    </section>
+  </li>
+  <li>
+    <section class="activity">
+      <a href="langrenn.php">Langrenn</a>
+      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+    </section>
+  </li>
+  <li>
+    <section class="activity">
+      <a href="svomming.php">Svømming</a>
+      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+    </section>
+  </li>
+  <li>
+    <section class="activity">
+      <a href="badminton.php">Badminton</a>
+      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+    </section>
+  </li>
+  <li>
+    <section class="activity">
+      <a href="kubb.php">Kubb</a>
+      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+    </section>
+  </li>
+  <li>
+    <section class="activity">
+      <a href="tennis.php">Tennis</a>
+      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+    </section>
+  </li>
+  <li>
+    <section class="activity">
+      <a href="ski-og-snowboard.php">Ski og snowboard</a>
+      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+    </section>
+  </li>
+  <li>
+    <section class="activity">
+      <a href="hiphop.php">Hiphop</a>
+      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+    </section>
+  </li>
+  <li>
+    <section class="activity">
+      <a href="basketball.php">Basketball</a>
+      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+    </section>
+  </li>
 </ul>
 </section>
 

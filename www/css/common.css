@@ -11,13 +11,19 @@
 
     }
 
-    .funnel form, .funnel .result {
+    .funnel form, .funnel .result, .funnel .next {
         width: 472px; /* (960px - 16px) / 2 */
         float: left;
     }
 
     .funnel form {
         margin-right: 16px;
+    }
+
+    .funnel .next {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
     }
 
     .funnel:after {
@@ -33,6 +39,7 @@
     }
 
     .funnel {
+        position: relative; /* Gjør at .next blir posisjonert riktig */
         margin-bottom: 16px;
     }
 }
