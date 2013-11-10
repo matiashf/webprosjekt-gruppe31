@@ -42,27 +42,13 @@
 
 body
 {
-    
     font-family:sans-serif;
-    margin-right:auto;
-    margin-left:auto;
-}
-
-h1
-{
-    margin-left:auto;
-    margin-right:auto; 
 }
 
 .inspirasjonsside img
 {
     width:100%;
     margin-right:5px;
-}
-
-.insirasjonsside p
-{
-
 }
 
 /*  All  css som  begynner  med .funnel  (engelsk  for  trakt) er  til
