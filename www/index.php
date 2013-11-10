@@ -49,7 +49,7 @@ bottom, used for guiding liquid or powder into a small opening.» -->
 </section>
 </script>
 
-<section>
+<section class="activities">
 <b>Aktiviteter:</b>
 <ul>
 	<li><a href="squash.php">Squash</a></li>
