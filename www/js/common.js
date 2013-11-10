@@ -8,6 +8,12 @@ var Funnel = function(template) {
 
     this.element.data("this", this); // For interactive debugging
 
+    this.element.find(".toggler")
+        .click(jQuery.proxy(this.toggle, this))
+        .find(".hidden").toggle(false);
+
+Funnel.prototype.toggle = function(event) {
+    this.element.find("form, .result, .toggler .hidden, .toggler .visible").toggle();
 }
 
 jQuery(function() {
