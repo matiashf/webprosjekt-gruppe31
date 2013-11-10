@@ -14,31 +14,31 @@ bottom, used for guiding liquid or powder into a small opening.» -->
   <form>
     <fieldset>
       <legend>Intensitet</legend>
-      <input type="radio" name="intensity" value="intense">
-      <label for="intensity">Intensivt</label>
-      <input type="radio" name="intensity" value="relaxed">
-      <label for="intensity">Rolig</label>
+      <input id="input-intensity-intense" type="radio" name="intensity" value="intense">
+      <label for="input-intensity-intense">Intensivt</label>
+      <input id="input-intensity-relaxed" type="radio" name="intensity" value="relaxed">
+      <label for="input-intensity-relaxed">Rolig</label>
     </fieldset>
     <fieldset>
       <legend>Sosialt</legend>
-      <input type="radio" name="social" value="social">
-      <label for="sociable">Med andre</label>
-      <input type="radio" name="social" value="alone">
-      <label for="sociable">Alene</label>
+      <input id="input-sociable-social" type="radio" name="sociable" value="social">
+      <label for="input-sociable-social">Med andre</label>
+      <input id="input-sociable-alone" type="radio" name="social" value="alone">
+      <label for="input-sociable-alone">Alene</label>
     </fieldset>
     <fieldset>
       <legend>Omgivelser</legend>
-      <input type="radio" name="environment" value="outdoors">
-      <label for="environment">Ute</label>
-      <input type="radio" name="environment" value="indoors">
-      <label for="environment">Inne</label>
+      <input id="input-environment-outdoors" type="radio" name="environment" value="outdoors">
+      <label for="input-environment-outdoors">Ute</label>
+      <input id="input-environment-indoors" type="radio" name="environment" value="indoors">
+      <label for="input-environment-indoors">Inne</label>
     </fieldset>
     <fieldset>
       <legend>Målsetning</legend>
-      <input type="radio" name="recreation" value="training">
-      <label for="environment">Komme i form</label>
-      <input type="radio" name="recreation" value="recreation">
-      <label for="environment">Hyggelig aktivitet</label>
+      <input id="input-recreation-training" type="radio" name="recreation" value="training">
+      <label for="input-recreation-training">Komme i form</label>
+      <input id="input-recreation-recreation" type="radio" name="recreation" value="recreation">
+      <label for="input-recreation-recreation">Hyggelig aktivitet</label>
     </fieldset>
   </form>
 </section>
