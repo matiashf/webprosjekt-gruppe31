@@ -22,7 +22,9 @@
 
     .funnel:after {
         /* Setter inn et tomt element som sørger for at begge kolonnene i
-           .funnel «tar opp» like mye høyde i layouten. */
+           .funnel «tar opp» like mye høyde i layouten. Beskrevet her
+           (bare at jeg ikke har implementert ie7-kompabilitet):
+           http://www.positioniseverything.net/easyclearing.html */
         content: "";
         display: block;
         height: 0;
