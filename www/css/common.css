@@ -27,12 +27,12 @@
         bottom: 0px;
     }
 
-    .funnel:after {
-        /* Setter inn et tomt element som sørger for at begge kolonnene i
-           .funnel «tar opp» like mye høyde i layouten. Beskrevet her
-           (bare at jeg ikke har implementert ie7-kompabilitet):
+    .funnel:after, .forsiden .activities ul:after {
+        /* Setter inn et tomt element som sørger for at alle kolonnene «tar
+           opp» like mye høyde i layouten. Beskrevet her (bare at jeg
+           ikke har implementert ie7-kompabilitet):
            http://www.positioniseverything.net/easyclearing.html */
-        content: "";
+        content: ".";
         display: block;
         height: 0;
         clear: both;
@@ -42,6 +42,21 @@
     .funnel {
         position: relative; /* Gjør at .next blir posisjonert riktig */
         margin-bottom: 16px;
+    }
+
+
+    .forsiden .activities .activity {
+        float: left;
+        width: 234px; /* ( 960px - 8px / 3 ) / 4 */
+        margin-right: 8px;
+    }
+
+    .forsiden .activities li:nth-child(4n) .activity {
+        margin-right: 0px;
+    }
+
+    .forsiden .activities .activity img {
+        max-height: 131.625px; /* 234px * 9 / 16 */
     }
 }
 
@@ -127,4 +142,19 @@ body
 
 .funnel .more.disabled {
     visibility: hidden;
+}
+
+.forsiden .activities ul {
+    padding: 0px;
+}
+.forsiden .activities li {
+    list-style-type: none;
+}
+
+.forsiden .activity {
+    text-align: center;
+}
+
+.forsiden .activity img {
+    max-width: 100%;
 }
