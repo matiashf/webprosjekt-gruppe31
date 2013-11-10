@@ -8,6 +8,7 @@ echo render_header(array("title" => "Forsiden"));
 
 <h1>Forsiden</h1>
 
+<script type="text/template" class="funnel-template">
 <!-- Funnel: «A tube or pipe that is wide at the top and narrow at the
 bottom, used for guiding liquid or powder into a small opening.» -->
 <section class="funnel">
@@ -45,6 +46,7 @@ bottom, used for guiding liquid or powder into a small opening.» -->
   <p>Oppgi preferansene dine for å få et forslag til aktivitet.</p>
   </div>
 </section>
+</script>
 
 <section>
 <b>Aktiviteter:</b>
