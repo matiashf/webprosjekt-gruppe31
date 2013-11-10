@@ -23,7 +23,7 @@ var Funnel = function(template) {
 
     this.element.data("this", this); // For interactive debugging
 
-    this.element.find(".toggler .hidden").find(".hidden").toggle(false);
+    this.element.find(".toggler .show").toggle(false);
 
     this.element.find(".toggler").click(jQuery.proxy(this.toggle, this));
     this.element.find("form").change(jQuery.proxy(this.change, this));
@@ -52,7 +52,7 @@ Funnel.prototype.compile = function() {
 }
 
 Funnel.prototype.toggle = function(event) {
-    this.element.find("form, .result, .toggler .hidden, .toggler .visible").toggle();
+    this.element.find("form, .result, .toggler .show, .toggler .hide, .next").toggle();
 }
 
 Funnel.prototype.change = function(event) {
