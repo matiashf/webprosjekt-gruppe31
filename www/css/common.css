@@ -10,6 +10,25 @@
         width: 960px;
 
     }
+
+    .funnel form, .funnel .result {
+        width: 470px; /* (960px - 20px) / 2 */
+        float: left;
+    }
+
+    .funnel form {
+        margin-right: 20px;
+    }
+
+    .funnel:after {
+        /* Setter inn et tomt element som sørger for at begge kolonnene i
+           .funnel «tar opp» like mye høyde i layouten. */
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
 }
 
 @media screen and (max-width:960px)
@@ -40,4 +59,15 @@ h1
 .insirasjonsside p
 {
 
+}
+
+/*  All  css som  begynner  med .funnel  (engelsk  for  trakt) er  til
+    inspirasjonstesten på forsiden. */
+
+.funnel input {
+    display: none;
+}
+
+.funnel input:checked + label { /* leses «label-elementet rett etter input-elementet som er valgt.» */
+    font-weight: bold;
 }

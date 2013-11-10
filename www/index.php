@@ -41,6 +41,9 @@ bottom, used for guiding liquid or powder into a small opening.» -->
       <label for="input-recreation-recreation">Hyggelig aktivitet</label>
     </fieldset>
   </form>
+  <div class="result">
+  <p>Oppgi preferansene dine for å få et forslag til aktivitet.</p>
+  </div>
 </section>
 
 <section>
