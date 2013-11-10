@@ -24,6 +24,7 @@ var Funnel = function(template) {
     this.element.data("this", this); // For interactive debugging
 
     this.element.find(".toggler .show").toggle(false);
+    this.element.find(".more").addClass("disabled");
 
     this.element.find(".toggler").click(jQuery.proxy(this.toggle, this));
     this.element.find("form").change(jQuery.proxy(this.change, this));
@@ -75,8 +76,10 @@ Funnel.prototype.search = function(event) {
 Funnel.prototype.render = function(event) {
     if (this.results.length == 0) {
         this.element.find(".result").html(this.element.siblings(".no-results-template").html());
+        this.element.find(".more").addClass("disabled");
     } else {
         this.element.find(".result").html(this.results.eq(this.resultIndex).clone());
+        this.element.find(".more").removeClass("disabled");
     }
 }
 

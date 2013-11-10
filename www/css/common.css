@@ -11,7 +11,8 @@
 
     }
 
-    .funnel form, .funnel .result, .funnel .next {
+    .funnel form, .funnel .result, .funnel .more {
+        box-sizing: border-box;
         width: 472px; /* (960px - 16px) / 2 */
         float: left;
     }
@@ -20,7 +21,7 @@
         margin-right: 16px;
     }
 
-    .funnel .next {
+    .funnel .more {
         position: absolute;
         right: 0px;
         bottom: 0px;
@@ -67,6 +68,63 @@ body
     display: none;
 }
 
+.funnel fieldset {
+    background-color: #ffffff;
+    border: 1px solid #aaaaaa;
+    margin: 0px;
+    margin-top: 16px;
+    padding: 0px;
+    border: 0px;
+}
+
+.funnel fieldset:first-child {
+    margin-top: 0px;
+}
+
+.funnel label {
+    display: block;
+    width: 50%;
+    float: left;
+    padding: 8px;
+    border: 1px solid #aaaaaa;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    margin-right: -1px;
+    padding-right: 9px;
+}
+
+.funnel label:nth-of-type(1) {
+    border-right: 1px;
+    margin-right: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.funnel label:nth-last-of-type(1) {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
 .funnel input:checked + label { /* leses «label-elementet rett etter input-elementet som er valgt.» */
     font-weight: bold;
+    background-color: #ccc;
+}
+
+
+.funnel .more {
+    text-align: center;
+}
+
+.funnel .next {
+    display: inline-block;
+    padding: 8px;
+    border: 1px solid #aaaaaa;
+    margin: 0px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.funnel .more.disabled {
+    visibility: hidden;
 }
