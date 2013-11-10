@@ -12,12 +12,12 @@
     }
 
     .funnel form, .funnel .result {
-        width: 470px; /* (960px - 20px) / 2 */
+        width: 472px; /* (960px - 16px) / 2 */
         float: left;
     }
 
     .funnel form {
-        margin-right: 20px;
+        margin-right: 16px;
     }
 
     .funnel:after {
@@ -28,6 +28,10 @@
         height: 0;
         clear: both;
         visibility: hidden;
+    }
+
+    .funnel {
+        margin-bottom: 16px;
     }
 }
 
