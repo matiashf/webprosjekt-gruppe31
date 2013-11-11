@@ -88,8 +88,43 @@ Funnel.prototype.next = function(event) {
     this.render();
 }
 
+var ImageOptimizer = function(data) {
+    // There are downscaled images available. Replace src-attributes
+    // with lower resolution images where possible.
+
+    this.data = data;
+    this.data.widths.sort();
+    this.optimize();
+    jQuery(window).resize(jQuery.proxy(this.optimize, this), 250);
+}
+
+ImageOptimizer.prototype.optimize = function() {
+    var widths = this.data.widths;
+
+    jQuery("img[src]").each(function() {
+        element = jQuery(this);
+        var width = element.width();
+        var src = element.data("imageoptimizer-src");
+        if ( src == undefined ) {
+            src = element.attr("src");
+            element.data("imageoptimizer-src", src);
+        }
+
+        for ( var i = 0; i < widths.length; i++ ) {
+            if ( width < widths[i] ) {
+                src = src.replace(/^(bilder)\/(.+\.jpg)$/, "$1/" + widths[i] + "px/$2")
+                break;
+            }
+        }
+
+        jQuery(element).attr("src", src);
+    });
+}
+
 jQuery(function() {
     jQuery(".funnel-template").each(function() {
         new Funnel(this);
-    })
-})
+    });
+
+    jQuery.getJSON("js/image-optimizer.json").done(function(data){ new ImageOptimizer(data);});
+});
