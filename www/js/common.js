@@ -111,7 +111,7 @@ ImageOptimizer.prototype.optimize = function() {
         }
 
         for ( var i = 0; i < widths.length; i++ ) {
-            if ( width < widths[i] ) {
+            if ( width <= widths[i] ) {
                 src = src.replace(/^(bilder)\/(.+\.jpg)$/, "$1/" + widths[i] + "px/$2")
                 break;
             }
