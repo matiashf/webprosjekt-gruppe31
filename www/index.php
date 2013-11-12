@@ -186,6 +186,24 @@ bottom, used for guiding liquid or powder into a small opening.» -->
       <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
     </section>
   </li>
+  <li>
+    <section class="activity">
+      <a href="vollyball.php">
+        <h3>Vollyball</h3>
+        <img src="bilder/vollyball.jpg" alt="">
+      </a>
+      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+    </section>
+  </li>
+  <li>
+    <section class="activity">
+      <a href="handball.php">
+        <h3>Håndball</h3>
+        <img src="bilder/handball.jpg" alt="">
+      </a>
+      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+    </section>
+  </li>
 </ul>
 </section>
 
