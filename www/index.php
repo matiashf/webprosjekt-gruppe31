@@ -213,8 +213,7 @@ bottom, used for guiding liquid or powder into a small opening.» -->
       <script type="text/funnel-properties">intense social indoors training</script>
     </section>
   </li>
-</section>
-<li>
+  <li>
     <section class="activity">
       <a href="yoga.php">
         <h3>Yoga</h3>
@@ -251,6 +250,7 @@ bottom, used for guiding liquid or powder into a small opening.» -->
     </section>
   </li>
   </ul>
+</section>
 
 <?php
 
