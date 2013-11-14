@@ -4,7 +4,7 @@ echo render_header(array("title" => "Hiphop"));
 ?>
 
 <h1>Inspirasjonsside: Hiphop</h1>
-
+<!--http://upload.wikimedia.org/wikipedia/commons/d/d7/Thai_Breakdancers.jpg-->
 <img src="bilder/breakdance-149761_640.jpg" alt="Breakdance">
 
 <p>Hiphop er en dansestil som kommer fra gaten som blir danset til hiphopmusikk. Dette inkluderer et bredt 

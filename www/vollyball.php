@@ -4,7 +4,7 @@ echo render_header(array("title" => "Vollyball"));
 ?>
 <h1> inspirasjonsside: Vollyball </h1>
 
-<!--http://upload.wikimedia.org/wikipedia/commons/d/d1/China_vs._Austria_in_Beach_Volleyball_-_Summer_Olympics_Beijing_2008.jpg-->
+<!--http://farm2.staticflickr.com/1162/534267751_0f8d89b2d4_o.jpg-->
 <img src="bilder/vollyball.jpg" alt="vollyball">
 
 <p>Vollyball er en ball idrett. Det hele går ut på å slå motstanderene dine. Man har et nett i mellom 2 lag, så er det om å gjøre å holde ballen i lufta og få
