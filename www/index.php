@@ -223,6 +223,15 @@ bottom, used for guiding liquid or powder into a small opening.» -->
       <script type="text/funnel-properties">intense social indoors training recreation</script>
     </section>
   </li>
+  <li>
+    <section class="activity">
+      <a href="turgaaing.php">
+        <h3>Turgåing</h3>
+        <img src="bilder/turgaaing.jpg" alt="">
+      </a>
+      <script type="text/funnel-properties">intense social indoors training recreation</script>
+    </section>
+  </li>
   </ul>
 
 <?php
