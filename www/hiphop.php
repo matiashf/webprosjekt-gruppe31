@@ -1,10 +1,7 @@
 <?php
 require_once "common.php";
-echo render_header(array("title" => "Basketball"));
+echo render_header(array("title" => "Hiphop"));
 ?>
-
-
-<h1>Inspirasjonsside: Basketball</h1>
 
 
 <h1>Inspirasjonsside: Hiphop</h1>
