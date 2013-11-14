@@ -19,26 +19,8 @@ Så er du en person som liker å komme deg ut av sofaen, men ikke vil presse deg
 <p>Studenter i Oslo som vil drive med kubb kan melde seg inn i <a
 href="https://www.facebook.com/pages/OSI-Kubb/220019578140292?fref=ts">OSI kubb</a>.</p>
 
+<iframe src="https://embed.spotify.com/?uri=spotify:user:spotify:playlist:4lEMhbF2A30haIcjRMGuws" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+
 <?php
 echo $footer;
 ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Bilde
-Hva er aktiviteten?
-Hvem egner den seg for?
-Hvordan begynne med aktiviteten?
