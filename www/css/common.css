@@ -58,11 +58,49 @@
     .forsiden .activities .activity img {
         max-height: 131.625px; /* 234px * 9 / 16 */
     }
+
+    .kostholdskarusellen ul {
+        padding-left: 20px;
+        list-style-type: square;
+    }
+
+    .kostholdskarusellen figure {
+        float: left;
+        width: 240px; /* 960px / 4 */
+        margin: 0px;
+        margin-right: 16px;
+    }
+
+    .kostholdskarusellen blockquote {
+        margin-left: 256px; /* 960px / 4 + 16px*/
+    }
+
+    .kostholdskarusellen article {
+        /* http://www.quirksmode.org/css/clearing.html */
+        overflow: hidden;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:960px)
 {
     /* Denne css-koden kjører hvis browservinduet er mindre enn 960 px; */
+
+    .kostholdskarusellen *:not(li) ul {
+        padding-left: 0px;
+        list-style-type: none;
+    }
+
+    .kostholdskarusellen *:not(li) li {
+        margin-top: 16px;
+    }
+
+    .kostholdskarusellen figure, .kostholdskarusellen blockquote {
+        box-sizing: border-box;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
 
 body
@@ -160,4 +198,39 @@ body
 
 .forsiden .activity img {
     max-width: 100%;
+}
+
+/* Blockquote styling inspirert av http://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ */
+
+.kostholdskarusellen blockquote:before {
+    content: open-quote;
+    color: #ccc;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+.kostholdskarusellen blockquote {
+    background-color: #f6f6f6;
+    border-left: 10px solid #cccccc;
+    quotes: "\201C""\201D""\2018""\2019";
+    margin-top: 16px;
+    padding: 0.5em 10px;
+}
+
+.kostholdskarusellen blockquote p:first-child {
+    display: inline;
+}
+
+.kostholdskarusellen figure > img {
+    width: 100%;
+}
+
+.kostholdskarusellen figure .attribution .cc-badge {
+    float: right;
+}
+
+.kostholdskarusellen figure .attribution {
+    font-size: 14px;
 }
