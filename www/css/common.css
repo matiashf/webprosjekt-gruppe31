@@ -70,10 +70,13 @@ body
     font-family:sans-serif;
 }
 
-.inspirasjonsside img
+.inspirasjonsside figure {
+    margin: 0px;
+}
+
+.inspirasjonsside > img, .inspirasjonsside figure > img
 {
     width:100%;
-    margin-right:5px;
 }
 
 /*  All  css som  begynner  med .funnel  (engelsk  for  trakt) er  til

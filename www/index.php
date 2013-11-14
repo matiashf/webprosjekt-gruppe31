@@ -107,6 +107,15 @@ bottom, used for guiding liquid or powder into a small opening.» -->
   </li>
   <li>
     <section class="activity">
+      <a href="kravmaga.php">
+        <h3>Krav Maga</h3>
+        <img src="bilder/kravmaga.jpg" alt="">
+      </a>
+      <script type="text/funnel-properties">intense social indoors training</script>
+    </section>
+  </li>
+  <li>
+    <section class="activity">
       <a href="sykling.php">
         <h3>Sykling</h3>
         <img src="bilder/sykling.jpg" alt="">
