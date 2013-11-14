@@ -1,9 +1,9 @@
 <?php
 require_once "common.php";
-echo render_header(array("title" => "Hiphop"));
+echo render_header(array("title" => "Basketball"));
 ?>
 
-<h1>Inspirasjonsside: Hiphop</h1>
+<h1>Inspirasjonsside: Basketball</h1>
 
 <img src="bilder/breakdance-149761_640.jpg" alt="Breakdance">
 
