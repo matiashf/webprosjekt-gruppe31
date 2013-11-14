@@ -30,6 +30,7 @@ function unwrap(wrappers) {
 var Funnel = function(template) {
     this.element = unwrap(template).filter("section.funnel");
     this.activity_map = this.compile();
+    this.easter_egg_counter = 0;
 
     this.element.find(".toggler .show").toggle(false);
     this.element.find(".more").addClass("disabled");
@@ -60,6 +61,26 @@ Funnel.prototype.compile = function() {
 
 Funnel.prototype.toggle = function(event) {
     this.element.find("form, .result, .toggler .show, .toggler .hide, .next").toggle();
+    this.easter_egg();
+}
+
+Funnel.prototype.easter_egg = function() {
+    this.easter_egg_counter++;
+
+    if (this.easter_egg_counter == 10) {
+        this.element.hide();
+        this.element.after("<img src=\"bilder/alfred.jpg\" class=\"easter-egg\" alt=\"alfred <3\">");
+        this.element.next().click({funnel: this}, function(event){
+            jQuery(this).prev().show();
+            jQuery(this).remove();
+            event.data.funnel.easter_egg_counter = 0;
+        })
+    }
+
+else if (this.easter_egg_counter == 11) {
+        this.element.children(".easter_egg").remove();
+        this.element.children().toggle(true);
+    }
 }
 
 Funnel.prototype.change = function(event) {
