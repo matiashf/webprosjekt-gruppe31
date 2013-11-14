@@ -28,9 +28,8 @@ function unwrap(wrappers) {
 }
 
 var Funnel = function(template) {
-    this.element = unwrap(template);
-
-    this.element.data("this", this); // For interactive debugging
+    this.element = unwrap(template).filter("section.funnel");
+    this.activity_map = this.compile();
 
     this.element.find(".toggler .show").toggle(false);
     this.element.find(".more").addClass("disabled");
@@ -38,8 +37,6 @@ var Funnel = function(template) {
     this.element.find(".toggler").click(jQuery.proxy(this.toggle, this));
     this.element.find("form").change(jQuery.proxy(this.change, this));
     this.element.find(".next").click(jQuery.proxy(this.next, this));
-
-    this.activity_map = this.compile();
 }
 
 Funnel.prototype.activities = function() {
