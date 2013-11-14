@@ -4,7 +4,7 @@ echo render_header(array("title" => "Basketball"));
 ?>
 
 <h1>Inspirasjonsside: Basketball</h1>
-<!--http://pixabay.com/en/basketball-court-game-sports-women-79599/-->
+<!--http://farm4.staticflickr.com/3147/2751923597_f7f7b779ac_o.jpg-->
 <img src="bilder/basketball.jpg" alt="Spiller basketball" >
 
 <p>Basketball er en lagsport som spilles mellom to lag. Målet med spillet er å score poeng ved å kaste ballen
