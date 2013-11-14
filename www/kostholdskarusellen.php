@@ -11,7 +11,7 @@ echo render_header(array("title" => "Kostholdskarusellen", "header_link" => "<a 
   <h3>Spis variert</h3>
 
   <figure>
-    <img src="http://farm9.staticflickr.com/8052/8077920518_6d999ebe68.jpg" alt="Et utvalg forskjellige matvarer">
+    <img src="bilder/variasjon.jpg" alt="Et utvalg forskjellige matvarer">
     <div class="attribution">
       Foto: <a href="http://www.flickr.com/photos/epsos/8077920518/">epSos.de</a>
       <a href="http://creativecommons.org/licenses/by/2.0/deed.en_US" class="cc-badge">
@@ -52,7 +52,7 @@ echo render_header(array("title" => "Kostholdskarusellen", "header_link" => "<a 
   <h3>Spis i forhold til aktivitetsnivå</h3>
 
   <figure>
-    <img src="http://farm4.staticflickr.com/3196/2352955695_54f267e349_b.jpg"
+    <img src="bilder/energibalanse.jpg"
          alt="En vekt fra vikingtiden">
     <div class="attribution">
       Foto: <a href="http://www.flickr.com/photos/arnybo/2352955695/">Arild Nybø</a>
@@ -90,7 +90,7 @@ echo render_header(array("title" => "Kostholdskarusellen", "header_link" => "<a 
   <h3>Spis frukt og grønnsaker</h3>
 
   <figure>
-    <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Marketvegetables.jpg/682px-Marketvegetables.jpg"
+    <img src="bilder/fem-om-dagen.jpg"
          alt="Varer utstilt på et grønnsaksmarked">
     <div class="attribution">
       Foto: <a href="http://en.wikipedia.org/wiki/File:Marketvegetables.jpg">Wikipedia</a>
@@ -143,7 +143,7 @@ echo render_header(array("title" => "Kostholdskarusellen", "header_link" => "<a 
   <h3>Spis grove kornprodukter hver dag</h3>
 
   <figure>
-    <img src="http://upload.wikimedia.org/wikipedia/commons/5/5c/Starchy-foods..jpg"
+    <img src="bilder/grove-kornprodukter.jpg"
          alt="Forskjellige kornprodukter">
     <div class="attribution">
       Foto: <a href="http://en.wikipedia.org/wiki/File:Starchy-foods..jpg">Wikipedia</a>
@@ -188,7 +188,7 @@ echo render_header(array("title" => "Kostholdskarusellen", "header_link" => "<a 
   <h3>Spis fisk</h3>
 
   <figure>
-    <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Fish_Food_Decoration.jpg/1265px-Fish_Food_Decoration.jpg"
+    <img src="bilder/fisk.jpg"
          alt="En fisk anrettet til å se ut som om den er under vann">
     <div class="attribution">
       Foto: <a href="http://commons.wikimedia.org/wiki/File:Fish_Food_Decoration.jpg">pdpics.com</a>
@@ -222,7 +222,7 @@ echo render_header(array("title" => "Kostholdskarusellen", "header_link" => "<a 
   <h3>Spis magert kjøtt</h3>
 
   <figure>
-    <img src="http://upload.wikimedia.org/wikipedia/commons/6/64/Venison_Steaks.jpg"
+    <img src="bilder/magert-kjott.jpg"
          alt="To stykker magert viltkjøtt">
     <div class="attribution">
       Foto: <a href="http://en.wikipedia.org/wiki/File:Venison_Steaks.jpg">FotoosVanRobin</a>
@@ -266,7 +266,7 @@ echo render_header(array("title" => "Kostholdskarusellen", "header_link" => "<a 
   <h3>Spis magre meieriprodukter</h3>
 
   <figure>
-    <img src="http://upload.wikimedia.org/wikipedia/commons/f/f2/Gamalost.jpg"
+    <img src="bilder/magre-meieriprodukter.jpg"
          alt="Gamalost og forskjellige andre oster">
     <div class="attribution">
       Foto: <a href="http://en.wikipedia.org/wiki/File:Gamalost.jpg">Jarvin</a>
@@ -300,7 +300,7 @@ echo render_header(array("title" => "Kostholdskarusellen", "header_link" => "<a 
   <h3>Spis sunt fett</h3>
 
   <figure>
-    <img src="http://farm4.staticflickr.com/3651/3543531750_1f4f583610_o.jpg"
+    <img src="bilder/fett.jpg"
          alt="Olivenolje som helles ut av en glassflaske">
     <div class="attribution">
       Foto: <a href="http://www.flickr.com/photos/foodista/3543531750/">Foodista</a>
@@ -328,7 +328,7 @@ echo render_header(array("title" => "Kostholdskarusellen", "header_link" => "<a 
   <h3>Spis lite salt</h3>
 
   <figure>
-    <img src="http://farm4.staticflickr.com/3468/3793288383_2201f904fb_b.jpg"
+    <img src="bilder/salt.jpg"
          alt="En saltbøsse">
     <div class="attribution">
       Foto: <a href="http://www.flickr.com/photos/11939863@N08/3793288383/in/photostream/">Dubravko Sorić</a>
@@ -366,7 +366,7 @@ echo render_header(array("title" => "Kostholdskarusellen", "header_link" => "<a 
   <h3>Spis lite sukker</h3>
 
   <figure>
-    <img src="http://farm3.staticflickr.com/2350/2325624946_0513764117_b.jpg"
+    <img src="bilder/sukker.jpg"
          alt="En dessert med cottage cheese, blåbær og banan">
     <div class="attribution">
       Foto: <a href="http://www.flickr.com/photos/46769540@N00/2325624946">Alex Indigo</a>
@@ -392,7 +392,7 @@ echo render_header(array("title" => "Kostholdskarusellen", "header_link" => "<a 
   <h3>Drikk vann</h3>
 
   <figure>
-    <img src="http://farm1.staticflickr.com/171/429388973_7582c4af4d_o.jpg"
+    <img src="bilder/vann.jpg"
          alt="Et vannglass som fylles fra springen">
     <div class="attribution">
       Foto: <a href="http://www.flickr.com/photos/10451396@N00/429388973/">Joost Nelissen</a>
@@ -419,7 +419,7 @@ echo render_header(array("title" => "Kostholdskarusellen", "header_link" => "<a 
   <h3>Hold vekten med aktivitet</h3>
 
   <figure>
-    <img src="http://farm5.staticflickr.com/4010/4396758165_317e60eacf_b.jpg"
+    <img src="bilder/aktivitet.jpg"
          alt="To personer som jogger om vinteren">
     <div class="attribution">
       Foto: <a href="http://www.flickr.com/photos/peiyuliu/4396758165/">Peiyu Liu</a>
