@@ -103,21 +103,20 @@ var ImageOptimizer = function(data) {
 
     this.data = data;
     this.data.widths.sort();
+
+    unwrap("script.optimized-image");
     this.optimize();
+
     jQuery(window).resize(_.debounce(jQuery.proxy(this.optimize, this), 250));
 }
 
 ImageOptimizer.prototype.optimize = function() {
     var widths = this.data.widths;
 
-    jQuery("img[src]").each(function() {
+    jQuery("img[data-optimized-image-src]").each(function() {
         element = jQuery(this);
         var width = element.width();
-        var src = element.data("imageoptimizer-src");
-        if ( src == undefined ) {
-            src = element.attr("src");
-            element.data("imageoptimizer-src", src);
-        }
+        var src = element.attr("data-optimized-image-src");
 
         for ( var i = 0; i < widths.length; i++ ) {
             if ( width <= widths[i] ) {
@@ -135,5 +134,7 @@ jQuery(function() {
         new Funnel(this);
     });
 
-    jQuery.getJSON("js/image-optimizer.json").done(function(data){ new ImageOptimizer(data);});
+    jQuery("#image-optimizer-json").each(function() {
+        new ImageOptimizer(jQuery.parseJSON($(this).html()));
+    });
 });

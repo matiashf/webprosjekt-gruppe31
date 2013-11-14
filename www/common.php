@@ -20,6 +20,7 @@ ob_start();
     <title>{ title } | Sunne Studenter</title>
   </head>
   <body class="{ body_class }">
+    <script type="text/json" id="image-optimizer-json"><?php readfile("js/image-optimizer.json"); ?></script>
     <header>
       <div id="logo">Sunne Studenter</div>
       <nav> 
@@ -68,6 +69,11 @@ function render_header($vars) {
        "/{\s*(\w+)\s*}/",
        function ($matches) { return $vars[$matches[1]]; },
        $header); */
+}
+
+function optimized_image($vars) {
+    extract($vars); // «pakker ut» $vars til nåværende scope
+    include "optimized_image.inc"; // include kjører filen i denne funksjonens scope
 }
 
 ob_end_clean();
