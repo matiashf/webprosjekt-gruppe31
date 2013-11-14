@@ -16,10 +16,19 @@ shuffle_array = function(remainder) {
     return shuffled;
 }
 
+function unwrap(wrappers) {
+    /* Unwrap script tags, i.e. replace them with their contents. */
+
+    return jQuery(wrappers).map(function() {
+        var wrapper = jQuery(this);
+        var element = jQuery(jQuery.parseHTML(wrapper.html()));
+        wrapper.replaceWith(element);
+        return this;
+    })
+}
+
 var Funnel = function(template) {
-    template = jQuery(template);
-    this.element = jQuery(jQuery.parseHTML(template.html()));
-    template.replaceWith(this.element);
+    this.element = unwrap(template);
 
     this.element.data("this", this); // For interactive debugging
 
