@@ -7,13 +7,15 @@ echo render_header(array("title" => "Pilates"));
 <!--http://upload.wikimedia.org/wikipedia/commons/9/91/Pilates_01.jpg-->
 <img src="bilder/pilates.jpg" alt="Pilates" >
 
-<p></p>
+<p>Pilates er en treningsform som legger hovedvekt på kjernemuskulatur. Øvelsene er rolige og kan minne litt om yoga.
+Også pilates er elsket av mange kjendiskvinner.</p>
 
-<p></p>
+<p>Et problem i dagens hektiske samfunn er at mange lever et veldig stillesittende liv med mange timer foran data og TV-skjerm,
+noe som kan føre til at vi får en slapp og dårlig kroppsholdning. Pilates trener musklene i hele kroppen og fokuserer særlig på kjernemuskulaturen vår i mage og rygg. 
+Det er god trening for å trene styrke, smidighet og bevegelighet og strammer opp kroppen. Treningsformen passer for alle mennesker uansett form og alder.
+</p>
 
-<p></p>
-
-<p></p>
+<p>Ble du interessert? Sjekk for eksempel her <a href="http://balancestudio.no/"> Balance Studio</a>.</p>
 
 <?php
 echo $footer;
