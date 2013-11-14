@@ -21,6 +21,8 @@ og det er selvsagt snø. Så er det bare å dra rett opp i nordmarka, spenne på
 
 <p>Studenter i Oslo som vil drive med langrenn, kan melde seg inn i: <a href="http://osilangrenn.com/">OSI langrenn</a>.</p>
 
+<iframe src="https://embed.spotify.com/?uri=spotify:user:1247270513:playlist:6dacxBXl4eyAuSHYcME2Vn" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+
 <?php
 echo $footer;
 ?>
