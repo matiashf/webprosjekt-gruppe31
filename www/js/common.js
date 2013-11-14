@@ -21,10 +21,10 @@ function unwrap(wrappers) {
 
     return jQuery(wrappers).map(function() {
         var wrapper = jQuery(this);
-        var element = jQuery(jQuery.parseHTML(wrapper.html()));
+        var element = jQuery.parseHTML(wrapper.html());
         wrapper.replaceWith(element);
-        return this;
-    })
+        return element;
+    });
 }
 
 var Funnel = function(template) {
