@@ -22,6 +22,8 @@ på jo mer man trener!</p>
 <p>Studenter i Oslo som vil drive med fotball kan melde seg inn i <a
 href="http://www.osifotball.no/">OSI fotball</a>.</p>
 
+<iframe src="https://embed.spotify.com/?uri=spotify:user:1217244495:playlist:5zxRl045tUkxIPExnln8yo" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+
 <?php
 echo $footer;
 ?>
