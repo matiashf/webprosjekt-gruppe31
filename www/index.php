@@ -66,7 +66,7 @@ bottom, used for guiding liquid or powder into a small opening.» -->
         <h3>Squash</h3>
         <img src="bilder/squash.jpg" alt="">
       </a>
-      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+      <script type="text/funnel-properties">intense social indoors training recreation</script>
     </section>
   </li>
   <li>
@@ -75,7 +75,7 @@ bottom, used for guiding liquid or powder into a small opening.» -->
         <h3>Løping</h3>
         <img src="bilder/loping.jpg" alt="">
       </a>
-      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+      <script type="text/funnel-properties">intense alone outdoors indoors training recreation</script>
     </section>
   </li>
   <li>
@@ -84,7 +84,7 @@ bottom, used for guiding liquid or powder into a small opening.» -->
         <h3>Fotball</h3>
         <img src="bilder/fotball.jpg" alt="">
       </a>
-      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+      <script type="text/funnel-properties">intense  social outdoors training recreation</script>
     </section>
   </li>
   <li>
@@ -93,7 +93,7 @@ bottom, used for guiding liquid or powder into a small opening.» -->
         <h3>Klatring</h3>
         <img src="bilder/klatring.jpg" alt="">
       </a>
-      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+      <script type="text/funnel-properties">intense relaxed social alone indoors training recreation</script>
     </section>
   </li>
   <li>
@@ -102,7 +102,7 @@ bottom, used for guiding liquid or powder into a small opening.» -->
         <h3>Salsa</h3>
         <img src="bilder/salsa.jpg" alt="">
       </a>
-      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+      <script type="text/funnel-properties">intense relaxed social indoors training recreation</script>
     </section>
   </li>
   <li>
@@ -111,7 +111,7 @@ bottom, used for guiding liquid or powder into a small opening.» -->
         <h3>Sykling</h3>
         <img src="bilder/sykling.jpg" alt="">
       </a>
-      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+      <script type="text/funnel-properties">intense alone outdoors indoors training recreation</script>
     </section>
   </li>
   <li>
@@ -120,7 +120,7 @@ bottom, used for guiding liquid or powder into a small opening.» -->
         <h3>Langrenn</h3>
         <img src="bilder/langrenn.jpg" alt="">
       </a>
-      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+      <script type="text/funnel-properties">intense alone outdoors training recreation</script>
     </section>
   </li>
   <li>
@@ -129,7 +129,7 @@ bottom, used for guiding liquid or powder into a small opening.» -->
         <h3>Svømming</h3>
         <img src="bilder/svomming.jpg" alt="">
       </a>
-      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+      <script type="text/funnel-properties">intense alone outdoors indoors training recreation</script>
     </section>
   </li>
   <li>
@@ -138,7 +138,7 @@ bottom, used for guiding liquid or powder into a small opening.» -->
         <h3>Badminton</h3>
         <img src="bilder/badminton.jpg" alt="">
       </a>
-      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+      <script type="text/funnel-properties">intense social indoors training recreation</script>
     </section>
   </li>
   <li>
@@ -147,7 +147,7 @@ bottom, used for guiding liquid or powder into a small opening.» -->
         <h3>Kubb</h3>
         <img src="bilder/kubb.jpg" alt="">
       </a>
-      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+      <script type="text/funnel-properties"> relaxed social  outdoors  recreation</script>
     </section>
   </li>
   <li>
@@ -156,7 +156,7 @@ bottom, used for guiding liquid or powder into a small opening.» -->
         <h3>Tennis</h3>
         <img src="bilder/tennis.jpg" alt="">
       </a>
-      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+      <script type="text/funnel-properties">intense social outdoors indoors training recreation</script>
     </section>
   </li>
   <li>
@@ -165,7 +165,7 @@ bottom, used for guiding liquid or powder into a small opening.» -->
         <h3>Ski og snowboard</h3>
         <img src="bilder/ski-og-snowboard.jpg" alt="">
       </a>
-      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+      <script type="text/funnel-properties">intense relaxed social outdoors training recreation</script>
     </section>
   </li>
   <li>
@@ -174,7 +174,7 @@ bottom, used for guiding liquid or powder into a small opening.» -->
         <h3>Hiphop</h3>
         <img src="bilder/hiphop.jpg" alt="">
       </a>
-      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+      <script type="text/funnel-properties">intense social indoors training recreation</script>
     </section>
   </li>
   <li>
@@ -183,7 +183,7 @@ bottom, used for guiding liquid or powder into a small opening.» -->
         <h3>Basketball</h3>
         <img src="bilder/basketball.jpg" alt="">
       </a>
-      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+      <script type="text/funnel-properties">intense social indoors training recreation</script>
     </section>
   </li>
   <li>
@@ -192,7 +192,7 @@ bottom, used for guiding liquid or powder into a small opening.» -->
         <h3>Vollyball</h3>
         <img src="bilder/vollyball.jpg" alt="">
       </a>
-      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+      <script type="text/funnel-properties">intense  social outdoors training recreation</script>
     </section>
   </li>
   <li>
@@ -201,7 +201,7 @@ bottom, used for guiding liquid or powder into a small opening.» -->
         <h3>Håndball</h3>
         <img src="bilder/handball.jpg" alt="">
       </a>
-      <script type="text/funnel-properties">intense relaxed social alone outdoors indoors training recreation</script>
+      <script type="text/funnel-properties">intense social indoors training recreation</script>
     </section>
   </li>
 </ul>
