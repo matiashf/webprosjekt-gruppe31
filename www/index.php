@@ -204,7 +204,6 @@ bottom, used for guiding liquid or powder into a small opening.» -->
       <script type="text/funnel-properties">intense social indoors training recreation</script>
     </section>
   </li>
-</ul>
 </section>
 <li>
     <section class="activity">
@@ -215,6 +214,7 @@ bottom, used for guiding liquid or powder into a small opening.» -->
       <script type="text/funnel-properties">intense social indoors training recreation</script>
     </section>
   </li>
+  </ul>
 
 <?php
 
