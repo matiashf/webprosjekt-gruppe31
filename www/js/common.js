@@ -101,6 +101,8 @@ var ImageOptimizer = function(data) {
     // There are downscaled images available. Replace src-attributes
     // with lower resolution images where possible.
 
+    if (data == null)
+        data = {widths: []}
     this.data = data;
     this.data.widths.sort();
 

@@ -20,7 +20,7 @@ ob_start();
     <title>{ title } | Sunne Studenter</title>
   </head>
   <body class="{ body_class }">
-    <script type="text/json" id="image-optimizer-json"><?php readfile("js/image-optimizer.json"); ?></script>
+    <script type="text/json" id="image-optimizer-json"><?php if (!readfile("js/image-optimizer.json")) echo "null"; ?></script>
     <header>
       <div id="logo">Sunne Studenter</div>
       <nav> 
