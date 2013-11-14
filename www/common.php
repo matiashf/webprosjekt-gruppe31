@@ -14,6 +14,7 @@ ob_start();
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="css/common.css">
+    <script type="text/javascript" src="external_code/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
     <title>{ title } | Sunne Studenter</title>
   </head>
@@ -24,6 +25,7 @@ ob_start();
         <div><a href="index.php"> Forsiden</a></div>
         <div>{ header_link }</nav></div>
     </header>
+    <main>
 <?php
 
 $header = ob_get_contents();
@@ -70,7 +72,7 @@ function render_header($vars) {
 ob_end_clean();
 ob_start();
 ?>
-
+    </main>
     <footer>
       <a href="#">del på facebook</a>
       <a href="#">del på twitter</a>

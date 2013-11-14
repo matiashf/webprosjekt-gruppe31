@@ -4,7 +4,7 @@ echo render_header(array("title" => "Klatring"));
 ?>
 <h1>Inspirasjonsside: Klatring</h1>
 
-<!--http://pixabay.com/no/klatring-sperringer-fargerike-farge-101524/-->
+<!--http://static.vg.no/vektklubb/images/article/69/691904_klatring.bredde.web.jpg-->
 <img src="bilder/klatring.jpg" alt="klatrevegg">
 
 <p>Klatring er en idrett for deg som har lyst til å utfordre deg seg på flere plan. 

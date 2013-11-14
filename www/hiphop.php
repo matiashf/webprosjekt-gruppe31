@@ -3,8 +3,13 @@ require_once "common.php";
 echo render_header(array("title" => "Basketball"));
 ?>
 
+<<<<<<< HEAD
 <h1>Inspirasjonsside: Basketball</h1>
 
+=======
+<h1>Inspirasjonsside: Hiphop</h1>
+<!--http://upload.wikimedia.org/wikipedia/commons/d/d7/Thai_Breakdancers.jpg-->
+>>>>>>> d64c09212070c7a5e9c5c64ee94295cd1af3c5be
 <img src="bilder/breakdance-149761_640.jpg" alt="Breakdance">
 
 <p>Hiphop er en dansestil som kommer fra gaten som blir danset til hiphopmusikk. Dette inkluderer et bredt 

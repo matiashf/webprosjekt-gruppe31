@@ -8,6 +8,8 @@ then
 fi
 
 cd ~webprosjekt-gruppe31/webprosjekt-gruppe31/
+make clean
 git pull
+make
 
 rsync -av --delete -e "ssh -T" www/ s193364@studssh.cs.hioa.no:www/webprosjekt-gruppe31/
