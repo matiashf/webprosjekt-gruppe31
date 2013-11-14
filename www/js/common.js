@@ -95,7 +95,7 @@ var ImageOptimizer = function(data) {
     this.data = data;
     this.data.widths.sort();
     this.optimize();
-    jQuery(window).resize(jQuery.proxy(this.optimize, this), 250);
+    jQuery(window).resize(_.debounce(jQuery.proxy(this.optimize, this), 250));
 }
 
 ImageOptimizer.prototype.optimize = function() {
