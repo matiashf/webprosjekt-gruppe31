@@ -32,6 +32,8 @@ og koordinasjon.
 nivåer, og nybegynnerkurset egner seg for de som aldri har danset før.
 </p>
 
+<iframe src="https://embed.spotify.com/?uri=spotify:user:dgsnure:playlist:04Yx3q5s7MLF2yXKDulyVS" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+
 <?php
 echo $footer;
 ?>
