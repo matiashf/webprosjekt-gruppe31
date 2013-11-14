@@ -28,7 +28,7 @@ define width_template
 $(1): $$(call width_targets,$(1))
 
 $(images_dir)/$(1)/%.jpg: $(images_dir)/%.jpg | $(images_dir)/$(1)
-	convert $$< -resize $(subst px,,$(1)) $$@
+	convert $$< -resize $(subst px,,$(1)) -quality 70 $$@
 
 $(images_dir)/$(1):
 	mkdir -p $$@
