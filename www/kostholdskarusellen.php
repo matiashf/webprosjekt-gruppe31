@@ -9,6 +9,17 @@ echo render_header(array("title" => "Kostholdskarusellen", "header_link" => "<a 
 
 <article id="variasjon">
   <h3>Spis variert</h3>
+
+  <figure>
+    <img src="http://farm9.staticflickr.com/8052/8077920518_6d999ebe68.jpg" alt="Et utvalg forskjellige matvarer">
+    <div class="attribution">
+      Foto: <a href="http://www.flickr.com/photos/epsos/8077920518/">epSos.de</a>
+      <a href="http://creativecommons.org/licenses/by/2.0/deed.en_US" class="cc-badge">
+        <img src="http://i.creativecommons.org/l/by/2.0/80x15.png" alt="Creative Commons Attribution 2.0">
+      </a>
+    </div>
+  </figure>
+
   <blockquote cite="http://helsedirektoratet.no/folkehelse/ernering/kostholdsrad/Sider/default.aspx">
 
     <p>Ha et variert kosthold med mye grønnsaker, frukt og
@@ -39,6 +50,18 @@ echo render_header(array("title" => "Kostholdskarusellen", "header_link" => "<a 
 
 <article id="energibalanse">
   <h3>Spis i forhold til aktivitetsnivå</h3>
+
+  <figure>
+    <img src="http://farm4.staticflickr.com/3196/2352955695_54f267e349_b.jpg"
+         alt="En vekt fra vikingtiden">
+    <div class="attribution">
+      Foto: <a href="http://www.flickr.com/photos/arnybo/2352955695/">Arild Nybø</a>
+      <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en" class="cc-badge">
+        <img src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" alt="Creative Commons Attribution-ShareAlike 3.0 Unported">
+      </a>
+    </div>
+  </figure>
+
   <blockquote cite="http://helsedirektoratet.no/folkehelse/ernering/kostholdsrad/Sider/default.aspx">
 
     <p>Ha en god balanse mellom hvor mye energi du får i deg gjennom mat
@@ -65,6 +88,19 @@ echo render_header(array("title" => "Kostholdskarusellen", "header_link" => "<a 
 
 <article id="fem-om-dagen">
   <h3>Spis frukt og grønnsaker</h3>
+
+  <figure>
+    <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Marketvegetables.jpg/682px-Marketvegetables.jpg"
+         alt="Varer utstilt på et grønnsaksmarked">
+    <div class="attribution">
+      Foto: <a href="http://en.wikipedia.org/wiki/File:Marketvegetables.jpg">Wikipedia</a>
+    </div>
+  </figure>
+
+  <figure>
+    <!--  -->
+  </figure>
+
   <blockquote cite="http://helsedirektoratet.no/folkehelse/ernering/kostholdsrad/Sider/default.aspx">
 
     <p>Spis minst fem porsjoner grønnsaker, frukt og bær hver dag. La
@@ -105,6 +141,18 @@ echo render_header(array("title" => "Kostholdskarusellen", "header_link" => "<a 
 
 <article id="grove-kornprodukter">
   <h3>Spis grove kornprodukter hver dag</h3>
+
+  <figure>
+    <img src="http://upload.wikimedia.org/wikipedia/commons/5/5c/Starchy-foods..jpg"
+         alt="Forskjellige kornprodukter">
+    <div class="attribution">
+      Foto: <a href="http://en.wikipedia.org/wiki/File:Starchy-foods..jpg">Wikipedia</a>
+      <a href="http://creativecommons.org/publicdomain/mark/1.0/" class="cc-badge">
+        <img src="http://i.creativecommons.org/p/mark/1.0/80x15.png" alt="Public Domain Mark 1.0">
+      </a>
+    </div>
+  </figure>
+
   <blockquote cite="http://helsedirektoratet.no/folkehelse/ernering/kostholdsrad/Sider/default.aspx">
 
     <p>Spis grove kornprodukter hver dag. For mange nordmenn er grovt brød
@@ -139,6 +187,17 @@ echo render_header(array("title" => "Kostholdskarusellen", "header_link" => "<a 
 <article id="fisk">
   <h3>Spis fisk</h3>
 
+  <figure>
+    <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Fish_Food_Decoration.jpg/1265px-Fish_Food_Decoration.jpg"
+         alt="En fisk anrettet til å se ut som om den er under vann">
+    <div class="attribution">
+      Foto: <a href="http://commons.wikimedia.org/wiki/File:Fish_Food_Decoration.jpg">pdpics.com</a>
+      <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en" class="cc-badge">
+        <img src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" alt="Creative Commons Attribution-ShareAlike 3.0 Unported">
+      </a>
+    </div>
+  </figure>
+
   <blockquote cite="http://helsedirektoratet.no/folkehelse/ernering/kostholdsrad/Sider/default.aspx">
     <p>Spis fisk til middag to til tre ganger i uken. Bruk også gjerne
     fisk som pålegg. Fisk er en fantastisk råvare som kan brukes til
@@ -161,6 +220,18 @@ echo render_header(array("title" => "Kostholdskarusellen", "header_link" => "<a 
 
 <article id="magert-kjott">
   <h3>Spis magert kjøtt</h3>
+
+  <figure>
+    <img src="http://upload.wikimedia.org/wikipedia/commons/6/64/Venison_Steaks.jpg"
+         alt="To stykker magert viltkjøtt">
+    <div class="attribution">
+      Foto: <a href="http://en.wikipedia.org/wiki/File:Venison_Steaks.jpg">FotoosVanRobin</a>
+      <a href="http://creativecommons.org/licenses/by-sa/2.0/deed.en" class="cc-badge">
+        <img src="http://i.creativecommons.org/l/by-sa/2.0/80x15.png" alt="Creative Commons Attribution-ShareAlike 2.0 Unported">
+      </a>
+    </div>
+  </figure>
+
   <blockquote cite="http://helsedirektoratet.no/folkehelse/ernering/kostholdsrad/Sider/default.aspx">
 
     <p>Velg magert kjøtt og magre kjøttprodukter. Begrens mengden bearbeidet kjøtt og rødt kjøtt.</p>
@@ -194,6 +265,17 @@ echo render_header(array("title" => "Kostholdskarusellen", "header_link" => "<a 
 <article id="magre-meieriprodukter">
   <h3>Spis magre meieriprodukter</h3>
 
+  <figure>
+    <img src="http://upload.wikimedia.org/wikipedia/commons/f/f2/Gamalost.jpg"
+         alt="Gamalost og forskjellige andre oster">
+    <div class="attribution">
+      Foto: <a href="http://en.wikipedia.org/wiki/File:Gamalost.jpg">Jarvin</a>
+      <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en" class="cc-badge">
+        <img src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" alt="Creative Commons Attribution-ShareAlike 3.0 Unported">
+      </a>
+    </div>
+  </figure>
+
   <blockquote cite="http://helsedirektoratet.no/folkehelse/ernering/kostholdsrad/Sider/default.aspx">
     <p>La magre meieriprodukter være en del av det daglige
     kostholdet. Melk og ost er en del av hverdagsmaten for mange. Det er
@@ -217,6 +299,17 @@ echo render_header(array("title" => "Kostholdskarusellen", "header_link" => "<a 
 <article id="fett">
   <h3>Spis sunt fett</h3>
 
+  <figure>
+    <img src="http://farm4.staticflickr.com/3651/3543531750_1f4f583610_o.jpg"
+         alt="Olivenolje som helles ut av en glassflaske">
+    <div class="attribution">
+      Foto: <a href="http://www.flickr.com/photos/foodista/3543531750/">Foodista</a>
+      <a href="http://creativecommons.org/licenses/by/2.0/deed.en" class="cc-badge">
+        <img src="http://i.creativecommons.org/l/by/2.0/80x15.png" alt="Creative Commons Attribution 2.0 Unported">
+      </a>
+    </div>
+  </figure>
+
   <blockquote cite="http://helsedirektoratet.no/folkehelse/ernering/kostholdsrad/Sider/default.aspx">
         <p>Velg matoljer, flytende margarin og myk margarin, fremfor hard margarin og smør.</p>
 
@@ -233,6 +326,17 @@ echo render_header(array("title" => "Kostholdskarusellen", "header_link" => "<a 
 
 <article id="salt">
   <h3>Spis lite salt</h3>
+
+  <figure>
+    <img src="http://farm4.staticflickr.com/3468/3793288383_2201f904fb_b.jpg"
+         alt="En saltbøsse">
+    <div class="attribution">
+      Foto: <a href="http://www.flickr.com/photos/11939863@N08/3793288383/in/photostream/">Dubravko Sorić</a>
+      <a href="http://creativecommons.org/licenses/by/2.0/deed.en" class="cc-badge">
+        <img src="http://i.creativecommons.org/l/by/2.0/80x15.png" alt="Creative Commons Attribution 2.0 Unported">
+      </a>
+    </div>
+  </figure>
 
   <blockquote cite="http://helsedirektoratet.no/folkehelse/ernering/kostholdsrad/Sider/default.aspx">
     <p>Velg matvarer med lite salt, og begrens bruken av salt i
@@ -261,6 +365,17 @@ echo render_header(array("title" => "Kostholdskarusellen", "header_link" => "<a 
 <article id="sukker">
   <h3>Spis lite sukker</h3>
 
+  <figure>
+    <img src="http://farm3.staticflickr.com/2350/2325624946_0513764117_b.jpg"
+         alt="En dessert med cottage cheese, blåbær og banan">
+    <div class="attribution">
+      Foto: <a href="http://www.flickr.com/photos/46769540@N00/2325624946">Alex Indigo</a>
+      <a href="http://creativecommons.org/licenses/by/2.0/deed.en" class="cc-badge">
+        <img src="http://i.creativecommons.org/l/by/2.0/80x15.png" alt="Creative Commons Attribution 2.0 Unported">
+      </a>
+    </div>
+  </figure>
+
   <blockquote cite="http://helsedirektoratet.no/folkehelse/ernering/kostholdsrad/Sider/default.aspx">
     <p>Unngå mat og drikke med mye sukker til hverdags.</p>
 
@@ -275,6 +390,17 @@ echo render_header(array("title" => "Kostholdskarusellen", "header_link" => "<a 
 
 <article id="vann">
   <h3>Drikk vann</h3>
+
+  <figure>
+    <img src="http://farm1.staticflickr.com/171/429388973_7582c4af4d_o.jpg"
+         alt="Et vannglass som fylles fra springen">
+    <div class="attribution">
+      Foto: <a href="http://www.flickr.com/photos/10451396@N00/429388973/">Joost Nelissen</a>
+      <a href="http://creativecommons.org/licenses/by-nc/2.0/deed.en" class="cc-badge">
+        <img src="http://i.creativecommons.org/l/by-nc/2.0/80x15.png" alt="Creative Commons Attribution-NonCommercial 2.0">
+      </a>
+    </div>
+  </figure>
 
   <blockquote cite="http://helsedirektoratet.no/folkehelse/ernering/kostholdsrad/Sider/default.aspx">
     <p>Velg vann som tørstedrikk.</p>
@@ -291,6 +417,17 @@ echo render_header(array("title" => "Kostholdskarusellen", "header_link" => "<a 
 
 <article id="aktivitet">
   <h3>Hold vekten med aktivitet</h3>
+
+  <figure>
+    <img src="http://farm5.staticflickr.com/4010/4396758165_317e60eacf_b.jpg"
+         alt="To personer som jogger om vinteren">
+    <div class="attribution">
+      Foto: <a href="http://www.flickr.com/photos/peiyuliu/4396758165/">Peiyu Liu</a>
+      <a href="http://creativecommons.org/licenses/by-nc/2.0/deed.en" class="cc-badge">
+        <img src="http://i.creativecommons.org/l/by-nc/2.0/80x15.png" alt="Creative Commons Attribution-NonCommercial 2.0">
+      </a>
+    </div>
+  </figure>
 
   <blockquote cite="http://helsedirektoratet.no/folkehelse/ernering/kostholdsrad/Sider/default.aspx">
     <p>Vær fysisk aktiv i minst 30 minutter hver dag.</p>
