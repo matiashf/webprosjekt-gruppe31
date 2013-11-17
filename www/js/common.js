@@ -4,7 +4,7 @@
 // team i india, og det kan jeg like så godt venne meg til
 // allerede. -Matias
 
-shuffle_array = function(remainder) {
+function shuffle_array(remainder) {
     var shuffled = new Array();
 
     while (remainder.length > 0) {
