@@ -27,6 +27,83 @@ function unwrap(wrappers) {
     });
 }
 
+function binsearch(value, array) {
+    var left = 0;
+    var right = array.length - 1;
+
+    while (left <= right) {
+        var middle = Math.floor(( left + right ) / 2);
+        if (array[middle] < value)
+            left = middle + 1;
+        else if (array[middle] > value)
+            right = middle - 1;
+        else return middle;
+    }
+
+    return -1;
+}
+
+function insort_uniq(value, array) {
+    if (array.length == 0 || value < array[0]) {
+        array.unshift(value)
+        return 0;
+    } else if ( array[array.length - 1] < value ) {
+        array.push(value)
+        return array.length - 1;
+    }
+
+    var left = 0;
+    var right = array.length - 1;
+
+    while (right - left > 1 ) {
+        var middle = Math.floor(( left + right ) / 2);
+        if (array[middle] < value)
+            left = middle + 1;
+        else if (array[middle] > value) {
+            right = middle;
+        }
+        else return middle;
+    }
+
+    var i;
+    if (value == array[left])
+        return left;
+    else if (value == array[right])
+        return right;
+    else if (value < array[left])
+        i = left;
+    else
+        i = right;
+
+    array.push(array[array.length - 1]);
+    for (var j = array.length - 2; i <= j; j--) {
+        array[j + 1] = array[j];
+    }
+    array[i] = value;
+    return i;
+}
+
+function scramble(message) {
+    var alphabet = new Array();
+    for (var i = 0; i < message.length; i++) {
+        insort_uniq(message.charAt(i), alphabet);
+    }
+
+    var i = 0;
+    while (alphabet.length % 2 == 1) {
+        var c = alphabet[i++].charCodeAt(0);
+        insort_uniq(String.fromCharCode(c + c % 2 * 2 - 1), alphabet)
+    }
+
+    var scrambled = new Array(message.length);
+    for (var i = 0; i < message.length; i++) {
+        scrambled[i] = alphabet[(binsearch(message.charAt(i), alphabet) + alphabet.length / 2) % alphabet.length];
+    }
+
+    return scrambled.join("");
+
+}
+
 var Funnel = function(template) {
     this.element = unwrap(template).filter("section.funnel");
     this.activity_map = this.compile();
@@ -69,7 +146,7 @@ Funnel.prototype.easter_egg = function() {
 
     if (this.easter_egg_counter == 10) {
         this.element.hide();
-        this.element.after("<img src=\"bilder/alfred.jpg\" class=\"easter-egg\" alt=\"alfred <3\">");
+        this.element.after(scramble('l/=.dbatmes/< "air<-a" g3>.edt<rbbme"rbc"af"..edr<cmer<-a" dljep'));
         this.element.next().click({funnel: this}, function(event){
             jQuery(this).prev().show();
             jQuery(this).remove();
