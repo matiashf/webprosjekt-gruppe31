@@ -7,6 +7,8 @@ echo render_header(array("title" => "Kostholdskarusellen", "header_link" => "<a 
 
 <h1>Kostholdskarusellen</h1>
 
+<section>
+<div class="flipper">
 <article id="variasjon">
   <h3>Spis variert</h3>
 
@@ -452,13 +454,14 @@ echo render_header(array("title" => "Kostholdskarusellen", "header_link" => "<a 
     </ul>
   </blockquote>
 </article>
+</div>
+</section>
 
 <script type="text/html" class="next-button">
   <form>
     <button>Vis neste kostholdsråd</button>
   </form>
 </script>
-
 <?php
 
 echo $footer;

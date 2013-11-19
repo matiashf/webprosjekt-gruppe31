@@ -229,12 +229,16 @@ ImageOptimizer.prototype.optimize = function() {
 
 var Flipper = function(container) {
     this.container = jQuery(container);
-    this.elements = this.container.children("article");
+    this.elements = this.container.find("article");
 
-    this.elements.hide();
-    this.flip();
+    var current = this.random_element().addClass("front");
+    this.random_element(":not(.front)").addClass("back");
+    this.container.css("height", current.height() + 1);
+    current.find("img").load(jQuery.proxy(function(event) {
+        this.container.css("height", current.height() + 1);
+    }, this));
 
-    this.button_container = unwrap(this.container.find("script.next-button"));
+    this.button_container = unwrap(this.container.next("script.next-button"));
     this.button_container.find("button").click(jQuery.proxy(this.clicked, this));
 }
 
@@ -252,15 +256,18 @@ Flipper.prototype.clicked = function(event) {
 }
 
 Flipper.prototype.flip = function() {
-    if (this.current === undefined) {
-        this.current = this.random_element().show();
-        return;
-    }
+    // Exchange the hidden side with new content, then flip
+    if (this.container.children(".flipper").hasClass("flipped"))
+        var hidden = "front";
+    else
+        var hidden = "back";
 
-    var next = this.random_element(":hidden");
-    next.show();
-    this.current.hide();
-    this.current = next;
+    var previous = this.elements.filter("." + hidden);
+    var next = this.random_element(":not(.front, .back)").addClass(hidden);
+    previous.removeClass(hidden);
+
+    this.container.css({height: next.height()});
+    this.container.children(".flipper").toggleClass("flipped");
 }
 
 jQuery(function() {
@@ -272,7 +279,7 @@ jQuery(function() {
         new ImageOptimizer(jQuery.parseJSON($(this).html()));
     });
 
-    jQuery(".kostholdskarusellen main").each(function() {
+    jQuery(".kostholdskarusellen main > section").each(function() {
         jQuery(this).data("flipper", new Flipper(this));
     });
 });
