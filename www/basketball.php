@@ -5,7 +5,7 @@ echo render_header(array("title" => "Basketball"));
 
 <h1>Inspirasjonsside: Basketball</h1>
 <!--http://farm4.staticflickr.com/3147/2751923597_f7f7b779ac_o.jpg-->
-<img src="bilder/basketball.jpg" alt="Spiller basketball" >
+<?php optimized_image(array("src" => "bilder/basketball.jpg", "alt" => "")); ?>
 
 <p>Basketball er en lagsport som spilles mellom to lag. Målet med spillet er å score poeng ved å kaste ballen
 i mostanderens kurv. Ballen kan spilles med hendene ved å kaste den sin sine lagspillere, drible den alene eller slå med uknyttet hånd til motstandere for 
