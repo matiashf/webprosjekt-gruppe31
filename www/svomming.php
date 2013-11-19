@@ -7,6 +7,13 @@ echo render_header(array("title" => "Svømming"));
 <!--http://pixabay.com/no/sv%C3%B8mmere-sv%C3%B8mming-rase-konkurranse-79592/ -->
 <img src="bilder/svomming.jpg" alt="Svømming">
 
+<blockquote lang="en">
+
+    <p>“Without self-discipline, success is impossible, period.”
+    <br>- Lou Holtz</p>
+
+ </blockquote>
+
 <p>Svømming er en aktivitet som så og si alle kan bedrive på forsjellige nivåer. 
 Personer som svømmer ute i sjøen om sommeren, og tar det som en avslappende dag på stranden eller på fjorden med familie og venner.
 Det er ikke bare denne typen svømming som finnes. Svømming er en av de beste treningsmetodene som finnes og du får brukt hele kroppen når du svømmer.

@@ -14,6 +14,14 @@ echo render_header(array("title" => "Salsa"));
   </div>
 </figure>
 
+ <blockquote lang="en">
+
+    <p>Let us read, and let us dance; these two amusements will never do any harm to the world.
+    <br>- Voltaire</p>
+
+ </blockquote>
+
+
 <p>
 Salsa er en pardans som finnes i forskjellige varianter. Det er et
 stort salsamiljø i Oslo, og det er en fin dans å lære hvis man liker å

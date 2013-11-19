@@ -6,6 +6,13 @@ echo render_header(array("title" => "Tennis"));
 <!--http://farm8.staticflickr.com/7264/7107960055_3567cf6a33_o.jpg-->
 <img src="bilder/tennis.jpg" alt="tennis">
 
+<blockquote lang="en">
+
+    <p>What you lack in talent can be made up with desire, hustle, and giving 110 percent all the time.
+    <br>- Don Zimmer</p>
+
+ </blockquote>
+
 <p>Tennis er en sport det er lett å lære seg. Har man ikke drevet med Tennis før er det ikke vanskelig å sette seg inn i denne idretten.
  Hele spillet tennis handler om å få tennisballen over nettet og inn på motstanderens banehalvdel. Den som klarer å spille ut sin motstander på dette får poenget.
 Tennis er en idrett som passer for deg som liker å konkurrere, og drive med en idrett som kun handler om deg selv og dine prestasjoner på banen.  </p>

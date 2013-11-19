@@ -7,6 +7,13 @@ echo render_header(array("title" => "Pilates"));
 <!--http://upload.wikimedia.org/wikipedia/commons/9/91/Pilates_01.jpg-->
 <img src="bilder/pilates.jpg" alt="Pilates" >
 
+<blockquote lang="en">
+
+    <p>Looking after my health today gives me a better hope for tomorrow.
+    <br>- Anne Wilson Schaef</p>
+
+ </blockquote>
+
 <p>Pilates er en treningsform som legger hovedvekt på kjernemuskulatur. Øvelsene er rolige og kan minne litt om yoga.
 Også pilates er elsket av mange kjendiskvinner.</p>
 

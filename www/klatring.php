@@ -7,6 +7,13 @@ echo render_header(array("title" => "Klatring"));
 <!--http://static.vg.no/vektklubb/images/article/69/691904_klatring.bredde.web.jpg-->
 <img src="bilder/klatring.jpg" alt="klatrevegg">
 
+ <blockquote lang="en">
+
+    <p>It is health that is real wealth and not pieces of gold and silver.
+    <br>- Mahatma Gandhi</p>
+
+ </blockquote>
+
 <p>Klatring er en idrett for deg som har lyst til å utfordre deg seg på flere plan. 
 	Her kommer du opp i høyden og får virkelig testet dine egne grenser høyde messig, men også med tanke på styrke og psyken du innehar i kroppen din. 
 	Klatring er en veldig fysisk idrett som gjør at du får trent veldig mange muskelgrupper og eksplosiviteten i kroppen din </p>

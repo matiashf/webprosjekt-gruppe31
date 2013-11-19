@@ -9,6 +9,14 @@ echo render_header(array("title" => "Squash"));
 
 <img src="bilder/squash.jpg" alt="Squash" >
 
+ <blockquote lang="en">
+
+    <p>Physical fitness is not only one of the most important keys to a healthy body, 
+    it is the basis of dynamic and creative intellectual activity.
+    <br>- John F. Kennedy</p>
+
+ </blockquote>
+
 <p>Squash er en fysisk krevende sport. Det handler om å skyte ballen mellom 2 streker. Den ene lang oppe på veggen og en langt nede. Ballen 
 kan sprette en gang i bakken, hvis ballen spretter mer en en gang i bakken får motstanderen poeng. Som sagt må du være sterk, og dette krever 
 også god kondisjon. </p>

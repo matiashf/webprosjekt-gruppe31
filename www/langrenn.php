@@ -7,6 +7,13 @@ echo render_header(array("title" => "Langrenn"));
 <!--http://pixabay.com/no/langrenn-vinteren-stien-113018/-->
 <img src="bilder/langrenn.jpg" alt="Langrenns spor" >
 
+<blockquote lang="en">
+
+    <p>The five S’s of sports training are: stamina, speed, strength, skill, and spirit; but the greatest of these is spirit.
+    <br>- Ken Doherty</p>
+
+ </blockquote>
+
 <p>Langrenn er en sport alle i Norge bør klare å forbinde seg med. Langrenn handler først og frems om å stå på ski,
 og som nordmenn er vi alle født med ski på beina. Langrenn egner seg for de fleste, men for en som ikke har stått på det før
 kan det være vanskelig å stå på i starten.</p>

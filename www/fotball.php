@@ -8,6 +8,14 @@ echo render_header(array("title" => "Fotball"));
 <!--http://pixabay.com/no/fotball-spillere-konkurranse-lag-83222/-->
 <img src="bilder/fotball.jpg" alt="Fotballspillere">
 
+ <blockquote lang="en">
+
+    <p>Success is no accident. It is hard work, perseverance, learning, studying, sacrifice 
+    <br>and most of all, love of what you are doing or learning to do.
+    <br>- Pelé</p>
+
+ </blockquote>
+
 <p>Fotball er en sport som kan egner seg for de som er glad i
 lagsport og sosialtsamvær med lagkamerater.  Sporten er en veldig
 enkel sport som ikke trenger mye læring for å kunne bedrive. Så og si

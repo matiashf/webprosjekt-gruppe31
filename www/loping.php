@@ -7,6 +7,13 @@ echo render_header(array("title" => "Løping"));
 <!--http://pixabay.com/no/kj%C3%B8rer-vann-utenfor-gj%C3%B8rme-81715/-->
 <img src="bilder/loping.jpg" alt="Løping i gjørme" >
 
+<blockquote lang="en">
+
+    <p>Win If You Can, Lose If You Must, But NEVER QUIT!”
+    <br>- Cameron Trammell</p>
+
+ </blockquote>
+
 <p>Løping og jogging er det mange som gjør til daglig. Dette er veldig god trening for hele kroppen. Løping er noe som egner seg for de som har god pykisk styrke.
 De som ikke har psykisk styrke, pleier ikke å presse seg selv godt nok for å få gode og possitve resultater. Løping er noe som passer for de som liker å trene alene,
 det er også supert hvis du ønsker en kort og intensiv trening. Hvordan begynne å løpe/jogge? Ta på treningstøy og joggesko, og gå ut å løp deg en tur!</p>

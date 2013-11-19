@@ -8,6 +8,15 @@ echo render_header(array("title" => "Hiphop"));
 <!--http://upload.wikimedia.org/wikipedia/commons/d/d7/Thai_Breakdancers.jpg-->
 <img src="bilder/hiphop.jpg" alt="Hiphop">
 
+
+ <blockquote lang="en">
+
+    <p>Becoming a good dancer is not just the learning of complicated moves and routines, it's a philosophy and a way of life. 
+    <br>Taking your art and skills to the next level, which is pure mastership, complete confidence within yourself.
+    <br>- Greg Campbellock Jr.</p>
+
+ </blockquote>
+
 <p>Hiphop er en dansestil som kommer fra gaten som blir danset til hiphopmusikk. Dette inkluderer et bredt 
 spekter av stilarter, blant annet breakdance, locking og popping. Hiphop er bra trening for hele kroppen, siden man under dansen
 beveger hele kroppen. Det handler om å utfordre seg selv og sin kropp hele veien. 

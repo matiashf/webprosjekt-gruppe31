@@ -6,6 +6,13 @@ echo render_header(array("title" => "Ski og snowboard"));
 <!--http://farm8.staticflickr.com/7187/6844779122_1b4184b473_o.jpg-->
 <img src="bilder/ski-og-snowboard.jpg" alt="ski og snowboard">
 
+<blockquote lang="en">
+
+    <p>Persistence can change failure into extraordinary achievement.
+    <br>- Marv Levy</p>
+
+ </blockquote>
+
 <p>Ski og snowboard som aktivitet er både en herlig frihetsfølelse ved å bare cruise ned bakkene, og nettopp det er det mange som har forelsket seg i. 
 Denne følelsen av bare å kunne kjenne friheten av å kjøre nedover bakkene og være i et med naturen er det mange som elsker. Men det er jo ikke bare dette som er mulighetene med ski og snowboard, man kan kjøre alpint ved å kjøre porter og trene på å være rasket ned en løype eller bare leke seg med hopp, rails og alt mulig annet bakkene har å tilby. </p>
 

@@ -7,6 +7,13 @@ echo render_header(array("title" => "Hockey"));
 <!--http://upload.wikimedia.org/wikipedia/commons/4/4b/Ice_Hockey_sharks_ducks.jpg-->
 <img src="bilder/hockey.jpg" alt="Ishockey" >
 
+<blockquote lang="en">
+
+    <p>There may be people that have more talent than you, but theres no excuse for anyone to work harder than you do.
+    <br>- Derek Jeter</p>
+
+ </blockquote>
+
 <p>Hockey er et samlebegrep for idretter som har til felles at spillerne forsøker å 
 føre en ball eller puck inn i motstanderens mål ved hjelp av en kølle. Det finnes i hovedsak to varianter
 for hockey som er ishockey (bildet) og landhockey.</p>

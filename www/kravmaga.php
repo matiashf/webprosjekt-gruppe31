@@ -14,6 +14,13 @@ echo render_header(array("title" => "Salsa"));
   </div>
 </figure>
 
+<blockquote lang="en">
+
+    <p>To uncover your true potential you must first find your own limits and then you have to have the courage to blow past them.
+    <br>- Picabo Street</p>
+    
+ </blockquote>
+
 <p>
 Krav Maga er hebraisk for «nærkamp». Det er en selvforsvarsgren
 som har elementer fra kampsport, men der utøvere ikke

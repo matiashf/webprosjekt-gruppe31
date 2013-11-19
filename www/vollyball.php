@@ -9,6 +9,13 @@ echo render_header(array("title" => "Vollyball"));
 
 <?php optimized_image(array("src" => "bilder/vollyball.jpg", "alt" => "")); ?>
 
+<blockquote lang="en">
+
+    <p>Fitness needs to be perceived as fun and games or we subconsciously avoid it.
+    <br>- Alan Thicke</p>
+
+ </blockquote>
+
 <p>Vollyball er en ball idrett. Det hele går ut på å slå motstanderene dine. Man har et nett i mellom 2 lag, så er det om å gjøre å holde ballen i lufta og få
  den over på motstanderen sin side. Hvis ballen går i bakken på egen side innenfor banen så får motstanderen poeng. Første man til 21 poeng vinner, men man må vinne 
  med to poeng.Vollyball er en sport som man kan spille ute og inne. De fleste fortrekker ute i sand hvis været tillater det.</p>

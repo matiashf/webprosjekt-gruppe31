@@ -7,6 +7,14 @@ echo render_header(array("title" => "Yoga"));
 <!--http://commons.wikimedia.org/wiki/File:Yoga_at_a_Gym.JPG/-->
 <img src="bilder/yoga.jpg" alt="Yogaklasse" >
 
+ <blockquote lang="en">
+
+    <p>Take care of your body. It's the only place you have to live.
+    <br>- Jim Rohn</p>
+
+ </blockquote>
+
+
 <p>Yoga er en treningsform som fokuserer på både psykisk og fysisk sunnhet. 
 Det finnes ulike varianter av yoga, og i dag er yoga elsket og praktisert av mange, derav også mange kjendiser. 
 Yoga består av ulike avspenningsteknikker der man også fokuserer på å puste kontrollert. 

@@ -7,6 +7,13 @@ echo render_header(array("title" => "Styrketrening"));
 <!--http://www.flickr.com/photos/damndirty/3243399273/-->
 <img src="bilder/styrketrening.jpg" alt="Vektløfting" >
 
+<blockquote lang="en">
+
+    <p>Bodybuilding is much like any other sport. To be successful, you must dedicate yourself 100% to your training, diet and mental approach.
+    <br>- Arnold Schwarzenegger</p>
+
+ </blockquote>
+
 <p>Styrketrening er trening med mål å øke muskelmassen og få en sterkere og mer markert kropp.</p>
 
 <p>Styrketrening egner seg for alle som vil bli sterkere. Men folk som ikke er så kjent med trening

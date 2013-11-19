@@ -7,6 +7,13 @@ echo render_header(array("title" => "Håndball"));
 <!--hhttp://upload.wikimedia.org/wikipedia/commons/a/a6/Nikola_Karabatic_08.jpg-->
 <img src="bilder/handball.jpg" alt="håndball">
 
+<blockquote lang="en">
+
+    <p>Victory is in having done your best. If you've done your best, you've won.
+    <br>- Bill Bowerman</p>
+
+ </blockquote>
+
 <p>Håndball er en lag idrett, dette er en sport som man spiller innendørs. Håndball er en ballsport, 
 målet er å score på motstanderens sitt mål, og unngå baklengs mål. Den som scorer mest mål har vunnet kampen. </p>
 
