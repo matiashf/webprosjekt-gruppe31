@@ -7,6 +7,14 @@ echo render_header(array("title" => "kubb"));
 <!-- http://pixabay.com/no/park-skog-treet-natur-landskap-191603/-->
 <img src="bilder/kubb.jpg" alt="kubb">
 
+<blockquote lang="en">
+
+    <p>You have to learn the rules of the game. And then you have to play better than anyone else.
+    <br>- Albert Einstein</p>
+
+ </blockquote>
+
+
 <p>Kubb er i utgangspunktet den parkaktiviteten som er størst voksende og det er fler og fler som begynner å spile dette spillet. 
 Kubb er en aktivitet for deg som liker å være veldig sosial og ha konkurranse innstinkt. 
 Her deles det inn i to lag som skal konkurrere om å få ned alle kubbene til det andre laget, når dette er gjort handler det om å få ned "kongen" som er plassert midt i spillet.
