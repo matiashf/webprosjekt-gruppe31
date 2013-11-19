@@ -4,7 +4,7 @@ echo render_header(array("title" => "Cricket"));
 ?>
 
 <h1>Inspirasjonsside: Cricket</h1>
-<!--http://en.wikipedia.org/wiki/File:Pollock_to_Hussey.jpg/-->
+<!--http://farm5.staticflickr.com/4125/5107461261_a0123c3367_o.jpg-->
 <img src="bilder/cricket.jpg" alt="Cricket" >
 
 <p>Cricket er en lagsport og spilles med cricketball og balltre på gressbane. 
