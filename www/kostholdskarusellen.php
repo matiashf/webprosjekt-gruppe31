@@ -452,6 +452,12 @@ echo render_header(array("title" => "Kostholdskarusellen", "header_link" => "<a 
   </blockquote>
 </article>
 
+<script type="text/html" class="next-button">
+  <form>
+    <button>Vis neste kostholdsråd</button>
+  </form>
+</script>
+
 <?php
 
 echo $footer;

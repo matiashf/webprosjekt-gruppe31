@@ -234,3 +234,12 @@ body
 .kostholdskarusellen figure .attribution {
     font-size: 14px;
 }
+
+.kostholdskarusellen form {
+    width: 100%;
+    text-align: center;
+}
+
+.kostholdskarusellen form button {
+    font-size: 24px;
+}

@@ -226,6 +226,43 @@ ImageOptimizer.prototype.optimize = function() {
     });
 }
 
+
+var Flipper = function(container) {
+    this.container = jQuery(container);
+    this.elements = this.container.children("article");
+
+    this.elements.hide();
+    this.flip();
+
+    this.button_container = unwrap(this.container.find("script.next-button"));
+    this.button_container.find("button").click(jQuery.proxy(this.flip, this));
+}
+
+Flipper.prototype.random_element = function(selector) {
+    if (selector !== undefined)
+        var elements = this.elements.filter(selector);
+    else
+        var elements = this.elements;
+    return elements.eq(Math.floor(Math.random() * elements.length));
+}
+
+Flipper.prototype.clicked = function(event) {
+    event.preventDefault(); // Prevents form submission (and thus page reload)
+    this.flip();
+}
+
+Flipper.prototype.flip = function() {
+    if (this.current === undefined) {
+        this.current = this.random_element().show();
+        return;
+    }
+
+    var next = this.random_element(":hidden");
+    next.show();
+    this.current.hide();
+    this.current = next;
+}
+
 jQuery(function() {
     jQuery(".funnel-template").each(function() {
         new Funnel(this);
@@ -233,5 +270,9 @@ jQuery(function() {
 
     jQuery("#image-optimizer-json").each(function() {
         new ImageOptimizer(jQuery.parseJSON($(this).html()));
+    });
+
+    jQuery(".kostholdskarusellen main").each(function() {
+        jQuery(this).data("flipper", new Flipper(this));
     });
 });
