@@ -81,8 +81,10 @@ ob_start();
 ?>
     </main>
     <footer>
-      <a href="#">del på facebook</a>
-      <a href="#">del på twitter</a>
+      <a href="http://twitter.com/share? text=An%20Awesome%20link$url=
+      http://student.cs.hioa.no/~s193364/webprosjekt-gruppe31/index.php">Del på Twitter</a>
+      <a href="http://www.facebook.com/sharer.php?u=
+      http://student.cs.hioa.no/~s193364/webprosjekt-gruppe31/index.php">Del på Facebook</a>
     </footer>
   </body>
 </html>
