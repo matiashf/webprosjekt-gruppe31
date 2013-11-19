@@ -2,10 +2,12 @@
 require_once "common.php";
 echo render_header(array("title" => "Vollyball"));
 ?>
+
 <h1> inspirasjonsside: Vollyball </h1>
 
 <!--http://farm2.staticflickr.com/1162/534267751_0f8d89b2d4_o.jpg-->
-<img <?php optimized_image(array("src" => "bilder/vollyball.jpg", "alt" => "")); ?> >
+
+<?php optimized_image(array("src" => "bilder/vollyball.jpg", "alt" => "")); ?>
 
 <p>Vollyball er en ball idrett. Det hele går ut på å slå motstanderene dine. Man har et nett i mellom 2 lag, så er det om å gjøre å holde ballen i lufta og få
  den over på motstanderen sin side. Hvis ballen går i bakken på egen side innenfor banen så får motstanderen poeng. Første man til 21 poeng vinner, men man må vinne 
