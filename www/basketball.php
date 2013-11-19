@@ -14,7 +14,7 @@ echo render_header(array("title" => "Basketball"));
     I've failed over and over and over again in my life. And that is why I succeed.
     - Michael Jordan</p>
 
-  </blockquote>
+ </blockquote>
 
 <p>Basketball er en lagsport som spilles mellom to lag. Målet med spillet er å score poeng ved å kaste ballen
 i mostanderens kurv. Ballen kan spilles med hendene ved å kaste den sin sine lagspillere, drible den alene eller slå med uknyttet hånd til motstandere for 
