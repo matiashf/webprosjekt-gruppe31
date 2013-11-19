@@ -235,7 +235,7 @@ var Flipper = function(container) {
     this.flip();
 
     this.button_container = unwrap(this.container.find("script.next-button"));
-    this.button_container.find("button").click(jQuery.proxy(this.flip, this));
+    this.button_container.find("button").click(jQuery.proxy(this.clicked, this));
 }
 
 Flipper.prototype.random_element = function(selector) {
