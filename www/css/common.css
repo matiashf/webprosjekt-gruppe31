@@ -202,6 +202,29 @@ body
 
 /* Blockquote styling inspirert av http://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ */
 
+.inspirasjonsside blockquote:before {
+    content: open-quote;
+    color: #ccc;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+.inspirasjonsside blockquote {
+    background-color: #f6f6f6;
+    border-left: 10px solid #cccccc;
+    quotes: "\201C""\201D""\2018""\2019";
+    margin-top: 16px;
+    padding: 0.5em 10px;
+    margin-right: 0px;
+}
+
+.inspirasjonsside blockquote p {
+    display: inline;
+}
+    
+
 .kostholdskarusellen blockquote:before {
     content: open-quote;
     color: #ccc;
