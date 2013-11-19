@@ -245,6 +245,18 @@ body
     font-size: 24px;
 }
 
+/* For animasjon av kostholdskarusellen tok jeg utgangspunkt i denne
+   artikkelen: http://24ways.org/2010/intro-to-css-3d-transforms/
+
+   Jeg forsøkte først å bare bruke deler, men møtte problemer med at
+   baksiden av flippede elementer ble vist i tide og utide. Til slutt
+   la jeg meg tett opp til implementajsonen i artikkelen (spesielt med
+   tanke på hvordan wrapper-elementer er brukt), og fikk det til å
+   fungere.
+
+   -Matias
+*/
+
 .kostholdskarusellen main section {
     position: relative;
     width: 100%;
