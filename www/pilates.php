@@ -5,7 +5,7 @@ echo render_header(array("title" => "Pilates"));
 
 <h1>Inspirasjonsside: Pilates</h1>
 <!--http://upload.wikimedia.org/wikipedia/commons/9/91/Pilates_01.jpg-->
-<img src="bilder/pilates.jpg" alt="Pilates" >
+<?php optimized_image(array("src" => "bilder/pilates.jpg", "alt=pilates" => "")); ?>
 
 <blockquote lang="en">
 
