@@ -7,7 +7,7 @@ echo render_header(array("title" => "Squash"));
 
 <!--http://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Squash_court.JPG/591px-Squash_court.JPG-->
 
-<img src="bilder/squash.jpg" alt="Squash" >
+<?php optimized_image(array("src" => "bilder/squash.jpg", "alt=squash" => "")); ?>
 
  <blockquote lang="en">
 
