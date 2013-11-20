@@ -5,7 +5,7 @@ echo render_header(array("title" => "Svømming"));
 <h1>Inspirasjonsside: Svømming</h1>
 
 <!--http://pixabay.com/no/sv%C3%B8mmere-sv%C3%B8mming-rase-konkurranse-79592/ -->
-<?php optimized_image(array("src" => "bilder/svomming.jpg", "alt=svømming" => "")); ?>
+<?php optimized_image(array("src" => "bilder/svomming.jpg", "alt" => "")); ?>
 
 <blockquote lang="en">
 
