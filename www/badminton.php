@@ -6,7 +6,7 @@ echo render_header(array("title" => "Badminton"));
 
 <h1>Inspirasjonsside: Badminton </h1>
 
-<?php optimized_image(array("src" => "bilder/badminton.jpg", "alt" => "")); ?>
+<?php optimized_image(array("src" => "bilder/badminton.jpg", "alt=badminton" => "")); ?>
 
 <blockquote lang="en">
 
