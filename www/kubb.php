@@ -5,7 +5,7 @@ echo render_header(array("title" => "kubb"));
 <h1>Inspirasjonsside: Kubb</h1>
 
 <!-- http://pixabay.com/no/park-skog-treet-natur-landskap-191603/-->
-<img src="bilder/kubb.jpg" alt="kubb">
+<?php optimized_image(array("src" => "bilder/kubb.jpg", "alt=kubb" => "")); ?>
 
 <blockquote lang="en">
 
