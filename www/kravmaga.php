@@ -5,7 +5,8 @@ echo render_header(array("title" => "Salsa"));
 
 <h1>Inspirasjonsside: Krav Maga</h1>
 <figure>
-  <img src="bilder/kravmaga.jpg" alt="Krav Maga-utøvere som trener på spark">
+<?php optimized_image(array("src" => "bilder/kravmaga.jpg", "alt=Krav Maga-utøvere som trener på spark" => "")); ?>
+
   <div class="attribution">
     <a href="http://www.flickr.com/photos/maxim303/6091619174/">Bilde tatt av Maxim B. på flickr</a>
     <a href="http://creativecommons.org/licenses/by-sa/2.0/deed.en_US">
