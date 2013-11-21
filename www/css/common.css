@@ -3,12 +3,11 @@
 
 {
     /* Denne css-koden gjelder bare når browservinduet er bredere enn 960 px;*/
-    body
+    main, header > *, footer .wrapper
     {
         margin-right: auto;
         margin-left: auto;
         width: 960px;
-
     }
 
     .funnel form, .funnel .result, .funnel .more {
@@ -101,12 +100,19 @@
         margin-left: 0px;
         margin-right: 0px;
     }
+
+    header, main, footer {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
 }
 
 body
 {
     font-family:sans-serif;
+    margin: 0px;
 }
+
 
 .inspirasjonsside figure {
     margin: 0px;
@@ -344,10 +350,6 @@ body
     display: none;
 }
 
-footer {
-    vertical-align: middle;
-}
-
 footer .share-to-facebook {
     margin-right:10px;
     margin-top: 1px;
@@ -355,4 +357,45 @@ footer .share-to-facebook {
 
 footer .share-to-twitter, footer .share-to-facebook {
     float: right;
+}
+
+#logo {
+    font-size: 36px;
+}
+
+#logo:before {
+    content: "❤";
+    color: #EE2F24;
+}
+
+#logo .tagline {
+    font-size: 16px;
+}
+
+header, footer {
+    background-color: #E5F0B2;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+header {
+    margin-bottom: 16px;
+}
+
+footer {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-top: 16px;
+}
+
+header nav > * {
+    display: inline-block;
+}
+
+header nav > *:before {
+    content: " | "
+}
+
+header nav > *:first-child:before {
+    content: ""
 }

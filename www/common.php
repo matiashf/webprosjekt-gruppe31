@@ -33,10 +33,16 @@ ob_start();
 
     <script type="text/json" id="image-optimizer-json"><?php if (!readfile("js/image-optimizer.json")) echo "null"; ?></script>
     <header>
-      <div id="logo">Sunne Studenter</div>
-      <nav> 
-        <div><a href="index.php"> Forsiden</a></div>
-        <div>{ header_link }</nav></div>
+      <div class="wrapper">
+        <div id="logo">
+          Sunne Studenter
+          <span class="tagline">for en sunn fremtid</span>
+        </div>
+        <nav>
+          <div><a href="index.php"> Forsiden</a></div>
+          <div>{ header_link }</div>
+        </nav>
+      </div>
     </header>
     <main>
 <?php
@@ -92,6 +98,11 @@ ob_start();
 ?>
     </main>
     <footer>
+      <div class="wrapper">
+      <a href="http://www.w3.org/html/logo/">
+        <img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-graphics-semantics.png" width="197" height="64" alt="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, and Semantics" title="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, and Semantics">
+      </a>
+
       <!-- https://about.twitter.com/resources/buttons#tweet -->
       <div class="share-to-twitter">
         <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
@@ -101,6 +112,7 @@ ob_start();
       <!-- https://developers.facebook.com/docs/plugins/share-button/ -->
       <div class="share-to-facebook">
         <div class="fb-share-button" data-type="button_count"></div>
+      </div>
       </div>
     </footer>
   </body>
