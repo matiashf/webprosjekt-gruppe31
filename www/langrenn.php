@@ -16,15 +16,15 @@ echo render_header(array("title" => "Langrenn"));
 
 <p>Langrenn er en sport alle i Norge bør klare å forbinde seg med. Langrenn handler først og frems om å stå på ski,
 og som nordmenn er vi alle født med ski på beina. Langrenn egner seg for de fleste, men for en som ikke har stått på det før
-kan det være vanskelig å stå på i starten.</p>
+kan det oppleves vanskelig i starten.</p>
 
-<p>Det er to typer å gå langrenn på. Den ene er klassisk langrenn og den andre er skøyting. Dette er helt forksjellige teknikker
-og for nybgynnere kan klassisk være lettest. Langrenn er først og fremst en vintersport, det er mulig å på langrenn om sommeren, 
-men da heter det rulleski.</p>
+<p>Det er i hovedsak to typer langrenn. Den ene er klassisk langrenn og den andre er skøyting. Dette er helt forksjellige teknikker
+og for nybgynnere kan klassisk være lettest. Langrenn er først og fremst en vintersport. 
+Det er mulig å gå på langrenn om sommeren, men da heter det rulleski.</p>
 
-<p>Musklene som står i fokus i langrenn er: Armer, Bryst, mage og beinene. Så dette er en super sport å starte med, med tanke på trening.
-For å starte med langrenn så må du ha langrennsski, langrenssko og staver. Smøring til skiene er også anbefalt. Så kommer den viktigste ingreddiensen
-og det er selvsagt snø. Så er det bare å dra rett opp i nordmarka, spenne på seg skiene og ta en tur.</p>
+<p>Musklene som står i fokus i langrenn er: Armer, Bryst, mage og bein. Så dette er en super sport å starte med med tanke på trening.
+For å starte med langrenn så må du ha langrennsski, langrenssko og staver. Smøring til skiene er også anbefalt. Så kommer den viktigste ingrediensen
+og det er selvsagt snø. Så er det bare å dra til marka, spenne på seg skiene og ta seg en tur.</p>
 
 <p>Studenter i Oslo som vil drive med langrenn, kan melde seg inn i: <a href="http://osilangrenn.com/">OSI langrenn</a>.</p>
 

@@ -191,6 +191,10 @@ body
     visibility: hidden;
 }
 
+.funnel .toggler, .funnel label, .funnel .next { 
+	cursor: pointer;  
+}
+
 .forsiden .activities ul {
     padding: 0px;
 }
@@ -204,6 +208,11 @@ body
 
 .forsiden .activity img {
     max-width: 100%;
+}
+
+.forsiden a, .forsiden a:visited, header a, header a:visited {
+	text-decoration: none;
+	color: inherit;
 }
 
 /* Blockquote styling inspirert av http://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ */

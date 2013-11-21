@@ -5,7 +5,6 @@ echo render_header(array("title" => "Klatring"));
 <h1>Inspirasjonsside: Klatring</h1>
 
 <!--http://static.vg.no/vektklubb/images/article/69/691904_klatring.bredde.web.jpg-->
-<img src="bilder/klatring.jpg" alt="klatrevegg">
 <?php optimized_image(array("src" => "bilder/klatring.jpg", "alt" => "Klatrevegg")); ?>
 
  <blockquote lang="en">
