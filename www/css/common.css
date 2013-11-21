@@ -210,6 +210,11 @@ body
     max-width: 100%;
 }
 
+.forsiden a, .forsiden a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
 /* Blockquote styling inspirert av http://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ */
 
 .inspirasjonsside blockquote:before {
