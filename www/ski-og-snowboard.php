@@ -4,7 +4,7 @@ echo render_header(array("title" => "Ski og snowboard"));
 ?>
 <h1> Inspirasjonsside: Ski og snowboard </h1>
 <!--http://farm8.staticflickr.com/7187/6844779122_1b4184b473_o.jpg-->
-<?php optimized_image(array("src" => "bilder/ski-og-snowboard.jpg", "alt" => "")); ?>
+<?php optimized_image(array("src" => "bilder/ski-og-snowboard.jpg", "alt" => "En som hopper på snowboard")); ?>
 
 
 <blockquote lang="en">

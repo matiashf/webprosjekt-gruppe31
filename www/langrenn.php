@@ -5,7 +5,7 @@ echo render_header(array("title" => "Langrenn"));
 
 <h1>Inspirasjonsside: Langrenn</h1>
 <!--http://pixabay.com/no/langrenn-vinteren-stien-113018/-->
-<img src="bilder/langrenn.jpg" alt="Langrenns spor" >
+<?php optimized_image(array("src" => "bilder/langrenn.jpg", "alt" => "Langrenns spor")); ?>
 
 <blockquote lang="en">
 

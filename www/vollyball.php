@@ -7,7 +7,7 @@ echo render_header(array("title" => "Vollyball"));
 
 <!--http://farm2.staticflickr.com/1162/534267751_0f8d89b2d4_o.jpg-->
 
-<?php optimized_image(array("src" => "bilder/vollyball.jpg", "alt" => "")); ?>
+<?php optimized_image(array("src" => "bilder/vollyball.jpg", "alt" => "Vollyball ute i sanden")); ?>
 
 <blockquote lang="en">
 

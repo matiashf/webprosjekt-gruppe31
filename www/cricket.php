@@ -5,7 +5,7 @@ echo render_header(array("title" => "Cricket"));
 
 <h1>Inspirasjonsside: Cricket</h1>
 <!--http://farm5.staticflickr.com/4125/5107461261_a0123c3367_o.jpg-->
-<img src="bilder/cricket.jpg" alt="Cricket" >
+<?php optimized_image(array("src" => "bilder/cricket.jpg", "alt" => "Cricket")); ?>
 
 <blockquote lang="en">
 

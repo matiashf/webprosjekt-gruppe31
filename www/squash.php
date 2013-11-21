@@ -7,7 +7,7 @@ echo render_header(array("title" => "Squash"));
 
 <!--http://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Squash_court.JPG/591px-Squash_court.JPG-->
 
-<?php optimized_image(array("src" => "bilder/squash.jpg", "alt" => "")); ?>
+<?php optimized_image(array("src" => "bilder/squash.jpg", "alt" => "To stykker som spiller squash")); ?>
 
  <blockquote lang="en">
 
