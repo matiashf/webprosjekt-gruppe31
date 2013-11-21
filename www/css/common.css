@@ -191,6 +191,10 @@ body
     visibility: hidden;
 }
 
+.funnel .toggler, .funnel label, .funnel .next { 
+	cursor: pointer;  
+}
+
 .forsiden .activities ul {
     padding: 0px;
 }
