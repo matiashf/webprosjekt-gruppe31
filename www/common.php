@@ -100,9 +100,13 @@ ob_start();
 
       <!-- https://developers.facebook.com/docs/plugins/share-button/ -->
       <div class="share-to-facebook">
-        <div class="fb-share-button" data-href="http://developers.facebook.com/docs/plugins/" data-type="button_count"></div>
+        <div class="fb-share-button" data-href="{ current_url }" data-type="button_count"></div>
       </div>
     </footer>
   </body>
 </html>
-<?php $footer = ob_get_contents(); ob_end_clean(); ?>
+<?php
+$footer = ob_get_contents();
+$footer = str_replace("{ current_url }", rawurlencode("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"), $footer);
+ob_end_clean();
+?>
