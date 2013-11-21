@@ -9,7 +9,7 @@ echo render_header(array("title" => "Svømming"));
 
 <blockquote lang="en">
 
-    <p>“Without self-discipline, success is impossible, period.”
+    <p>Without self-discipline, success is impossible, period.
     <br>- Lou Holtz</p>
 
  </blockquote>

@@ -9,7 +9,7 @@ echo render_header(array("title" => "Løping"));
 
 <blockquote lang="en">
 
-    <p>Win If You Can, Lose If You Must, But NEVER QUIT!”
+    <p>Win If You Can, Lose If You Must, But NEVER QUIT!
     <br>- Cameron Trammell</p>
 
  </blockquote>

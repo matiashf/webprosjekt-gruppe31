@@ -210,7 +210,7 @@ body
     max-width: 100%;
 }
 
-.forsiden a, .forsiden a:visited {
+.forsiden a, .forsiden a:visited, header a, header a:visited {
 	text-decoration: none;
 	color: inherit;
 }
