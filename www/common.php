@@ -107,6 +107,6 @@ ob_start();
 </html>
 <?php
 $footer = ob_get_contents();
-$footer = str_replace("{ current_url }", rawurlencode("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"), $footer);
+$footer = str_replace("{ current_url }", urlencode("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"), $footer);
 ob_end_clean();
 ?>
