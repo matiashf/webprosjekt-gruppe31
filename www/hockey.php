@@ -13,7 +13,7 @@ echo render_header(array("title" => "Hockey"));
     <br>- Derek Jeter</p>
 
  </blockquote>
-
+ 
 <p>Hockey er et samlebegrep for idretter som har til felles at spillerne forsøker å 
 føre en ball eller puck inn i motstanderens mål ved hjelp av en kølle. Det finnes i hovedsak to varianter
 for hockey som er ishockey (bildet) og landhockey.</p>
