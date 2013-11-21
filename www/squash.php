@@ -17,13 +17,12 @@ echo render_header(array("title" => "Squash"));
 
  </blockquote>
 
-<p>Squash er en innendørs sport som spilles i en bane med fire vegger. Utstyret er en racket og en liten gummiball. 
+<p>Squash er en innendørs sport som spilles i en bane med fire vegger mellom 2-4 personer. Utstyret er en racket og en liten gummiball. 
 <br>Det er om å gjøre å skyte ballen mellom to markerte linjer på veggen. Den ene langt oppe på veggen og en langt nede. 
-<br>Ballen kan sprette en gang i bakken,hvis ballen spretter mer en en gang i bakken får motstanderen poeng.</p>
+<br>Ballen kan sprette en gang i bakken, hvis ballen spretter mer en en gang i bakken får motstanderen poeng.</p>
 
 <p>Squash er en fysisk krevende sport. Du må være sterk og det krever også god kondisjon. 
-<br>Squash er kjempebra trening men også veldig gøy, dere må riktignok være to stykker for å spille det. 
-<br>Hvis du liker intensiv trening og du liker å spille med andre, så er kanskje squash noe for deg?</p>
+<br>Squash er kjempebra trening men også veldig gøy. Hvis du liker intensiv trening og du liker å spille med andre, så er kanskje squash noe for deg?</p>
 
 <p>Studenter i Oslo som vil drive med squash, kan melde seg inn i: <a href="http://osisquash.no/">OSI squash</a>.</p>
 

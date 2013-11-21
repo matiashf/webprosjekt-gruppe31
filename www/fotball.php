@@ -15,17 +15,16 @@ echo render_header(array("title" => "Fotball"));
     <br>- Pelé</p>
 
  </blockquote>
+ 
 
-<p>Fotball er en sport som kan egner seg for de som er glad i
-lagsport og sosialtsamvær med lagkamerater.  Sporten er en veldig
-enkel sport som ikke trenger mye læring for å kunne bedrive. Så og si
-alle kan drive med fotball og det finnes lag på alle nivåer.</p>
+<p>Fotball er et spill hvor to lag, hvert bestående av elleve spillere på en bane prøver å vinne ved å lage flere mål enn motstanderen.
+Av utstyr finnes det fotballsko, knebeskyttere, leggskinn og en fotball.</p>
 
-<p>Fotball er den sporten flest personer driver med i Norge og er med
-dette en utrolig folkelig sport.  Noe som er viktig når det gjelder
-fotball er og ha ballfølelse altså å kunne kontrollere ballen på
-riktig hvis for å få flyt i spillet.  Dette er noe som man blir bedre
-på jo mer man trener!</p>
+<p>Fotball er en sport som kan egner seg for de som er glad i lagsport og sosialt samvær med lagkamerater. 
+Alle kan drive med fotball og det finnes lag på alle nivåer. Fotball er den sporten flest personer driver med i Norge og er med dette en utrolig folkelig sport.  
+Noe som er viktig når det gjelder fotball er å ha ballfølelse som vil si å kunne kontrollere ballen riktig for å få flyt i spillet samtidig som man dribler 
+motspillerne og forsøker å beholde ballen hos seg selv og sitt lag. 
+Dette er noe som man blir bedre på jo mer man trener.</p>
 
 <p>Studenter i Oslo som vil drive med fotball kan melde seg inn i <a
 href="http://www.osifotball.no/">OSI fotball</a>.</p>
