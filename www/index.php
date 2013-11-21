@@ -21,9 +21,9 @@ bottom, used for guiding liquid or powder into a small opening.» -->
   <form>
     <fieldset>
       <legend>Intensitet</legend>
-      <input id="input-intensity-intense" type="radio" name="intensity" value="intense">
+      <input id="input-intensity-intense" type="radio" name="intensity" value="intense" tabindex="0">
       <label for="input-intensity-intense">Intensivt</label>
-      <input id="input-intensity-relaxed" type="radio" name="intensity" value="relaxed">
+      <input id="input-intensity-relaxed" type="radio" name="intensity" value="relaxed" tabindex="0">
       <label for="input-intensity-relaxed">Rolig</label>
     </fieldset>
     <fieldset>
