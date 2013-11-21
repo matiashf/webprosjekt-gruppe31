@@ -361,6 +361,7 @@ footer .share-to-twitter, footer .share-to-facebook {
 
 #logo {
     font-size: 36px;
+    font-family: 'Sonsie One', cursive;
 }
 
 #logo:before {
@@ -370,10 +371,15 @@ footer .share-to-twitter, footer .share-to-facebook {
 
 #logo .tagline {
     font-size: 16px;
+    font-family: sans-serif;
+}
+
+#logo .tagline:before {
+    content: " - ";
 }
 
 header, footer {
-    background-color: #E5F0B2;
+    background-color: #BED84E;
     padding-top: 16px;
     padding-bottom: 16px;
 }
