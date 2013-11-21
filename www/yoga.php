@@ -5,7 +5,7 @@ echo render_header(array("title" => "Yoga"));
 
 <h1>Inspirasjonsside: Yoga</h1>
 <!--http://commons.wikimedia.org/wiki/File:Yoga_at_a_Gym.JPG/-->
-<img src="bilder/yoga.jpg" alt="Yogaklasse" >
+<?php optimized_image(array("src" => "bilder/yoga.jpg", "alt" => "Gruppetime i yoga")); ?>
 
  <blockquote lang="en">
 

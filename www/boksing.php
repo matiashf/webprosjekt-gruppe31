@@ -5,7 +5,7 @@ echo render_header(array("title" => "Boksing"));
 
 <h1>Inspirasjonsside: Boksing</h1>
 <!--http://upload.wikimedia.org/wikipedia/commons/f/ff/Boxing_%28USA_vs._CAN%29_at_the_1995_Pan_American_Games.JPEG/-->
-<img src="bilder/boksing.jpg" alt="Boksingmatch" >
+<?php optimized_image(array("src" => "bilder/boksing.jpg", "alt" => "Boksematch")); ?>
 
 <blockquote lang="en">
 

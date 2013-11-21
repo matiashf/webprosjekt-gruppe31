@@ -4,7 +4,7 @@ echo render_header(array("title" => "Tennis"));
 ?>
 <h1> inspirasjonsside: Tennis </h1>
 <!--http://farm8.staticflickr.com/7264/7107960055_3567cf6a33_o.jpg-->
-<?php optimized_image(array("src" => "bilder/tennis.jpg", "alt" => "")); ?>
+<?php optimized_image(array("src" => "bilder/tennis.jpg", "alt" => "En som spiller tennis")); ?>
 
 <blockquote lang="en">
 

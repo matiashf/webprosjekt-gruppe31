@@ -5,7 +5,8 @@ echo render_header(array("title" => "Salsa"));
 
 <h1>Inspirasjonsside: Salsa</h1>
 <figure>
-  <img src="bilder/salsa.jpg" alt="Salsa Brazil">
+<?php optimized_image(array("src" => "bilder/salsa.jpg", "alt" => "Salsa Brazil")); ?>
+
   <div class="attribution">
     <a href="http://www.flickr.com/photos/jarousseau/8409582476/">Bilde tatt av Vincent Jarousseau på flickr</a>
     <a href="http://creativecommons.org/licenses/by/2.0/deed.en_US">

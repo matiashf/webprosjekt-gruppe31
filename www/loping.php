@@ -5,7 +5,7 @@ echo render_header(array("title" => "Løping"));
 
 <h1>Inspirasjonsside: Løping</h1>
 <!--http://pixabay.com/no/kj%C3%B8rer-vann-utenfor-gj%C3%B8rme-81715/-->
-<?php optimized_image(array("src" => "bilder/loping.jpg", "alt" => "")); ?>
+<?php optimized_image(array("src" => "bilder/loping.jpg", "alt" => "Løping i gjørme")); ?>
 
 <blockquote lang="en">
 
