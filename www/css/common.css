@@ -344,3 +344,15 @@ body
     display: none;
 }
 
+footer {
+    vertical-align: middle;
+}
+
+footer .share-to-facebook {
+    margin-right:10px;
+    margin-top: 1px;
+}
+
+footer .share-to-twitter, footer .share-to-facebook {
+    float: right;
+}
