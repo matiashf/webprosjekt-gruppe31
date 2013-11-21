@@ -5,7 +5,7 @@ echo render_header(array("title" => "Håndball"));
 <h1> inspirasjonsside: Håndball </h1>
 
 <!--hhttp://upload.wikimedia.org/wikipedia/commons/a/a6/Nikola_Karabatic_08.jpg-->
-<img src="bilder/handball.jpg" alt="håndball">
+<?php optimized_image(array("src" => "bilder/handball.jpg", "alt" => "Håndball kamp")); ?>
 
 <blockquote lang="en">
 

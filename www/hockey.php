@@ -5,7 +5,6 @@ echo render_header(array("title" => "Hockey"));
 
 <h1>Inspirasjonsside: Hockey</h1>
 <!--http://upload.wikimedia.org/wikipedia/commons/4/4b/Ice_Hockey_sharks_ducks.jpg-->
-<img src="bilder/hockey.jpg" alt="Ishockey" >
 <?php optimized_image(array("src" => "bilder/hockey.jpg", "alt" => "Hockey kamp")); ?>
 
 <blockquote lang="en">
