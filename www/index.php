@@ -21,31 +21,31 @@ bottom, used for guiding liquid or powder into a small opening.» -->
   <form>
     <fieldset>
       <legend>Intensitet</legend>
-      <input id="input-intensity-intense" type="radio" name="intensity" value="intense" tabindex="0">
-      <label for="input-intensity-intense">Intensivt</label>
-      <input id="input-intensity-relaxed" type="radio" name="intensity" value="relaxed" tabindex="0">
-      <label for="input-intensity-relaxed">Rolig</label>
+      <input id="input-intensity-intense" type="radio" name="intensity" value="intense">
+      <label for="input-intensity-intense" tabindex="0">Intensivt</label>
+      <input id="input-intensity-relaxed" type="radio" name="intensity" value="relaxed">
+      <label for="input-intensity-relaxed" tabindex="0">Rolig</label>
     </fieldset>
     <fieldset>
       <legend>Sosialt</legend>
       <input id="input-sociable-social" type="radio" name="sociable" value="social">
-      <label for="input-sociable-social">Med andre</label>
+      <label for="input-sociable-social" tabindex="0">Med andre</label>
       <input id="input-sociable-alone" type="radio" name="sociable" value="alone">
-      <label for="input-sociable-alone">Alene</label>
+      <label for="input-sociable-alone" tabindex="0">Alene</label>
     </fieldset>
     <fieldset>
       <legend>Omgivelser</legend>
       <input id="input-environment-outdoors" type="radio" name="environment" value="outdoors">
-      <label for="input-environment-outdoors">Ute</label>
+      <label for="input-environment-outdoors" tabindex="0">Ute</label>
       <input id="input-environment-indoors" type="radio" name="environment" value="indoors">
-      <label for="input-environment-indoors">Inne</label>
+      <label for="input-environment-indoors" tabindex="0">Inne</label>
     </fieldset>
     <fieldset>
       <legend>Målsetning</legend>
       <input id="input-recreation-training" type="radio" name="recreation" value="training">
-      <label for="input-recreation-training">Komme i form</label>
+      <label for="input-recreation-training" tabindex="0">Komme i form</label>
       <input id="input-recreation-recreation" type="radio" name="recreation" value="recreation">
-      <label for="input-recreation-recreation">Hyggelig aktivitet</label>
+      <label for="input-recreation-recreation" tabindex="0">Hyggelig aktivitet</label>
     </fieldset>
   </form>
   <output class="result" for="input-intensity-intense input-intensity-relaxed input-sociable-social input-sociable-alone input-environment-outdoors input-environment-indoors input-recreation-training input-recreation-recreation">
