@@ -16,8 +16,8 @@ echo render_header(array("title" => "Cricket"));
  
 
 <p>Cricket er en lagsport som spilles mellom to lag med elleve spillere hver. 
-Utstyret består av en hard og solid cricketball og flate balltre. Idretten spilles på en eliptisk formet gressbane med oppmerkede linjer. 
-Hvert lag har en eller to omganger der de spiller vekselvis inne eller ute. Innelaget har to spillere på banen, mens utelaget har alle spillerne på banen.</p>
+Utstyret består av en hard og solid cricketball og flate balltre. Idretten spilles på en elliptisk formet gressbane med oppmerkede linjer. 
+Hvert lag har en eller to omganger der de spiller vekselvis inne eller ute. Inne-laget har to spillere på banen, mens ute-laget har alle spillerne på banen.</p>
 
 <p>Det kan være lurt å inneha styrke i armene når slagmannen skal slå ballen slik at han og medspilleren har tid til å bytte sider på midtstykket. 
 Spillerne gjør lurt i å ha god kondis også så de rekker å løpe frem i god tid som slagmann eller få tak i ballen som utespiller.

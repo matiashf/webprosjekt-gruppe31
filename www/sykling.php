@@ -19,13 +19,13 @@ echo render_header(array("title" => "Sykling"));
 	å få en lettere/raskere transport ved bruk av egen muskelkraft. Hvis du bruker sykkelen til jobb eller skolen så får du daglig mosjon og det medfører
 	at du kommer i bedre form.</p>
 
-<p>I forhold til trening så finnes det mange forskjellige aktiviteter innenfor sykling. Det er både lag og enslige konkuranser. Landveissykling, banesykling,
- terrengsykling, banesykling, bmx, er bare noen av mange mulige sykkel aktiviterter. Hvis du bare ønsker å trene så er kanskje spinning noe for deg! Du melder 
+<p>I forhold til trening så finnes det mange forskjellige aktiviteter innenfor sykling. Det er både lag og enslige konkurranser. Landeveissykling, banesykling,
+ terrengsykling, banesykling, bmx, er bare noen av mange mulige sykkel aktiviteter. Hvis du bare ønsker å trene så er kanskje spinning noe for deg! Du melder 
  deg på en time på et treningssenter. Da er det noen som har lagt opp et opplegg, som du kan velge å følge hvis du vil. Her handler det om å presse seg selv og 
  lide! 
  </p>
 
-<p>Studenter i Oslo som driver med Sykling , kan melde seg inn i: <a href="http://www.osisykkel.org/">OSI sykkling</a>.</p>
+<p>Studenter i Oslo som driver med Sykling, kan melde seg inn i: <a href="http://www.osisykkel.org/">OSI sykling</a>.</p>
 
 <?php
 echo $footer;

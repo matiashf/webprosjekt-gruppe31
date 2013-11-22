@@ -18,16 +18,16 @@ echo render_header(array("title" => "Basketball"));
  
 
 <p>Basketball er en lagsport som spilles mellom to lag bestående av fem spillere på hvert lag. Målet med spillet er å score poeng ved å kaste ballen
-i mostanderens kurv. Utstyret består av en basketball og spilles på oppmerket bane. Ballen kan spilles med hendene ved å kaste den til sine lagspillere, drible den alene eller slå med uknyttet hånd til motstandere for 
+i motstanderens kurv. Utstyret består av en basketball og spilles på oppmerket bane. Ballen kan spilles med hendene ved å kaste den til sine lagspillere, drible den alene eller slå med uknyttet hånd til motstandere for 
 å få tak i ballen. Dribling er lov hvis ballen stusses i gulvet med en hånd gjentatte ganger.</p>
 
 <p>Det vanlige er at en kamp spilles 4 x 10 min med pauser mellom hver periode. 
 En vanlig scoring gir 2 poeng. Scoring ved straffekast gir 1 poeng mens en scoring fra området utenfor 3-poengslinjen kan også
-gi 3 poeng. Det finnes forskjellige spilleregler for basketball rundt om i verden. Profesjonell basketball slik som i den amerikanske NBA-ligaen skiller seg f.eks noe fra internasjonal amatørbasketball.
+gi 3 poeng. Det finnes forskjellige spilleregler for basketball rundt om i verden. Profesjonell basketball slik som i den amerikanske NBA-ligaen skiller seg feks noe fra internasjonal amatørbasketball.
 Basketball egner seg for de som liker lagspill. I ballspill som basket brukes overkroppen godt og det er noe man merker når man mottar og sentrer pasninger. Men også bena får gjennomgå da man forsøker
 å drible raskt og løper for å hive ballen i kurv.</p>
 
-<p>Studenter som har interesse for basketball kan f.eks melde seg inn i <a href="http://osiwp.bbhoop.net/">OSI Basket</a>.</p>
+<p>Studenter som har interesse for basketball kan feks melde seg inn i <a href="http://osiwp.bbhoop.net/">OSI Basket</a>.</p>
 
 <?php
 echo $footer;

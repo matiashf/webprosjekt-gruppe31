@@ -15,7 +15,7 @@ echo render_header(array("title" => "Pilates"));
  </blockquote>
 
 <p>Pilates er en treningsform som legger hovedvekt på kjernemuskulatur. Øvelsene er rolige og kan minne litt om yoga.
-Også pilates er elsket av mange kjendiskvinner.</p>
+Også Pilates er elsket av mange kjendiskvinner.</p>
 
 <p>Et problem i dagens hektiske samfunn er at mange lever et veldig stillesittende liv med mange timer foran data og TV-skjerm,
 noe som kan føre til at vi får en slapp og dårlig kroppsholdning. Pilates trener musklene i hele kroppen og fokuserer særlig på kjernemuskulaturen vår i mage og rygg. 
