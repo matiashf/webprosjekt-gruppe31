@@ -28,7 +28,8 @@ Her kan man også tenke over hva man liker best, å spille på is eller land.</p
 <p>Fikk du lyst til å være med i en ishockeyklubb kan du sjekke  
 <a href="http://www.aktivioslo.no/ishockey/">Oversikt over ishockeyforbund i Oslo/Akershus</a>.
 Hvis du synes landhockey og innebandy hørtes bedre ut kan du sjekke
-<a href="http://www.aktivioslo.no/landhockey/">Landhockeyklubber og innebandyklubber i Oslo/Akershus.</p>
+<a href="http://www.aktivioslo.no/landhockey/">landhockeyklubber og innebandyklubber i Oslo/Akershus</a>.
+</p>
 
 <?php
 echo $footer;
