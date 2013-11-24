@@ -12,6 +12,14 @@ echo render_header(array("title" => "Forsiden"));
   <p>Vi har ingen aktiviteter som passer dine preferanser. Prøv noe annet.</p>
 </script>
 
+<noscript>
+  <p>
+    De interaktive elementene på nettsiden krever javascript, men
+    dette støttes ikke av nettleseren din. Innholdet vises istedenfor
+    i listeform, uten mulighet for søk.
+  </p>
+</noscript>
+
 <script type="text/template" class="funnel-template">
 <!-- Funnel: «A tube or pipe that is wide at the top and narrow at the
 bottom, used for guiding liquid or powder into a small opening.» -->
