@@ -22,8 +22,8 @@ kan det oppleves vanskelig i starten.</p>
 og for nybegynnere kan klassisk være lettest. Langrenn er først og fremst en vintersport. 
 Det er mulig å gå på langrenn om sommeren, men da heter det rulleski.</p>
 
-<p>Musklene som står i fokus i langrenn er: Armer, Bryst, mage og bein. Så dette er en super sport å starte med tanke på trening.
-For å starte med langrenn så må du ha langrennsski, langrenns sko og staver. Smøring til skiene er også anbefalt. Så kommer den viktigste ingrediensen
+<p>Musklene som står i fokus i langrenn er: Armer, bryst, mage og bein. Så dette er en super sport å starte med for allsidig trening av kroppen.
+For å starte med langrenn så må du ha langrennsski, langrennssko og staver. Smøring til skiene er også anbefalt. Så kommer den viktigste ingrediensen
 og det er selvsagt snø. Så er det bare å dra til marka, spenne på seg skiene og ta seg en tur.</p>
 
 <p>Studenter i Oslo som vil drive med langrenn, kan melde seg inn i: <a href="http://osilangrenn.com/">OSI langrenn</a>.</p>

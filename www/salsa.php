@@ -26,7 +26,7 @@ echo render_header(array("title" => "Salsa"));
 <p>
 Salsa er en pardans som finnes i forskjellige varianter. Det er et
 stort salsamiljø i Oslo, og det er en fin dans å lære hvis man liker å
-gå ut på byen og danse.
+gå ut på byen og danse. 
 </p>
 
 <p>
