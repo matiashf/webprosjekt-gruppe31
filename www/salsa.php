@@ -10,7 +10,7 @@ echo render_header(array("title" => "Salsa"));
   <div class="attribution">
     <a href="http://www.flickr.com/photos/jarousseau/8409582476/">Foto: Vincent Jarousseau</a>
     <a class="cc-badge" href="http://creativecommons.org/licenses/by/2.0/deed.en_US">
-      <img src="http://i.creativecommons.org/l/by/2.0/80x15.png" alt="Creative Commons Attribution 2.0"></a>
+      <img src="http://i.creativecommons.org/l/by/2.0/80x15.png" alt="Creative Commons Attribution 2.0">
     </a>
   </div>
 </figure>
