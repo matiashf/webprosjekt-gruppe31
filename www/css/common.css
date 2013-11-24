@@ -125,7 +125,7 @@ body
     margin: 0px;
 }
 
-.inspirasjonsside > img, .inspirasjonsside figure > img
+.inspirasjonsside main > img, .inspirasjonsside figure > img
 {
     width:100%;
 }
@@ -212,6 +212,18 @@ body
 
 .funnel .toggler, .funnel label, .funnel .next { 
 	cursor: pointer;  
+}
+
+.funnel .toggler {
+    text-align: right;
+}
+
+.funnel .toggler .hide:before {
+    content: "⇡";
+}
+
+.funnel .toggler .show:before {
+    content: "⇣";
 }
 
 .forsiden .activities ul {
