@@ -3,7 +3,7 @@ require_once "common.php";
 echo render_header(array("title" => "Salsa"));
 ?>
 
-<h1>Inspirasjonsside: Krav Maga</h1>
+<h1>Krav Maga</h1>
 <figure>
 <?php optimized_image(array("src" => "bilder/kravmaga.jpg", "alt" => "Kravmaga trening")); ?>
 

@@ -4,7 +4,7 @@ echo render_header(array("title" => "Hiphop"));
 ?>
 
 
-<h1>Inspirasjonsside: Hiphop</h1>
+<h1>Hiphop</h1>
 <!--http://upload.wikimedia.org/wikipedia/commons/d/d7/Thai_Breakdancers.jpg-->
 <?php optimized_image(array("src" => "bilder/hiphop.jpg", "alt" => "Hiphop dans")); ?>
 
