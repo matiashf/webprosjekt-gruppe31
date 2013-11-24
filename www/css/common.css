@@ -393,17 +393,14 @@ body
     transform-style: preserve-3d;
     transition-property: -moz-transform;
     transition-duration: 400ms;
-    timing-function: linear;
 
     -webkit-transform-style: preserve-3d;
     -webkit-transition-property: -webkit-transform;
     -webkit-transition-duration: 400ms;
-    -webkit-timing-function: linear;
 
     -moz-transform-style: preserve-3d;
     -moz-transition-property: -moz-transform;
     -moz-transition-duration: 400ms;
-    -moz-timing-function: linear;
 }
 
 .kostholdskarusellen article.front, .kostholdskarusellen article.back {
