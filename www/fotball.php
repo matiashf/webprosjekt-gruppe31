@@ -17,7 +17,7 @@ echo render_header(array("title" => "Fotball"));
  </blockquote>
  
 
-<p>Fotball er et spill hvor to lag, hvert bestående av elleve spillere. Målet er å prøve å vinne, og for å vinne må man score flere mål enn motstanderen.
+<p>Fotball er en idrett som spilles mellom to lag, hvert bestående av elleve spillere. Målet er å prøve å vinne, og for å vinne må man score flere mål enn motstanderen.
 Av utstyr finnes det fotballsko, knebeskyttere, leggskinn og en fotball.</p>
 
 <p>Fotball er en sport som kan egner seg for de som er glad i lagsport og sosialt samvær med lagkamerater. 
