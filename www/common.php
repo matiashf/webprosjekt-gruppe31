@@ -129,6 +129,9 @@ ob_start();
       <div class="share-to-facebook">
         <div class="fb-share-button" data-type="button_count"></div>
       </div>
+
+      <span class="github-ribbon"><a href="https://github.com/matiashf/webprosjekt-gruppe31">Vi bruker GitHub</a></span>
+
       </div>
     </footer>
   </body>
