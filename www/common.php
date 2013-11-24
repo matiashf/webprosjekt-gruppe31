@@ -13,7 +13,7 @@ ob_start();
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/common.css">
     <script type="text/javascript" src="external_code/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="external_code/underscore-min.js"></script>
