@@ -57,6 +57,9 @@ ob_start();
         <nav>
           <div><a href="."> Forsiden</a></div>
           <div>{ header_link }</div>
+          <div><a href="forprosjektrapport.html">Forprosjekt</a></div>
+          <div><a href="kravspec.html">Kravspesifikasjon</a></div>
+          <div><a href="prosjektrapport.html">Prosjektrapport</a></div>
         </nav>
       </div>
     </header>
