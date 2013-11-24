@@ -1,15 +1,14 @@
 webprosjekt-gruppe31
 ====================
 
-Gruppearbeid i webprosjekt
-
+Gruppearbeid i webprosjekt høsten 2013. Oppgavetekst er gitt i
+https://github.com/hioa-cs/webprosjekt
 
 Gruppemedlemmer:
-* Matias, 98097848
-* Maria, 48601134
-* Sebastian, 47852114
-* Haakon, 92290151
+* Matias Hermanrud Fjeld (s193364)
+* Maria Safdar (s193352)
+* Sebastian Holmen (s198508)
+* Haakon Vangeid (s198546)
 
-
-Alle endringer som synkroniseres github havner automatisk på
+Alle endringer som synkroniseres til github havner automatisk på
 http://student.cs.hioa.no/~s193364/webprosjekt-gruppe31/
