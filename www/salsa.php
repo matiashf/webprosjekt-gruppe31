@@ -15,6 +15,8 @@ echo render_header(array("title" => "Salsa"));
   </div>
 </figure>
 
+<iframe class="spotify-widget" src="https://embed.spotify.com/?uri=spotify:user:dgsnure:playlist:04Yx3q5s7MLF2yXKDulyVS&theme=white"></iframe>
+
  <blockquote lang="en">
 
     <p>Let us read, and let us dance; these two amusements will never do any harm to the world.
@@ -40,8 +42,6 @@ og koordinasjon.
 <a href="http://www.osidans.no/">OSI dans</a> holder kurs i kubansk salsa hvert semester. Det er flere
 nivåer, og nybegynnerkurset egner seg for de som aldri har danset før.
 </p>
-
-<iframe src="https://embed.spotify.com/?uri=spotify:user:dgsnure:playlist:04Yx3q5s7MLF2yXKDulyVS" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
 
 <?php
 echo $footer;

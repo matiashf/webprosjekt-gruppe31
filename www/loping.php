@@ -10,6 +10,8 @@ echo render_header(array("title" => "Løping"));
 <?php optimized_image(array("src" => "bilder/loping.jpg", "alt" => "Løping i gjørme")); ?>
 </figure>
 
+<iframe class="spotify-widget" src="https://embed.spotify.com/?uri=spotify:user:spotify:playlist:2BgVZaiDigaqxTbZEI2TpE&theme=white"></iframe>
+
 <blockquote lang="en">
 
     <p>Win If You Can, Lose If You Must, But NEVER QUIT!
@@ -28,8 +30,6 @@ er at du kommer ut i trening.</p>
 
 <p>Det er også viktig å sette seg et mål, og et godt mål kan være å delta i løp. I Oslo så er det mange forskjellige løp du kan melde deg på, 
 	for eksempel <a href="http://www.sentrumslopet.no/">Sentrumsløpet</a>.</p>
-
-	<iframe src="https://embed.spotify.com/?uri=spotify:user:spotify:playlist:2BgVZaiDigaqxTbZEI2TpE" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
 
 <?php
 echo $footer;

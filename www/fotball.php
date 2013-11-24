@@ -10,6 +10,8 @@ echo render_header(array("title" => "Fotball"));
 <?php optimized_image(array("src" => "bilder/fotball.jpg", "alt" => "Fotballspillere")); ?>
 </figure>
 
+<iframe class="spotify-widget" src="https://embed.spotify.com/?uri=spotify:user:1217244495:playlist:5zxRl045tUkxIPExnln8yo&theme=white"></iframe>
+
  <blockquote lang="en">
 
     <p>Success is no accident. It is hard work, perseverance, learning, studying, sacrifice 
@@ -30,8 +32,6 @@ Dette er noe som man blir bedre på jo mer man trener.</p>
 
 <p>Studenter i Oslo som vil drive med fotball kan melde seg inn i <a
 href="http://www.osifotball.no/">OSI fotball</a>.</p>
-
-<iframe src="https://embed.spotify.com/?uri=spotify:user:1217244495:playlist:5zxRl045tUkxIPExnln8yo" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
 
 <?php
 echo $footer;

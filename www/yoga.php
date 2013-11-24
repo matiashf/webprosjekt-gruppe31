@@ -10,6 +10,8 @@ echo render_header(array("title" => "Yoga"));
 <?php optimized_image(array("src" => "bilder/yoga.jpg", "alt" => "Gruppetime i yoga")); ?>
 </figure>
 
+<iframe class="spotify-widget" src="https://embed.spotify.com/?uri=spotify:album:0viSbA3zEpb5QOxAcDb40G&theme=white"></iframe>
+
  <blockquote lang="en">
 
     <p>Take care of your body. It's the only place you have to live.
@@ -31,8 +33,6 @@ bedre holdning.
 oppleves kanskje som lite aktiv for noen, men fordelene sies som sagt å være mange. Og det må da være flere
 grunner til at det er så mange tilhengere av yoga. Har du lyst til å begynne på yoga, så er det flere yogakurs
 man kan melde seg på, for eksempel kan du sjekke ut <a href="http://www.yogasenteret.com/">Yogasenteret</a>.</p>
-
-<iframe src="https://embed.spotify.com/?uri=spotify:album:0viSbA3zEpb5QOxAcDb40G" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
 
 <?php
 echo $footer;
