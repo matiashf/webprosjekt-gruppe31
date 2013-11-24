@@ -2,7 +2,7 @@
 require_once "common.php";
 echo render_header(array("title" => "Klatring"));
 ?>
-<h1>Inspirasjonsside: Klatring</h1>
+<h1>Klatring</h1>
 
 <figure>
 <!--http://static.vg.no/vektklubb/images/article/69/691904_klatring.bredde.web.jpg-->

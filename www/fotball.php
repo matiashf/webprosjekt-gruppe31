@@ -3,7 +3,7 @@ require_once "common.php";
 echo render_header(array("title" => "Fotball"));
 ?>
 
-<h1>Inspirasjonsside: Fotball</h1>
+<h1>Fotball</h1>
 
 <figure>
 <!--http://pixabay.com/no/fotball-spillere-konkurranse-lag-83222/-->

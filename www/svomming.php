@@ -2,7 +2,7 @@
 require_once "common.php";
 echo render_header(array("title" => "Svømming"));
 ?>
-<h1>Inspirasjonsside: Svømming</h1>
+<h1>Svømming</h1>
 
 <figure>
 <!--http://pixabay.com/no/sv%C3%B8mmere-sv%C3%B8mming-rase-konkurranse-79592/ -->

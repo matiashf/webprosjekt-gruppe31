@@ -3,7 +3,7 @@ require_once "common.php";
 echo render_header(array("title" => "Salsa"));
 ?>
 
-<h1>Inspirasjonsside: Salsa</h1>
+<h1>Salsa</h1>
 <figure>
 <?php optimized_image(array("src" => "bilder/salsa.jpg", "alt" => "Salsa Brazil")); ?>
 

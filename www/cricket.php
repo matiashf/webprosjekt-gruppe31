@@ -3,7 +3,7 @@ require_once "common.php";
 echo render_header(array("title" => "Cricket"));
 ?>
 
-<h1>Inspirasjonsside: Cricket</h1>
+<h1>Cricket</h1>
 
 <figure>
 <!--http://farm5.staticflickr.com/4125/5107461261_a0123c3367_o.jpg-->

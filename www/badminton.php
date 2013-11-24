@@ -4,7 +4,7 @@ echo render_header(array("title" => "Badminton"));
 ?>
 <!--http://pixabay.com/no/spill-badminton-shuttlecock-sport-166415/-->
 
-<h1>Inspirasjonsside: Badminton </h1>
+<h1>Badminton </h1>
 
 <figure>
 <?php optimized_image(array("src" => "bilder/badminton.jpg", "alt" => "Badminton rackerter")); ?>

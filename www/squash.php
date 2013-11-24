@@ -3,7 +3,7 @@ require_once "common.php";
 echo render_header(array("title" => "Squash"));
 ?>
 
-<h1>Inspirasjonsside: Squash</h1>
+<h1>Squash</h1>
 
 <figure>
 <!--http://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Squash_court.JPG/591px-Squash_court.JPG-->
