@@ -4,8 +4,11 @@ echo render_header(array("title" => "Langrenn"));
 ?>
 
 <h1>Langrenn</h1>
+
+<figure>
 <!--http://pixabay.com/no/langrenn-vinteren-stien-113018/-->
 <?php optimized_image(array("src" => "bilder/langrenn.jpg", "alt" => "Langrenns spor")); ?>
+</figure>
 
 <blockquote lang="en">
 

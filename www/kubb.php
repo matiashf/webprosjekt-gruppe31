@@ -2,10 +2,12 @@
 require_once "common.php";
 echo render_header(array("title" => "kubb"));
 ?>
-<h1>Inspirasjonsside: Kubb</h1>
+<h1>Kubb</h1>
 
+<figure>
 <!-- http://pixabay.com/no/park-skog-treet-natur-landskap-191603/-->
 <?php optimized_image(array("src" => "bilder/kubb.jpg", "alt" => "Ute i parken")); ?>
+</figure>
 
 <blockquote lang="en">
 

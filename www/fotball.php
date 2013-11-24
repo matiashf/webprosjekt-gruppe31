@@ -5,8 +5,10 @@ echo render_header(array("title" => "Fotball"));
 
 <h1>Fotball</h1>
 
+<figure>
 <!--http://pixabay.com/no/fotball-spillere-konkurranse-lag-83222/-->
 <?php optimized_image(array("src" => "bilder/fotball.jpg", "alt" => "Fotballspillere")); ?>
+</figure>
 
  <blockquote lang="en">
 

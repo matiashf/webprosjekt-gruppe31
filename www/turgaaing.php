@@ -4,8 +4,11 @@ echo render_header(array("title" => "Turgåing"));
 ?>
 
 <h1>Turgåing</h1>
+
+<figure>
 <!--http://lh3.ggpht.com/-4trausBZxVg/TA8HhfpWflI/AAAAAAAAAoY/QBj_KvmOmaA/H%2525C3%2525B8st-i-Jondalen016.jpg-->
 <?php optimized_image(array("src" => "bilder/turgaaing.jpg", "alt" => "Turgåing med stav")); ?>
+</figure>
 
 <blockquote lang="en">
 

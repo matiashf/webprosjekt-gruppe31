@@ -4,8 +4,11 @@ echo render_header(array("title" => "Yoga"));
 ?>
 
 <h1>Yoga</h1>
+
+<figure>
 <!--http://commons.wikimedia.org/wiki/File:Yoga_at_a_Gym.JPG/-->
 <?php optimized_image(array("src" => "bilder/yoga.jpg", "alt" => "Gruppetime i yoga")); ?>
+</figure>
 
  <blockquote lang="en">
 

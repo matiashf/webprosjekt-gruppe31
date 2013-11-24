@@ -2,10 +2,13 @@
 require_once "common.php";
 echo render_header(array("title" => "Ski og snowboard"));
 ?>
-<h1> Inspirasjonsside: Ski og snowboard </h1>
+
+<h1>Ski og snowboard </h1>
+
+<figure>
 <!--http://farm8.staticflickr.com/7187/6844779122_1b4184b473_o.jpg-->
 <?php optimized_image(array("src" => "bilder/ski-og-snowboard.jpg", "alt" => "En som hopper på snowboard")); ?>
-
+</figure>
 
 <blockquote lang="en">
 

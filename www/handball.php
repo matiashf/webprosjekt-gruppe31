@@ -4,8 +4,10 @@ echo render_header(array("title" => "Håndball"));
 ?>
 <h1>Håndball </h1>
 
+<figure>
 <!--hhttp://upload.wikimedia.org/wikipedia/commons/a/a6/Nikola_Karabatic_08.jpg-->
 <?php optimized_image(array("src" => "bilder/handball.jpg", "alt" => "Håndball kamp")); ?>
+</figure>
 
 <blockquote lang="en">
 

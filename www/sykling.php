@@ -2,10 +2,13 @@
 require_once "common.php";
 echo render_header(array("title" => "Sykling"));
 ?>
-<!--http://pixabay.com/no/treet-sykkel-sykkeltur-rhinen-172147/'-->
+
 <h1>Sykling</h1>
 
+<figure>
+<!--http://pixabay.com/no/treet-sykkel-sykkeltur-rhinen-172147/'-->
 <?php optimized_image(array("src" => "bilder/sykling.jpg", "alt" => "Sykkler ute i naturen")); ?>
+</figure>
 
 <blockquote lang="en">
 

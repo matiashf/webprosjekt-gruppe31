@@ -4,8 +4,11 @@ echo render_header(array("title" => "Styrketrening"));
 ?>
 
 <h1>Styrketrening</h1>
+
+<figure>
 <!--http://www.flickr.com/photos/damndirty/3243399273/-->
 <?php optimized_image(array("src" => "bilder/styrketrening.jpg", "alt" => "Vektløfting")); ?>
+</figure>
 
 
 <blockquote lang="en">

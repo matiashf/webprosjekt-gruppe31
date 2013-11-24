@@ -6,7 +6,9 @@ echo render_header(array("title" => "Badminton"));
 
 <h1>Badminton </h1>
 
+<figure>
 <?php optimized_image(array("src" => "bilder/badminton.jpg", "alt" => "Badminton rackerter")); ?>
+</figure>
 
 <blockquote lang="en">
 

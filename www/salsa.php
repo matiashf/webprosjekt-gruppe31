@@ -8,9 +8,9 @@ echo render_header(array("title" => "Salsa"));
 <?php optimized_image(array("src" => "bilder/salsa.jpg", "alt" => "Salsa Brazil")); ?>
 
   <div class="attribution">
-    <a href="http://www.flickr.com/photos/jarousseau/8409582476/">Bilde tatt av Vincent Jarousseau på flickr</a>
-    <a href="http://creativecommons.org/licenses/by/2.0/deed.en_US">
-      <img src="http://i.creativecommons.org/l/by/2.0/88x31.png" alt="Creative Commons Attribution 2.0"></a>
+    <a href="http://www.flickr.com/photos/jarousseau/8409582476/">Foto: Vincent Jarousseau</a>
+    <a class="cc-badge" href="http://creativecommons.org/licenses/by/2.0/deed.en_US">
+      <img src="http://i.creativecommons.org/l/by/2.0/80x15.png" alt="Creative Commons Attribution 2.0"></a>
     </a>
   </div>
 </figure>
