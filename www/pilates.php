@@ -3,7 +3,7 @@ require_once "common.php";
 echo render_header(array("title" => "Pilates"));
 ?>
 
-<h1>Inspirasjonsside: Pilates</h1>
+<h1>Pilates</h1>
 <!--http://upload.wikimedia.org/wikipedia/commons/9/91/Pilates_01.jpg-->
 <?php optimized_image(array("src" => "bilder/pilates.jpg", "alt" => "En dame som trener pilates")); ?>
 

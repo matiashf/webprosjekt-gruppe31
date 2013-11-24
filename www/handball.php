@@ -2,7 +2,7 @@
 require_once "common.php";
 echo render_header(array("title" => "Håndball"));
 ?>
-<h1> inspirasjonsside: Håndball </h1>
+<h1>Håndball </h1>
 
 <!--hhttp://upload.wikimedia.org/wikipedia/commons/a/a6/Nikola_Karabatic_08.jpg-->
 <?php optimized_image(array("src" => "bilder/handball.jpg", "alt" => "Håndball kamp")); ?>

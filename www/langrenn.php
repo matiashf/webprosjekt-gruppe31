@@ -3,7 +3,7 @@ require_once "common.php";
 echo render_header(array("title" => "Langrenn"));
 ?>
 
-<h1>Inspirasjonsside: Langrenn</h1>
+<h1>Langrenn</h1>
 <!--http://pixabay.com/no/langrenn-vinteren-stien-113018/-->
 <?php optimized_image(array("src" => "bilder/langrenn.jpg", "alt" => "Langrenns spor")); ?>
 
