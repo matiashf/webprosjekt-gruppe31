@@ -18,7 +18,7 @@ echo render_header(array("title" => "Håndball"));
 Man får poeng ved at ballen havner i motstanderens mål. Det laget som har flest mål etter to omganger vinner.</p>
 
 <p>Håndball egner seg for de som liker å samarbeide med andre og liker sosialt samvær. Håndball er også en fysisk sport, 
-så du må tåle å bli tatt på. Håndball ser ikke så krevende ut, men det er veldig slitsomt når du spiller. På mange måter 
+så du må tåle å bli "tatt" på. Håndball ser ikke så krevende ut, men det er veldig slitsomt når du spiller. På mange måter 
 så blir håndball en intervallsport. Du kommer fort i form, og det er i tillegg kjempegøy.</p>
 
 <p>Studenter i Oslo som vil drive med håndball kan melde seg inn i <a href="http://www.osi-handball.com/">OSI håndball</a>.</p>
