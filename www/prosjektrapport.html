@@ -13,7 +13,7 @@
 <p> Rapport av: Sebastian Holmen (s198508), Haakon Vangeid (s198546), Matias Fjeld (s193364), Maria Safdar (s193352). </p>
 <h2>Prosjektbeskrivelse: «Sunne studenter»</h2>
 
-<p>Vi skal lage en nettside som kan inspirere studenter til å drive med
+<p>Vi har laget en nettside som kan inspirere studenter til å drive med
 idrett eller være aktive.</p>
 
 <p>Målgruppen vår er studenter som er lite aktive eller som ikke har
@@ -32,11 +32,27 @@ sammenheng med forprosjektrapporten.</i></p>
 
 <p>Etter hvert som vi la inn innhold ble det klart at bildefilene var for
 store. Vi utvidet derfor systemet for automatisk utrulling til å
-nedskalere bilder. I tillegg ble det skrevet Javascript- og PHP-kode
-som dynamisk satte inn nedskalerte bilder av riktig størrelse. Fordi
-vi valgte å støtte mobile enheter var det viktig å både redusere
-bildestørrelsene og håndtere at størrelsen på nettleservinduet
-forandret seg. Dette var ikke planlagt i forprosjektet.</p>
+nedskalere bilder. I tillegg ble det skrevet Javascript- og PHP-kode som dynamisk
+satte inn nedskalerte bilder av riktig størrelse. Fordi vi valgte å
+støtte mobile enheter var det viktig å både redusere bildestørrelsene
+og håndtere at størrelsen på nettleservinduet forandret seg. Dette var
+ikke planlagt i forprosjektet.</p>
+
+<p>Når en ny commit pushes til Github
+kalles <code>deploy/deploy.php</code> på en ubuntu-server, som så
+kjører <code>deploy/deploy.sh</code> som en annen bruker. Ved hjelp
+av passordløse ssh-nøkler lastes siste revisjon ned. Så kalles make,
+som bruker ImageMagick til å bygge nedskalerte bilder. Til slutt
+lastes koden opp med rsync.</p>
+
+<h3>Kostholdskarusellen</h3>
+
+<p>Vi planla å lenke til oppskrifter i kostholdskarusellen og animere
+annerledes enn det vi gjorde. Fordi tiden var knapp ble oppskriftene
+droppet, og fokuset lagt på javascript istedenfor mer
+innhold. Kostholdskarusellen ble animert med kun rotasjon og ikke
+forflytning av elementer. Dette fordi alternativet ble for
+komplisert å gjøre på tiden som var tilgjengelig.</p>
 
 <h2>Tidslinje</h2>
 <p><i>En tidslinje som viser hva som ble gjennomført når, sett i
@@ -45,8 +61,6 @@ sammenheng med milepelsplanen i forprosjektet.</i></p>
 <p>Vi har klart oss 100 % på milepæl: Design og mer funksjonalitet.
 Det vi har rukket i tide er å lage ferdig de 24 inspirasjonssidene.
 Forprosjektrapporten ble ferdig i god tid før innleveringsfristen.</p>
-
-
 
 <h3>Milepælsplan</h3>
 
