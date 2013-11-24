@@ -10,7 +10,7 @@ echo render_header(array("title" => "Løping"));
 <?php optimized_image(array("src" => "bilder/loping.jpg", "alt" => "Løping i gjørme")); ?>
 </figure>
 
-<iframe class="spotify-widget" src="https://embed.spotify.com/?uri=spotify:user:spotify:playlist:2BgVZaiDigaqxTbZEI2TpE&theme=white"></iframe>
+<iframe class="spotify-widget" src="https://embed.spotify.com/?uri=spotify:user:spotify:playlist:2BgVZaiDigaqxTbZEI2TpE&amp;theme=white"></iframe>
 
 <blockquote lang="en">
 

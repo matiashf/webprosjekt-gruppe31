@@ -15,7 +15,7 @@ echo render_header(array("title" => "Salsa"));
   </div>
 </figure>
 
-<iframe class="spotify-widget" src="https://embed.spotify.com/?uri=spotify:user:dgsnure:playlist:04Yx3q5s7MLF2yXKDulyVS&theme=white"></iframe>
+<iframe class="spotify-widget" src="https://embed.spotify.com/?uri=spotify:user:dgsnure:playlist:04Yx3q5s7MLF2yXKDulyVS&amp;theme=white"></iframe>
 
  <blockquote lang="en">
 

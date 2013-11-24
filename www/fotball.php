@@ -10,7 +10,7 @@ echo render_header(array("title" => "Fotball"));
 <?php optimized_image(array("src" => "bilder/fotball.jpg", "alt" => "Fotballspillere")); ?>
 </figure>
 
-<iframe class="spotify-widget" src="https://embed.spotify.com/?uri=spotify:user:1217244495:playlist:5zxRl045tUkxIPExnln8yo&theme=white"></iframe>
+<iframe class="spotify-widget" src="https://embed.spotify.com/?uri=spotify:user:1217244495:playlist:5zxRl045tUkxIPExnln8yo&amp;theme=white"></iframe>
 
  <blockquote lang="en">
 

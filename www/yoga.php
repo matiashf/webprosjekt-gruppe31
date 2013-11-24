@@ -10,7 +10,7 @@ echo render_header(array("title" => "Yoga"));
 <?php optimized_image(array("src" => "bilder/yoga.jpg", "alt" => "Gruppetime i yoga")); ?>
 </figure>
 
-<iframe class="spotify-widget" src="https://embed.spotify.com/?uri=spotify:album:0viSbA3zEpb5QOxAcDb40G&theme=white"></iframe>
+<iframe class="spotify-widget" src="https://embed.spotify.com/?uri=spotify:album:0viSbA3zEpb5QOxAcDb40G&amp;theme=white"></iframe>
 
  <blockquote lang="en">
 

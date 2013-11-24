@@ -10,7 +10,7 @@ echo render_header(array("title" => "Langrenn"));
 <?php optimized_image(array("src" => "bilder/langrenn.jpg", "alt" => "Langrenns spor")); ?>
 </figure>
 
-<iframe class="spotify-widget" src="https://embed.spotify.com/?uri=spotify:user:1247270513:playlist:6dacxBXl4eyAuSHYcME2Vn&theme=white"></iframe>
+<iframe class="spotify-widget" src="https://embed.spotify.com/?uri=spotify:user:1247270513:playlist:6dacxBXl4eyAuSHYcME2Vn&amp;theme=white"></iframe>
 
 <blockquote lang="en">
 

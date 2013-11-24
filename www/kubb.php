@@ -9,7 +9,7 @@ echo render_header(array("title" => "kubb"));
 <?php optimized_image(array("src" => "bilder/kubb.jpg", "alt" => "Ute i parken")); ?>
 </figure>
 
-<iframe class="spotify-widget" src="https://embed.spotify.com/?uri=spotify:user:spotify:playlist:4lEMhbF2A30haIcjRMGuws&theme=white"></iframe>
+<iframe class="spotify-widget" src="https://embed.spotify.com/?uri=spotify:user:spotify:playlist:4lEMhbF2A30haIcjRMGuws&amp;theme=white"></iframe>
 
 <blockquote lang="en">
 
