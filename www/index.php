@@ -16,7 +16,8 @@ echo render_header(array("title" => "Forsiden"));
 <!-- Funnel: «A tube or pipe that is wide at the top and narrow at the
 bottom, used for guiding liquid or powder into a small opening.» -->
 <section class="funnel">
-  <h2>Ta inspirasjonstesten og finn ut hvilken aktivitet som passer for deg</h2>
+  <h2>Ta inspirasjonstesten</h2>
+  <p>Finn ut hvilken aktivitet som passer for deg</p>
   <div class="toggler"><span class="hide">Skjul</span><span class="show">Vis</span> Inspirasjonstesten</div>
   <form>
     <fieldset>

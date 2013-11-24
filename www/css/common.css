@@ -214,6 +214,18 @@ body
 	cursor: pointer;  
 }
 
+.funnel .toggler {
+    text-align: right;
+}
+
+.funnel .toggler .hide:before {
+    content: "⇡";
+}
+
+.funnel .toggler .show:before {
+    content: "⇣";
+}
+
 .forsiden .activities ul {
     padding: 0px;
 }
