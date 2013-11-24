@@ -4,8 +4,10 @@ echo render_header(array("title" => "Klatring"));
 ?>
 <h1>Inspirasjonsside: Klatring</h1>
 
+<figure>
 <!--http://static.vg.no/vektklubb/images/article/69/691904_klatring.bredde.web.jpg-->
 <?php optimized_image(array("src" => "bilder/klatring.jpg", "alt" => "Klatrevegg")); ?>
+</figure>
 
  <blockquote lang="en">
 

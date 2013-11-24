@@ -26,7 +26,7 @@
         bottom: 0px;
     }
 
-    .funnel:after, .forsiden .activities ul:after {
+    .funnel:after, .forsiden .activities ul:after, .inspirasjonsside main:after {
         /* Setter inn et tomt element som sørger for at alle kolonnene «tar
            opp» like mye høyde i layouten. Beskrevet her (bare at jeg
            ikke har implementert ie7-kompabilitet):
@@ -81,14 +81,27 @@
     }
 
     .inspirasjonsside blockquote {
-        margin-left: 80px;
-        margin-right: 80px;
+        margin-left: 336px; /* 960px / 3 + 16px */
+        margin-right: 0px;
+    }
+
+    .inspirasjonsside figure {
+        float: left;
+        width: 320px; /* 960px / 3 */
+        margin-right: 16px;
+        margin-left: 0px;
     }
 }
 
 @media screen and (max-width:960px)
 {
     /* Denne css-koden kjører hvis browservinduet er mindre enn 960 px; */
+
+    .inspirasjonsside figure {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 
     .kostholdskarusellen *:not(li) ul {
         padding-left: 0px;
@@ -136,12 +149,12 @@ body
     margin: 0px;
 }
 
-
 .inspirasjonsside figure {
-    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 16px;
 }
 
-.inspirasjonsside main > img, .inspirasjonsside figure > img
+.inspirasjonsside figure > img
 {
     width:100%;
 }
