@@ -105,9 +105,15 @@
         padding-left: 8px;
         padding-right: 8px;
     }
+
+    #logo .tagline {
+        display: block;
+        text-align: center;
+    }
 }
 
 @media screen {
+    /* TODO: Sjekk at dette faktisk leses opp av skjermleser. */
     h1.breadcrumb {
         visibility: hidden;
         height: 0px;
