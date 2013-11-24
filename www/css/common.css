@@ -232,7 +232,13 @@ body
 .forsiden a, .forsiden a:visited, header a, header a:visited {
 	text-decoration: none;
 	color: inherit;
+	
 }
+
+.forsiden a:hover, header a:hover {
+	text-decoration: underline;
+}
+	
 
 /* Blockquote styling inspirert av http://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ */
 

@@ -255,7 +255,7 @@ bottom, used for guiding liquid or powder into a small opening.» -->
         <h3>Cricket</h3>
         <?php optimized_image(array("src" => "bilder/cricket.jpg", "alt" => "")); ?>
       </a>
-      <script type="text/funnel-properties">relaxed social outdoors recreation</script>
+      <script type="text/funnel-properties">intense relaxed social outdoors recreation</script>
     </section>
   </li>
   <li>
@@ -264,7 +264,7 @@ bottom, used for guiding liquid or powder into a small opening.» -->
         <h3>Boksing</h3>
         <?php optimized_image(array("src" => "bilder/boksing.jpg", "alt" => "")); ?>
       </a>
-      <script type="text/funnel-properties">relaxed social outdoors recreation</script>
+      <script type="text/funnel-properties">intense social indoors training</script>
     </section>
   </li>
   <li>
@@ -273,7 +273,7 @@ bottom, used for guiding liquid or powder into a small opening.» -->
         <h3>Hockey</h3>
         <?php optimized_image(array("src" => "bilder/hockey.jpg", "alt" => "")); ?>
       </a>
-      <script type="text/funnel-properties">relaxed social outdoors recreation</script>
+      <script type="text/funnel-properties">intense social indoors training</script>
     </section>
   </li>
   </ul>

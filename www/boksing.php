@@ -16,7 +16,7 @@ echo render_header(array("title" => "Boksing"));
  </blockquote>
 
 <p>Boksing er en kampsport som spilles mellom to personer som foregår i en boksering som er begrenset med taulinje rundt.   
-Ustyret er polstrede lærhansker på hendene som det bokses med, ofte hjelm og knebeskyttere og beskyttende belegg rundt tenna. 
+Utstyret er polstrede lærhansker på hendene som det bokses med, ofte hjelm og knebeskyttere og beskyttende belegg rundt tennene. 
 Man kan vinne ved å slå motstanderen flest ganger, noe man blir belønnet med poeng på eller så kan man vinne på knockout. 
 Knockout vil si at man slår sin motstander ned eller kampudyktig på annen måte i minst 10 sekunder.</p>
 

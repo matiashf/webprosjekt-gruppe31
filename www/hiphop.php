@@ -16,13 +16,13 @@ echo render_header(array("title" => "Hiphop"));
 
  </blockquote>
 
-<p>Hiphop er en dansestil som kommer fra gaten som blir danset til hiphopmusikk. Dette inkluderer et bredt 
+<p>Hiphop er en dansestil som kommer fra gaten. Dette inkluderer et bredt 
 spekter av stilarter, blant annet breakdance, locking og popping. Hiphop er bra trening for hele kroppen, siden man under dansen
 beveger hele kroppen. Det handler om å utfordre seg selv og sin kropp hele veien. 
 Man beveger kroppen med rytme til musikken.</p>
 
-<p>Det er ikke så strengt med regler man må følge for denne dansen. Stort sett alt er lov så lenge det ser kult ut og
-man treffer musikken. Det er mye mer friere utfoldelse i hiphop enn f.eks andre danseformer</p> 
+<p>Det er ikke noe særlig regler som man må følge for denne dansen. Stort sett alt er lov så lenge det ser kult ut og
+man treffer musikken. Det er mye mer friere utfoldelse i hiphop enn feks andre danseformer</p> 
 
 <p>Grunnen til at hiphopdansen er blitt så populær er også på grunn av musikkens framtred. TV-kanaler som
 MTV, The Voice og diverse andre promoterer hiphopsanger med videoer der det danses mye. Mange ser på dette og 

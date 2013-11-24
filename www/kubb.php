@@ -14,13 +14,13 @@ echo render_header(array("title" => "kubb"));
 
  </blockquote>
 
-<p>Kubb er i utgangspunktet den parkaktiviteten som er størst voksende og det er flere og flere som begynner å spile dette spillet. 
+<p>Kubb er i utgangspunktet den parkaktiviteten som har størst økning i parkaktiviteter og det er flere og flere som begynner å spille dette spillet.  
 Av utstyr trengs det vedkubber og kastepinner. Her deles det inn i to lag som skal konkurrere om å få ned alle kubbene til det andre laget, 
 og når dette er gjort er det om å få ned "kongen" som er plassert midt i spillet.
 Da denne er veltet har det ene laget vunnet spillet. </p>
 
-<p>Kubb er en aktivitet for deg som liker å være veldig sosial og har konkurranseinnstinkt. 
-Kubb egner seg for så og si alle, da det ikke trengs noe forkunnskaper eller noe form for god fysisk form i forkant av spillet.
+<p>Kubb er en aktivitet for deg som liker å være veldig sosial og har konkurranseinstinkt. 
+Kubb egner seg for så og si alle, da det ikke trengs noe forkunnskaper eller noen form for god fysisk form i forkant av spillet.
 Så er du en person som liker å komme deg ut av sofaen, men ikke vil presse deg særlig mer fysisk annet enn å være sosial og skape nye vennskap er kubb aktiviteten for deg.
 </p>
 

@@ -19,7 +19,7 @@ føre en ball eller puck inn i motstanderens mål ved hjelp av en kølle. Det fi
 for hockey som er ishockey (bildet) og landhockey.</p>
 
 <p>Idretten kan minne litt om bandy, og passer for de som liker å spille i lag. Det er tøff trening, men 
-spillerne minsker faren for idrettskader ved å bruke hjelm og beskyttelse.
+spillerne minsker faren for idrettsskader ved å bruke hjelm og beskyttelse.
 Her kan man også tenke over hva man liker best, å spille på is eller land.</p>
 
 <p>Fikk du lyst til å være med i en ishockeyklubb kan du sjekke  
