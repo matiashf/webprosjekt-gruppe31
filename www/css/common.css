@@ -125,7 +125,7 @@ body
     margin: 0px;
 }
 
-.inspirasjonsside > img, .inspirasjonsside figure > img
+.inspirasjonsside main > img, .inspirasjonsside figure > img
 {
     width:100%;
 }
