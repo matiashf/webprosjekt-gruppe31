@@ -545,6 +545,8 @@ header nav > *:first-child:before {
     }
 }
 
+/* https://developer.spotify.com/technologies/widgets/spotify-play-button/ */
+
 .inspirasjonsside .spotify-widget {
     width: 320px;
     height: 80px; /* eller 400px for større versjon*/
