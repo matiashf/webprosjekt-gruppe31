@@ -303,7 +303,14 @@ body
 .inspirasjonsside blockquote p {
     display: inline;
 }
-    
+
+.inspirasjonsside figure .attribution .cc-badge {
+    float: right;
+}
+
+.inspirasjonsside figure .attribution {
+    font-size: 14px;
+}
 
 .kostholdskarusellen blockquote:before {
     content: open-quote;
