@@ -262,7 +262,6 @@ echo render_header(array("title" => "Kostholdskarusellen", "header_link" => "<a 
     <p><a href="http://helsenorge.no/Helseogsunnhet/Sider/Velg-magert-kjott.aspx">Mer
     om kjøtt og kjøttprodukter (helsenorge.no)</a></p>
   </blockquote>
-</p>
 </article>
 
 <article id="magre-meieriprodukter">
