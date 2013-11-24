@@ -24,7 +24,7 @@ og feil løfteteknikk kan gi belastningsskader. Det er viktig å starte smått o
 bli varm før man begynner å løfte. </p>
 
 <p>Man kan trene styrke med egen kroppsvekt, manualer eller spesielle apparater for å trene styrke.
-Man kan trene hjemme, ute i det fri eller på treningsstudio der de ofte har flere ulike apparater for kroppens
+Man kan trene hjemme, ute i det fri eller på treningsstudio der de ofte har flere apparater for kroppens
 ulike muskelgrupper.</p>
 
 <p>Er du interessert i å begynne å trene kan du for eksempel melde deg inn i 
