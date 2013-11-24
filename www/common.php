@@ -13,6 +13,7 @@ ob_start();
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="css/common.css">
     <script type="text/javascript" src="external_code/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="external_code/underscore-min.js"></script>
@@ -54,7 +55,7 @@ ob_start();
           <span class="tagline">for en sunn fremtid</span>
         </div>
         <nav>
-          <div><a href="index.php"> Forsiden</a></div>
+          <div><a href="."> Forsiden</a></div>
           <div>{ header_link }</div>
         </nav>
       </div>
