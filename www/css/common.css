@@ -107,6 +107,13 @@
     }
 }
 
+@media screen {
+    h1.breadcrumb {
+        visibility: hidden;
+        height: 0px;
+    }
+}
+
 body
 {
     font-family:sans-serif;
@@ -173,6 +180,18 @@ body
     background-color: #ccc;
 }
 
+.forsiden .activity h3 {
+    margin: 0px;
+}
+
+.forsiden .activity {
+    background-color: #e5e5e5;
+    padding: 0px;
+}
+
+.forsiden .activity {
+    margin-top: 8px;
+}
 
 .funnel .more {
     text-align: center;

@@ -6,7 +6,7 @@ echo render_header(array("title" => "Forsiden"));
 
 ?>
 
-<h1>Forsiden</h1>
+<h1 class="breadcrumb">Forsiden</h1>
 
 <script type="text/template" class="no-results-template">
   <p>Vi har ingen aktiviteter som passer dine preferanser. Prøv noe annet.</p>
@@ -16,7 +16,7 @@ echo render_header(array("title" => "Forsiden"));
 <!-- Funnel: «A tube or pipe that is wide at the top and narrow at the
 bottom, used for guiding liquid or powder into a small opening.» -->
 <section class="funnel">
-  <h2>Inspirasjonstesten</h2>
+  <h2>Ta inspirasjonstesten og finn ut hvilken aktivitet som passer for deg</h2>
   <div class="toggler"><span class="hide">Skjul</span><span class="show">Vis</span> Inspirasjonstesten</div>
   <form>
     <fieldset>
