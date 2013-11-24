@@ -413,7 +413,7 @@ echo render_header(array("title" => "Kostholdskarusellen", "header_link" => "<a 
     er tørst.</p>
 
     <p><a href="http://helsenorge.no/Helseogsunnhet/Sider/Velg-vann-som-torstedrikk.aspx">Mer
-    om vann som tørstedrikk (helsenorge.no)</a></p
+    om vann som tørstedrikk (helsenorge.no)</a></p>
   </blockquote>
 </article>
 
