@@ -3,7 +3,7 @@ require_once "common.php";
 echo render_header(array("title" => "Yoga"));
 ?>
 
-<h1>Inspirasjonsside: Yoga</h1>
+<h1>Yoga</h1>
 <!--http://commons.wikimedia.org/wiki/File:Yoga_at_a_Gym.JPG/-->
 <?php optimized_image(array("src" => "bilder/yoga.jpg", "alt" => "Gruppetime i yoga")); ?>
 

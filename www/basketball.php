@@ -3,7 +3,7 @@ require_once "common.php";
 echo render_header(array("title" => "Basketball"));
 ?>
 
-<h1>Inspirasjonsside: Basketball</h1>
+<h1>Basketball</h1>
 <!--http://farm4.staticflickr.com/3147/2751923597_f7f7b779ac_o.jpg-->
 <?php optimized_image(array("src" => "bilder/basketball.jpg", "alt" => "")); ?>
 

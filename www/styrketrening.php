@@ -3,7 +3,7 @@ require_once "common.php";
 echo render_header(array("title" => "Styrketrening"));
 ?>
 
-<h1>Inspirasjonsside: Styrketrening</h1>
+<h1>Styrketrening</h1>
 <!--http://www.flickr.com/photos/damndirty/3243399273/-->
 <?php optimized_image(array("src" => "bilder/styrketrening.jpg", "alt" => "Vektløfting")); ?>
 
