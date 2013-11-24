@@ -55,7 +55,7 @@ ob_start();
           <span class="tagline">for en sunn fremtid</span>
         </div>
         <nav>
-          <div><a href="index.php"> Forsiden</a></div>
+          <div><a href="."> Forsiden</a></div>
           <div>{ header_link }</div>
         </nav>
       </div>
